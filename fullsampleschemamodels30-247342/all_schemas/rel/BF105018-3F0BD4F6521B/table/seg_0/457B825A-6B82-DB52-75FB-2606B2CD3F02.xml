@@ -1,0 +1,178 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="457B825A-6B82-DB52-75FB-2606B2CD3F02" directorySegmentName="seg_0" name="AQ$_ORDERS_QUEUETABLE_H">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-17 12:25:32 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <shouldEngineer>false</shouldEngineer>
+   <schemaObject>A30D5C25-7C94-3B59-6BB5-14B696217C10</schemaObject>
+   <pkName>SYS_IOT_TOP_70401</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="MSGID" id="4AF86692-18E2-F7B2-F823-C8AB83502CE2">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+         <dataTypeSize>16</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="SUBSCRIBER#" id="85C6E2B2-22E6-567E-89A1-7F0E6B2D0E17">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="NAME" id="7B6FC6AB-8CBD-D3B2-6DAE-85ADFAEA36E1">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>30 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ADDRESS#" id="B8D3BD15-77D4-DA7D-FD6E-F57C4AA79136">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="DEQUEUE_TIME" id="816D37E7-AAD3-A5C3-3088-9237427231E3">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT015</logicalDatatype>
+         <dataTypePrecision>6</dataTypePrecision>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="TRANSACTION_ID" id="7F89B7A6-28A3-10B0-9A6F-D0684CA8246A">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>30 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="DEQUEUE_USER" id="71287512-CEA8-8624-9B39-05FA7A6CAEAE">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>30 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="PROPAGATED_MSGID" id="906F3477-8727-BF0D-359B-EAB9701099DD">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+         <dataTypeSize>16</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="RETRY_COUNT" id="4859F131-818C-E45F-5F16-FD59F94947FC">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="HINT" id="F1FD2965-CEF3-7D68-C412-901EDA253EDF">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT032</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="SPARE" id="0599613D-6CB3-E61D-E559-F52B97BAB4D2">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+         <dataTypeSize>16</dataTypeSize>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="A105CE3A-71EF-B426-54D5-93FC8E483EF7" name="SYS_IOT_TOP_70401">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:34 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:36 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="4AF86692-18E2-F7B2-F823-C8AB83502CE2"/>
+            <colUsage columnID="85C6E2B2-22E6-567E-89A1-7F0E6B2D0E17"/>
+            <colUsage columnID="7B6FC6AB-8CBD-D3B2-6DAE-85ADFAEA36E1"/>
+            <colUsage columnID="B8D3BD15-77D4-DA7D-FD6E-F57C4AA79136"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

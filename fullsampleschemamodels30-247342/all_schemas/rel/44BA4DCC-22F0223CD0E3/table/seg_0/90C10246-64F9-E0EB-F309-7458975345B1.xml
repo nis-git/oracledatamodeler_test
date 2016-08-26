@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="90C10246-64F9-E0EB-F309-7458975345B1" directorySegmentName="seg_0" name="COUNTRIES">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <importedID>6C3BA339-3C03-3BBA-371F-C56E291A39D3</importedID>
+   <pkName>COUNTRIES_PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="COUNTRY_ID" id="513EB368-E502-385B-6641-B2BE988A1F95">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <commentInRDBMS>Primary key of countries table.</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+         <dataTypeSize>2 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="COUNTRY_NAME" id="7B2DF299-ADC1-A66F-5808-B8D101C61DAC">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <commentInRDBMS>Country name</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>40 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="REGION_ID" id="7B6B78A1-13FD-C4C6-F53D-0BDC621C287C">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>smharper</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <commentInRDBMS>Region ID for the country. Foreign key to region_id column in the departments table.</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <delegate>FA0AF43E-6B19-F9E6-6F2C-4497977BE827</delegate>
+         <associations>
+            <colAssociation fkAssociation="1D6FA123-8FB6-0664-ECC0-CF0CD72B761B" referredColumn="FA0AF43E-6B19-F9E6-6F2C-4497977BE827"/>
+         </associations>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="F56BE0AA-2699-235B-E6CF-19B2EA3C4719" name="COUNTRIES_PK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="513EB368-E502-385B-6641-B2BE988A1F95"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="A9D75F3A-B38A-DD07-8161-AF9E59F3C315" name="COUNTRIES_REGIONS_FK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="7B6B78A1-13FD-C4C6-F53D-0BDC621C287C"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

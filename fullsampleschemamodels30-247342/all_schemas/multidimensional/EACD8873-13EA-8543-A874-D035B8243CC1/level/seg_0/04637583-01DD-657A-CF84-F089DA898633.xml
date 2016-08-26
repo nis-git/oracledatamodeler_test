@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Level class="oracle.dbtools.crest.model.design.multidimensional.Level" name="QUARTER" id="04637583-01DD-657A-CF84-F089DA898633" directorySegmentName="seg_0">
+   <createdBy>pstoyano</createdBy>
+   <createdTime>2009-07-01 16:57:26 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2009-07-01 16:57:26 UTC</changedTime>
+   <generatorID>7C87192E-BBB8-41E6-608E-6C2106FA6A21</generatorID>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <nameInOracleAW>QUARTER</nameInOracleAW>
+   <levelEntity>AA211A68-F484-5A49-F686-76FAC2A16607</levelEntity>
+   <rootIdentification>ParentIsBlankSelfOrMissing</rootIdentification>
+   <valueBasedHierarchy>false</valueBasedHierarchy>
+   <oraAWAttributes class="oracle.dbtools.crest.model.design.multidimensional.Level$OraAWAttributes"/>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Level Entity</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Type</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Function</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <levelKey>
+      <attribute>49A19312-BE3B-05CE-9417-46F8FB81451D</attribute>
+   </levelKey>
+   <descriptiveAttributes>
+      <descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="CALENDAR_QUARTER_DESC" id="6D0CD2CF-4A23-3A51-4F65-8EC47E338DE0">
+         <attribute>C909BE6D-BA42-205D-4955-C3251D870774</attribute>
+         <classification>USER</classification>
+         <indexed>false</indexed>
+         <type>NONE</type>
+      </descrAttribute>
+      <descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="DAYS_IN_CAL_QUARTER" id="FF3599D6-DD8D-92A9-2C72-B1F176501721">
+         <attribute>B6B07B5C-2A4F-4239-B0A2-1C524569BE74</attribute>
+         <classification>USER</classification>
+         <indexed>false</indexed>
+         <type>NONE</type>
+      </descrAttribute>
+      <descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="END_OF_CAL_QUARTER" id="436D3276-6894-42B1-ED8A-6B5C809EBCA3">
+         <attribute>F5726C4B-CF01-05A3-9F3A-D2E9CC2A7DB7</attribute>
+         <classification>USER</classification>
+         <indexed>false</indexed>
+         <type>NONE</type>
+      </descrAttribute>
+      <descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="CALENDAR_QUARTER_NUMBER" id="AB662F97-7FDE-8B32-B3D8-A21BBD33D44A">
+         <attribute>41334400-FB8B-295C-DD0E-3B0B177D9DAE</attribute>
+         <classification>USER</classification>
+         <indexed>false</indexed>
+         <type>NONE</type>
+      </descrAttribute>
+   </descriptiveAttributes>
+</Level>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Level class="oracle.dbtools.crest.model.design.multidimensional.Level" name="FIS_QUARTER" id="1DF56A2F-5FEB-27C8-8C82-90E55615986B" directorySegmentName="seg_0">
+   <createdBy>pstoyano</createdBy>
+   <createdTime>2009-07-01 16:57:26 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2009-07-01 16:57:26 UTC</changedTime>
+   <generatorID>158714A4-BD7D-7ABD-6F46-187D32E0A0FA</generatorID>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <nameInOracleAW>FIS_QUARTER</nameInOracleAW>
+   <levelEntity>AA211A68-F484-5A49-F686-76FAC2A16607</levelEntity>
+   <rootIdentification>ParentIsBlankSelfOrMissing</rootIdentification>
+   <valueBasedHierarchy>false</valueBasedHierarchy>
+   <oraAWAttributes class="oracle.dbtools.crest.model.design.multidimensional.Level$OraAWAttributes"/>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Level Entity</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Type</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Function</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <levelKey>
+      <attribute>3C87C055-D92D-A92B-F3EE-E5106AF17CD6</attribute>
+   </levelKey>
+   <descriptiveAttributes>
+      <descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="FISCAL_QUARTER_DESC" id="EC5E7683-37FE-9F0B-9545-BA679C101477">
+         <attribute>DF879999-9CDE-65E8-561F-FB46C1968EF8</attribute>
+         <classification>USER</classification>
+         <indexed>false</indexed>
+         <type>NONE</type>
+      </descrAttribute>
+      <descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="DAYS_IN_FIS_QUARTER" id="83C25326-DFBE-42A5-04FA-7A53CBEA8376">
+         <attribute>FAFEDF2B-2096-FF0D-9517-6528F446A097</attribute>
+         <classification>USER</classification>
+         <indexed>false</indexed>
+         <type>NONE</type>
+      </descrAttribute>
+      <descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="END_OF_FIS_QUARTER" id="58E4C987-7ABF-901D-2CAE-3272875CE30A">
+         <attribute>470E9137-53AF-4699-C873-B95F8F9ACDA2</attribute>
+         <classification>USER</classification>
+         <indexed>false</indexed>
+         <type>NONE</type>
+      </descrAttribute>
+      <descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="FISCAL_QUARTER_NUMBER" id="43A97F9E-92C5-1E95-ED8A-EA81BB551793">
+         <attribute>C59DFEAE-58E5-524A-9FA9-6087695ADFF2</attribute>
+         <classification>USER</classification>
+         <indexed>false</indexed>
+         <type>NONE</type>
+      </descrAttribute>
+   </descriptiveAttributes>
+</Level>

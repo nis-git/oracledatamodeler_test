@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="0D20F865-FEBE-D80E-920F-3DC76BDC9DE9" directorySegmentName="seg_0" name="DEPARTMENTS">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2009-01-30 17:20:50 UTC</changedTime>
+   <generatorID>488D8AFD-6679-8EE8-7359-B240456FC754</generatorID>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <pkName>DEPT_ID_PK</pkName>
+   <adequatelyNormalized>NO</adequatelyNormalized>
+   <expectedVolumes>0</expectedVolumes>
+   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+   <growthPercent>0</growthPercent>
+   <growthType>Year</growthType>
+   <maxVolumes>9999999</maxVolumes>
+   <minVolumes>0</minVolumes>
+   <normalForm>Third</normalForm>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DEPARTMENT_ID" id="0EFB4742-E639-7EB9-A132-72FB993D861B">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <commentInRDBMS>Primary key column of departments table.</commentInRDBMS>
+         <generatorID>72A19EF4-3F6A-8EE2-D5F3-181DE980F4F4</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DEPARTMENT_NAME" id="A6653830-785E-8517-5F4E-C19D44A5AACE">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <commentInRDBMS>A not null column that shows name of a department. Administration, &amp;lt;br&amp;gt;Marketing, Purchasing, Human Resources, Shipping, IT, Executive, Public &amp;lt;br&amp;gt;Relations, Sales, Finance, and Accounting. </commentInRDBMS>
+         <generatorID>E69CE187-BE68-8837-2C5F-5AAFFF246CEB</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>30 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="EMPLOYEE_ID" id="2D846ADA-4B23-48A0-0BB8-285D196BF0F7">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <commentInRDBMS>Manager_id of a department. Foreign key to employee_id column of employees table. The manager_id column of the employee table references this column.</commentInRDBMS>
+         <generatorID>679539BC-80D5-023E-E9B4-85725307B3A6</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <referedAttribute>BC228D8E-9A55-F6A1-2EA7-1CEC37896733</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>6</dataTypePrecision>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="LOCATION_ID" id="B62B5CA3-04A8-F800-EE43-76E0CE370362">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <commentInRDBMS>Location id where a department is located. Foreign key to location_id column of locations table.</commentInRDBMS>
+         <generatorID>0D351ED2-0D6D-4D5C-71AE-FFEE70FE077D</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <referedAttribute>0204BC09-A337-86FC-9D69-6B3C0DC65812</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+      </Attribute>
+   </attributes>
+   <identifiers>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="471EE550-768A-9739-BCA0-D2625AFB1211" name="DEPT_ID_PK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>DFB9F817-369B-5FF4-9BFC-9DACE8D5462B</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <pk>true</pk>
+         <usedAttributes>
+            <attributeRef>0EFB4742-E639-7EB9-A132-72FB993D861B</attributeRef>
+         </usedAttributes>
+      </identifier>
+   </identifiers>
+</Entity>

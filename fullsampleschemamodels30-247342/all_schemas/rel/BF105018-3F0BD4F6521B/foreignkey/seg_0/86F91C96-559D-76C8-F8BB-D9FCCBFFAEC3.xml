@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="86F91C96-559D-76C8-F8BB-D9FCCBFFAEC3" directorySegmentName="seg_0" name="SALES_CHANNEL_FK">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2009-01-30 17:10:25 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2009-01-30 17:10:25 UTC</changedTime>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <containerWithKeyObject>8ECB5CC3-2C75-A2E9-5E13-9101AE4B9078</containerWithKeyObject>
+   <deleteRule>NO ACTION</deleteRule>
+   <localFKIndex>FFBB8758-2226-DDC2-9746-F6FA1A7AA098</localFKIndex>
+   <keyObject>2DB37EFA-178B-7B6D-0D1C-E45B71934D16</keyObject>
+   <mandatory>true</mandatory>
+   <transferable>true</transferable>
+</FKIndexAssociation>

@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogicalSubView" name="From_RM_IX" id="7037B130-6C5E-EDE1-1458-CCBB68D692F7">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2009-06-20 11:56:54 UTC</createdTime>
+   <changedBy>Administrator</changedBy>
+   <changedTime>2009-06-20 11:56:54 UTC</changedTime>
+   <autoRoute>true</autoRoute>
+   <boxInbox>false</boxInbox>
+   <showLegend>false</showLegend>
+   <showLabels>false</showLabels>
+   <showGrid>false</showGrid>
+   <diagramColor>-1</diagramColor>
+   <display>false</display>
+   <generatorId>B12E8996-4596-2E1F-CDA8-81EFC81F5E16</generatorId>
+   <notation>1</notation>
+   <objectViews>
+      <OView class="oracle.dbtools.crest.swingui.logical.TVEntityView" oid="0A13F6E9-AA14-6C07-5477-60FEF01197E2" otype="EntityView" vid="2B591B44-7B39-1B4B-0AF5-807F9336E5F9">
+         <bounds x="20" y="1308" width="272" height="95"/>
+         <generatorID>AQ$ORDERS_QUEUETABLE_S#0</generatorID>
+      </OView>
+      <OView class="oracle.dbtools.crest.swingui.logical.TVEntityView" oid="0E3023AA-CC01-0D0E-674C-8131DE6DBA56" otype="EntityView" vid="956F30CE-D00A-C4E9-9A56-E4802016442A">
+         <bounds x="20" y="699" width="329" height="459"/>
+         <generatorID>AQ$ORDERS_QUEUETABLE#0</generatorID>
+      </OView>
+      <OView class="oracle.dbtools.crest.swingui.logical.TVEntityView" oid="20A5467D-72BC-9A62-1CF4-7CA4F6A7B330" otype="EntityView" vid="446C5B04-17D2-9B69-AD26-452C6528488D">
+         <bounds x="765" y="20" width="322" height="473"/>
+         <generatorID>AQ$STREAMS_QUEUE_TABLE#0</generatorID>
+      </OView>
+      <OView class="oracle.dbtools.crest.swingui.logical.TVEntityView" oid="2B970F55-2B64-0AEC-D504-F7AE2CBC2CB7" otype="EntityView" vid="73A1AA59-56BC-629E-61CB-246C175C97D6">
+         <bounds x="721" y="699" width="284" height="123"/>
+         <generatorID>AQ$STREAMS_QUEUE_TABLE_R#0</generatorID>
+      </OView>
+      <OView class="oracle.dbtools.crest.swingui.logical.TVEntityView" oid="30347346-AFEC-5134-73A9-E539F71A341F" otype="EntityView" vid="CCA67974-3BD9-4C0D-D2EB-8D086AF597BB">
+         <bounds x="342" y="1308" width="284" height="95"/>
+         <generatorID>AQ$STREAMS_QUEUE_TABLE_S#0</generatorID>
+      </OView>
+      <OView class="oracle.dbtools.crest.swingui.logical.TVEntityView" oid="60CD20D9-ED67-4311-93A3-24F0E1BF4DA7" otype="EntityView" vid="FF75D503-FF47-32FB-A46F-438A398028AA">
+         <bounds x="390" y="20" width="325" height="529"/>
+         <generatorID>AQ$_STREAMS_QUEUE_TABLE_F#0</generatorID>
+      </OView>
+      <OView class="oracle.dbtools.crest.swingui.logical.TVEntityView" oid="9C911735-7C3F-E296-1C1F-6418ACDA24F4" otype="EntityView" vid="BC8E9628-D406-96C8-9C28-56EA2B641BB4">
+         <bounds x="399" y="699" width="272" height="123"/>
+         <generatorID>AQ$ORDERS_QUEUETABLE_R#0</generatorID>
+      </OView>
+      <OView class="oracle.dbtools.crest.swingui.logical.TVEntityView" oid="D78B7769-B181-EF9F-550E-804D00D5393D" otype="EntityView" vid="4577E4E1-A334-473B-6AA2-A547C6BDDCB9">
+         <bounds x="20" y="20" width="320" height="529"/>
+         <generatorID>AQ$_ORDERS_QUEUETABLE_F#0</generatorID>
+      </OView>
+   </objectViews>
+</Diagram>

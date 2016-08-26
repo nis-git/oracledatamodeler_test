@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="LogDes-8EAB2D33-619F-0BDE-DBA7-9A0CB0827F2F" mainViewID="45148F80-5D25-11DB-AF29-3AB55B8EA726">
+   <createdBy>smharper</createdBy>
+   <createdTime>2011-01-07 09:09:35 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2011-01-07 09:09:35 UTC</changedTime>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

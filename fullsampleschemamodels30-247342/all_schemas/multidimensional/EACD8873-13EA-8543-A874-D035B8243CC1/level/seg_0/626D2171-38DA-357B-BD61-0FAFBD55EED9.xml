@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Level class="oracle.dbtools.crest.model.design.multidimensional.Level" name="CATEGORY" id="626D2171-38DA-357B-BD61-0FAFBD55EED9" directorySegmentName="seg_0">
+   <createdBy>pstoyano</createdBy>
+   <createdTime>2009-07-01 16:57:26 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2009-07-01 16:57:26 UTC</changedTime>
+   <generatorID>8E053D69-B69B-02D2-638C-13037407C3A6</generatorID>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <nameInOracleAW>CATEGORY</nameInOracleAW>
+   <levelEntity>30C0AE06-ECE8-9E9F-BBA9-F2EBDBE6B18D</levelEntity>
+   <rootIdentification>ParentIsBlankSelfOrMissing</rootIdentification>
+   <valueBasedHierarchy>false</valueBasedHierarchy>
+   <oraAWAttributes class="oracle.dbtools.crest.model.design.multidimensional.Level$OraAWAttributes"/>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Level Entity</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Type</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Function</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <levelKey>
+      <attribute>59D7F494-A00F-F70F-1FCE-B75065ED8E57</attribute>
+   </levelKey>
+   <descriptiveAttributes>
+      <descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="PROMO_CATEGORY" id="E4917D3F-956F-3085-0163-7E0C78EC66BC">
+         <attribute>46C6D785-3430-E067-0F75-0F26C7353A8F</attribute>
+         <classification>USER</classification>
+         <indexed>false</indexed>
+         <type>NONE</type>
+      </descrAttribute>
+   </descriptiveAttributes>
+</Level>

@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="138CC10D-2F3B-243C-E610-852B4D58F450" name="SalesHistoryModel" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

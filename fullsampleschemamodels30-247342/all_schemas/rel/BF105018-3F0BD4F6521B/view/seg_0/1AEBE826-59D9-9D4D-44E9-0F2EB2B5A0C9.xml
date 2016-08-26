@@ -1,0 +1,380 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" id="1AEBE826-59D9-9D4D-44E9-0F2EB2B5A0C9" directorySegmentName="seg_0" name="AQ$STREAMS_QUEUE_TABLE">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <schemaObject>A30D5C25-7C94-3B59-6BB5-14B696217C10</schemaObject>
+   <userDefined>true</userDefined>
+   <userDefinedSQL>CREATE OR REPLACE VIEW AQ$STREAMS_QUEUE_TABLE&amp;lt;br&amp;gt;AS &amp;lt;br&amp;gt;SELECT  q_name QUEUE, qt.msgid MSG_ID, corrid CORR_ID,  priority MSG_PRIORITY,  decode(s.subscriber_type,2,&amp;apos;UNDELIVERABLE&amp;apos;,&amp;lt;br&amp;gt;                                             decode(h.dequeue_time, NULL,	  &amp;lt;br&amp;gt;                                                                   (decode(state, 0,   &amp;apos;READY&amp;apos;,	     &amp;lt;br&amp;gt;                              		                                          1,   &amp;apos;WAIT&amp;apos;,	     &amp;lt;br&amp;gt;                                                                                  2,   &amp;apos;PROCESSED&amp;apos;,	     &amp;lt;br&amp;gt;                                                                                  3,   &amp;apos;EXPIRED&amp;apos;,&amp;lt;br&amp;gt;                                                                                  8,   &amp;apos;DEFERRED&amp;apos;,&amp;lt;br&amp;gt;                                                                                 10,  &amp;apos;BUFFERED_EXPIRED&amp;apos;)),      &amp;lt;br&amp;gt;  			                                           (decode(h.transaction_id,     &amp;lt;br&amp;gt;				                                                     NULL, &amp;apos;UNDELIVERABLE&amp;apos;,	  &amp;lt;br&amp;gt;				                                                     &amp;apos;PROCESSED&amp;apos;)))&amp;lt;br&amp;gt;                          )                         MSG_STATE,  cast(FROM_TZ(qt.delay, &amp;apos;-05:00&amp;apos;)&amp;lt;br&amp;gt;                 at time zone sessiontimezone as date) delay,  cast(FROM_TZ(qt.delay, &amp;apos;-05:00&amp;apos;)&amp;lt;br&amp;gt;                 at time zone sessiontimezone as timestamp) DELAY_TIMESTAMP,  expiration,  cast(FROM_TZ(qt.enq_time, &amp;apos;-05:00&amp;apos;)&amp;lt;br&amp;gt;                 at time zone sessiontimezone as date) enq_time,  cast(FROM_TZ(qt.enq_time, &amp;apos;-05:00&amp;apos;)&amp;lt;br&amp;gt;                 at time zone sessiontimezone as timestamp)&amp;lt;br&amp;gt;                 enq_timestamp,   enq_uid ENQ_USER_ID,  qt.enq_tid ENQ_TXN_ID,  decode(qt.cscn, 0, c.cscn, qt.cscn) ENQ_CSCN,  decode(h.transaction_id, NULL, TO_DATE(NULL), 	  &amp;lt;br&amp;gt;                        cast(FROM_TZ(h.dequeue_time, &amp;apos;-05:00&amp;apos;)&amp;lt;br&amp;gt;                 at time zone sessiontimezone as date)) DEQ_TIME,  decode(h.transaction_id, NULL, TO_TIMESTAMP(NULL), 	  &amp;lt;br&amp;gt;                        cast(FROM_TZ(h.dequeue_time, &amp;apos;-05:00&amp;apos;)&amp;lt;br&amp;gt;                 at time zone sessiontimezone as timestamp))&amp;lt;br&amp;gt;                 DEQ_TIMESTAMP,  h.dequeue_user DEQ_USER_ID,  h.transaction_id DEQ_TXN_ID,  h.retry_count retry_count,  decode (state, 0, exception_qschema, &amp;lt;br&amp;gt;                                1, exception_qschema, &amp;lt;br&amp;gt;                                2, exception_qschema,  &amp;lt;br&amp;gt;                                NULL) EXCEPTION_QUEUE_OWNER,  decode (state, 0, exception_queue, &amp;lt;br&amp;gt;                                1, exception_queue, &amp;lt;br&amp;gt;                                2, exception_queue,  &amp;lt;br&amp;gt;                                NULL) EXCEPTION_QUEUE,  user_data,  h.propagated_msgid PROPAGATED_MSGID,  sender_name  SENDER_NAME, sender_address  SENDER_ADDRESS, sender_protocol  SENDER_PROTOCOL, dequeue_msgid ORIGINAL_MSGID,  decode (h.dequeue_time, NULL, &amp;lt;br&amp;gt;                   decode (state, 3, exception_queue, NULL),&amp;lt;br&amp;gt;                   decode (h.transaction_id, NULL, NULL, exception_queue)) &amp;lt;br&amp;gt;                                ORIGINAL_QUEUE_NAME,  decode (h.dequeue_time, NULL, &amp;lt;br&amp;gt;                   decode (state, 3, exception_qschema, NULL),&amp;lt;br&amp;gt;                   decode (h.transaction_id, NULL, NULL, exception_qschema)) &amp;lt;br&amp;gt;                                ORIGINAL_QUEUE_OWNER,  decode(s.subscriber_type,2,&amp;lt;br&amp;gt;                                         &amp;apos;Messages to be cleaned up later&amp;apos;,&amp;lt;br&amp;gt;                        decode(h.dequeue_time, NULL, &amp;lt;br&amp;gt;                               decode(state, 3, &amp;lt;br&amp;gt;                                           decode(h.transaction_id, NULL, &amp;lt;br&amp;gt;                                           decode (expiration , NULL , &amp;lt;br&amp;gt;                                                   &amp;apos;MAX_RETRY_EXCEEDED&amp;apos;,&amp;lt;br&amp;gt;                                                   &amp;apos;TIME_EXPIRATION&amp;apos;),&amp;lt;br&amp;gt;                                                   &amp;apos;INVALID_TRANSACTION&amp;apos;, NULL,&amp;lt;br&amp;gt;                                                   &amp;apos;MAX_RETRY_EXCEEDED&amp;apos;), NULL),&amp;lt;br&amp;gt;                                           decode(h.transaction_id, NULL, &amp;lt;br&amp;gt;                                                 &amp;apos;PROPAGATION_FAILURE&amp;apos;, NULL)))&amp;lt;br&amp;gt;                 EXPIRATION_REASON,  decode(h.subscriber#, 0, decode(h.name, &amp;apos;0&amp;apos;, NULL,&amp;lt;br&amp;gt;							        h.name),&amp;lt;br&amp;gt;					  s.name) CONSUMER_NAME,  s.address ADDRESS,  s.protocol PROTOCOL  FROM &amp;quot;STREAMS_QUEUE_TABLE&amp;quot; qt, &amp;quot;AQ$_STREAMS_QUEUE_TABLE_H&amp;quot; h, &amp;quot;AQ$_STREAMS_QUEUE_TABLE_S&amp;quot; s , &amp;quot;AQ$_STREAMS_QUEUE_TABLE_C&amp;quot; c  WHERE  qt.enq_tid = c.enq_tid(+) AND  qt.msgid = h.msgid AND  ((h.subscriber# != 0 AND h.subscriber# = s.subscriber_id)  OR (h.subscriber# = 0 AND h.address# = s.subscriber_id)) AND (qt.state != 7 OR   qt.state != 9 )     WITH READ ONLY</userDefinedSQL>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+   </fonts>
+   <viewElements>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="QUEUE" id="A31CF774-A044-2104-E3B3-CFDD9F2E6B3D">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>QUEUE</alias>
+         <dataType>VARCHAR2 (30)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="MSG_ID" id="631BFDED-F1B1-0EC5-D039-F41D8DF49BEB">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>MSG_ID</alias>
+         <dataType>RAW (16)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="CORR_ID" id="4A56EE02-8872-3A06-0AE3-88AA644B2343">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>CORR_ID</alias>
+         <dataType>VARCHAR2 (128)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="MSG_PRIORITY" id="0510AF17-D3B2-642C-B1B6-D6B89C5D6B7E">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>MSG_PRIORITY</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="MSG_STATE" id="08CA4743-2C57-8086-C0E2-D6767D869DCA">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>MSG_STATE</alias>
+         <dataType>VARCHAR2 (16)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DELAY" id="BF6AB2D4-E2A9-A178-CA57-D92F0943F89B">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>DELAY</alias>
+         <dataType>DATE (8)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DELAY_TIMESTAMP" id="A6EC1463-C143-486C-955E-7460486B5A4C">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>DELAY_TIMESTAMP</alias>
+         <dataType>TIMESTAMP(6) (20, 6)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="EXPIRATION" id="6EB9CE25-BEBC-F738-53B8-DB43821F4D71">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>EXPIRATION</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ENQ_TIME" id="CD7DAC7D-20BA-157E-2A12-A1602240B8BC">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>ENQ_TIME</alias>
+         <dataType>DATE (8)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ENQ_TIMESTAMP" id="DCD9896F-10A9-BAE7-CA53-5F0ECF1E529E">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>ENQ_TIMESTAMP</alias>
+         <dataType>TIMESTAMP(6) (20, 6)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ENQ_USER_ID" id="A9A56FDB-BD34-C5FF-50B5-8719B78952DA">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>ENQ_USER_ID</alias>
+         <dataType>VARCHAR2 (30)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ENQ_TXN_ID" id="60441AC0-BFB0-05AC-F46F-18A2CFE69AB4">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>ENQ_TXN_ID</alias>
+         <dataType>VARCHAR2 (30)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ENQ_CSCN" id="95DCBF69-FD29-8440-4187-62E55E79AFD5">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>ENQ_CSCN</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DEQ_TIME" id="62B90752-6073-FD97-BE61-E78AE05BAE70">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>DEQ_TIME</alias>
+         <dataType>DATE (8)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DEQ_TIMESTAMP" id="4947A4D1-750B-7B5E-1D3E-6234CDCCD5A8">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>DEQ_TIMESTAMP</alias>
+         <dataType>TIMESTAMP(9) (20, 9)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DEQ_USER_ID" id="EBAC6D1F-9E26-071D-1689-788A1024DF96">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>DEQ_USER_ID</alias>
+         <dataType>VARCHAR2 (30)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DEQ_TXN_ID" id="1FAAFE4C-25B7-183A-DA72-694680318CE9">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>DEQ_TXN_ID</alias>
+         <dataType>VARCHAR2 (30)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="RETRY_COUNT" id="03B3E1A1-281A-40A8-C302-5793BF9450CC">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>RETRY_COUNT</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="EXCEPTION_QUEUE_OWNER" id="95C84005-33F8-3905-0F18-BCCA5E5D0FFE">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>EXCEPTION_QUEUE_OWNER</alias>
+         <dataType>VARCHAR2 (30)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="EXCEPTION_QUEUE" id="C27A5D63-647A-D515-65E0-ECEC6D0D8A65">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>EXCEPTION_QUEUE</alias>
+         <dataType>VARCHAR2 (30)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="USER_DATA" id="8C8D5FE5-9BC6-2FD9-B313-A113B13237D5">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>USER_DATA</alias>
+         <dataType>ANYDATA (40)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PROPAGATED_MSGID" id="E14E44CC-0849-0D47-7441-192087A225A6">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>PROPAGATED_MSGID</alias>
+         <dataType>RAW (16)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="SENDER_NAME" id="C32D20C5-EA9A-595A-F510-C35897A88FA6">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>SENDER_NAME</alias>
+         <dataType>VARCHAR2 (30)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="SENDER_ADDRESS" id="4121B994-C902-0C62-5CD9-D01D6A135D16">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>SENDER_ADDRESS</alias>
+         <dataType>VARCHAR2 (1024)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="SENDER_PROTOCOL" id="8EB0F4E0-677B-B465-12B1-20D1829311F6">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>SENDER_PROTOCOL</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ORIGINAL_MSGID" id="1DE3E529-E4CA-B9A3-CF71-B4DDCB976EA8">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>ORIGINAL_MSGID</alias>
+         <dataType>RAW (16)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ORIGINAL_QUEUE_NAME" id="64475CAA-8C53-D209-246F-B9D27C18FB90">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>ORIGINAL_QUEUE_NAME</alias>
+         <dataType>VARCHAR2 (30)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ORIGINAL_QUEUE_OWNER" id="AD1CDF8A-3F61-6ADA-81DB-05AFC14A7A5C">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>ORIGINAL_QUEUE_OWNER</alias>
+         <dataType>VARCHAR2 (30)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="EXPIRATION_REASON" id="E6C74FDA-CDED-F39D-F749-3D3F84081C4D">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>EXPIRATION_REASON</alias>
+         <dataType>VARCHAR2 (31)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="CONSUMER_NAME" id="0AD8B56E-F301-C747-1976-78B6E3BAAFF6">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>CONSUMER_NAME</alias>
+         <dataType>VARCHAR2 (30)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ADDRESS" id="D4E00627-1E8B-05EC-AD04-C01105008299">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>ADDRESS</alias>
+         <dataType>VARCHAR2 (1024)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PROTOCOL" id="54B23F9D-1280-3BA1-18D7-A4CE1705B5A2">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>PROTOCOL</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+      </viewElement>
+   </viewElements>
+</TableView>

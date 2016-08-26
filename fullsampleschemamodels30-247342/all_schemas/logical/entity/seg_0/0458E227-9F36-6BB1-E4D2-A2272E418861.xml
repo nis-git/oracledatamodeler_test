@@ -1,0 +1,181 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="0458E227-9F36-6BB1-E4D2-A2272E418861" directorySegmentName="seg_0" name="COUNTRIESv1">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+   <generatorID>66001FBA-016E-3A68-EC0A-6F0DA8AD7813</generatorID>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <pkName>COUNTRIES_PK</pkName>
+   <typeID>2</typeID>
+   <adequatelyNormalized>NO</adequatelyNormalized>
+   <expectedVolumes>0</expectedVolumes>
+   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+   <growthPercent>0</growthPercent>
+   <growthType>Year</growthType>
+   <maxVolumes>9999999</maxVolumes>
+   <minVolumes>0</minVolumes>
+   <normalForm>Third</normalForm>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="COUNTRY_ID" id="EC394DDA-865A-11C2-4026-111C5281AD7F">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <commentInRDBMS>primary key</commentInRDBMS>
+         <generatorID>E11930AA-C092-D5AD-4DD1-8A0F75870A18</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="COUNTRY_ISO_CODE" id="1154314F-EFB8-2D97-DF43-05312A3FF911">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>4D355A14-6588-D19C-9173-14A9CCFBAECD</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+         <dataTypeSize>2 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="COUNTRY_NAME" id="3A247840-058F-5E72-7943-31E242E0D83A">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <commentInRDBMS>country name</commentInRDBMS>
+         <generatorID>4FCE8F2E-1CC9-560A-38DA-5B820C1F185E</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>40 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="COUNTRY_SUBREGION" id="8FAA736B-28A0-7BCE-FF0D-682EB538EDFC">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <commentInRDBMS>e.g. Western Europe, to allow hierarchies</commentInRDBMS>
+         <generatorID>6FA48550-FE57-35D2-B011-3517DA4B1CA7</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>30 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="COUNTRY_SUBREGION_ID" id="E1189B33-9D9B-BF08-F155-6927A3FB88B4">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>AAF04473-D58A-B36F-CFFC-BFD54E745CAE</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="COUNTRY_REGION" id="7E751F2B-C43F-814D-DE03-C18C6AC02EE1">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <commentInRDBMS>e.g. Europe, Asia</commentInRDBMS>
+         <generatorID>3A38301D-BEA2-4A0D-FCAB-B12EE146D647</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="COUNTRY_REGION_ID" id="E2804AA2-00A1-E462-486D-916E6883612A">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>13719D6F-2D05-2D52-13D3-10D2B35BE4E5</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="COUNTRY_TOTAL" id="9D2EA852-7236-9A9D-93C8-BC172F01F122">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>B2723C27-BE13-BE9D-FAA7-030086C17E3D</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>11 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="COUNTRY_TOTAL_ID" id="32EA144A-EC25-8A11-EA99-54ABD441FCA0">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>39240442-14B8-D37F-A7C9-1D7DB6E799DE</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="COUNTRY_NAME_HIST" id="2BCA08B5-E44B-5297-55DE-2D1FDD466B5E">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>566F978D-8B0F-84DD-6C0C-766285D9EC27</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>40 BYTE</dataTypeSize>
+      </Attribute>
+   </attributes>
+   <identifiers>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="AD434BC2-3935-C642-634A-9AB0E5A856FE" name="COUNTRIES_PK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>802DA376-DD7F-E933-F335-99E674B17234</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <pk>true</pk>
+         <usedAttributes>
+            <attributeRef>EC394DDA-865A-11C2-4026-111C5281AD7F</attributeRef>
+         </usedAttributes>
+      </identifier>
+   </identifiers>
+</Entity>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="1662C568-217F-2A8F-375F-977BA9E49D08" name="REGIONS" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="5106E8EF-D700-FE2B-2B8E-F6F83380D00E" name="EMPLOYEES" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="90C10246-64F9-E0EB-F309-7458975345B1" name="COUNTRIES" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="AA6C08A2-7450-59FC-82F8-8C1F8B27F36F" name="DEPARTMENTS" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="AF81CABC-2071-B987-C66E-99E426DB6F8D" name="LOCATIONS" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="DEE6E5DB-5E35-C098-CD09-31C36103F4B2" name="JOB_HISTORY" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="EF9A3EB5-2AA0-5FD0-7325-126AB44DE486" name="JOBS" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="View" objectID="3BF9E5F2-88AD-B8B4-42B0-847A560EF67C" name="EMP_DETAILS_VIEW" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="0D9ACB7F-D2D8-62CD-412F-299BBC2E90C2" name="JOB_HISTORY_DEPARTMENTS_FK" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="1D6FA123-8FB6-0664-ECC0-CF0CD72B761B" name="COUNTRIES_REGIONS_FK" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="2B6EA016-7DBF-A151-2B21-9AFAADADC768" name="LOCATIONS_COUNTRIES_FK" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="2D3ADA18-52EE-9A40-172B-EB372827939F" name="EMPLOYEES_JOBS_FK" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="82D94D08-7B27-994B-0EB0-5EEA980983CC" name="JOB_HISTORY_EMPLOYEES_FK" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="8B9150A5-02DB-7DD2-A7ED-238550340A1F" name="JOB_HISTORY_JOBS_FK" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="99860053-B15B-7031-770D-9FCB9B7C531B" name="EMPLOYEES_EMPLOYEES_FK" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="A56DFE37-AF7B-6A38-CA9B-A0FDEA024318" name="EMPLOYEES_DEPARTMENTS_FK" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="C8E4ECF9-CA64-E816-9B0A-28742C73BB5E" name="DEPARTMENTS_EMPLOYEES_FK" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="D5C05EF5-33D1-B7ED-74E5-6D6A81B7CE28" name="DEPARTMENTS_LOCATIONS_FK" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

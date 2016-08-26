@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="C54814A0-52FC-C51B-B7CE-7410642D3EBC" directorySegmentName="seg_0" name="DR$SUP_TEXT_IDX$R">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-17 12:25:32 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <shouldEngineer>false</shouldEngineer>
+   <schemaObject>92D7A384-7405-004C-11BA-2BF5FDFC8C3C</schemaObject>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ROW_NO" id="886617E7-4741-CD84-343D-CF97A5E18B44">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>3</dataTypePrecision>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="DATA" id="FBE5FAAC-1FB9-25BC-D6BC-329F3335E7E6">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT029</logicalDatatype>
+      </Column>
+   </columns>
+</Table>

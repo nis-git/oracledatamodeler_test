@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DEPT_MGR_FK" id="679539BC-80D5-023E-E9B4-85725307B3A6" directorySegmentName="seg_0">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2009-01-30 17:20:05 UTC</changedTime>
+   <generatorID>1FD3236E-935B-26C9-D57A-CC8421712955</generatorID>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <identifying>false</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>true</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>EEE3ABF9-1CE1-846A-4FBA-81621407E503</sourceEntity>
+   <targetCardinalityString>1</targetCardinalityString>
+   <targetEntity>0D20F865-FEBE-D80E-920F-3DC76BDC9DE9</targetEntity>
+   <transferable>true</transferable>
+</Relation>

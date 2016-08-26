@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Level class="oracle.dbtools.crest.model.design.multidimensional.Level" name="CHANNEL_TOTAL" id="DC5EE8C3-49B0-D5FD-F213-2A7266B79999" directorySegmentName="seg_0">
+   <createdBy>pstoyano</createdBy>
+   <createdTime>2009-07-01 16:57:26 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2009-07-01 16:57:26 UTC</changedTime>
+   <generatorID>834E2ECF-1B3A-7717-252D-E43D5D529FF5</generatorID>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <nameInOracleAW>CHANNEL_TOTAL</nameInOracleAW>
+   <levelEntity>96DAFB64-EF0D-4E31-A75F-E1C12B05DDE4</levelEntity>
+   <rootIdentification>ParentIsBlankSelfOrMissing</rootIdentification>
+   <valueBasedHierarchy>false</valueBasedHierarchy>
+   <oraAWAttributes class="oracle.dbtools.crest.model.design.multidimensional.Level$OraAWAttributes"/>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Level Entity</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Type</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Function</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <levelKey>
+      <attribute>03E9B5EE-CDD6-1E3C-F5C5-B4990651E57B</attribute>
+   </levelKey>
+   <descriptiveAttributes>
+      <descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="CHANNEL_TOTAL" id="77E194EB-69C7-7A71-135F-DF8B3787DAB8">
+         <attribute>440DC5F1-5D7D-EAAD-194F-C2CEAD742813</attribute>
+         <classification>USER</classification>
+         <indexed>false</indexed>
+         <type>NONE</type>
+      </descrAttribute>
+   </descriptiveAttributes>
+</Level>

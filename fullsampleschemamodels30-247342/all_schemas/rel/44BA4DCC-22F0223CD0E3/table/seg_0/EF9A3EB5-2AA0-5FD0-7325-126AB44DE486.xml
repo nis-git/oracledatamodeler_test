@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="EF9A3EB5-2AA0-5FD0-7325-126AB44DE486" directorySegmentName="seg_0" name="JOBS">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <importedID>DD8FF083-9C2C-7469-9C72-93AC70BCAD2D</importedID>
+   <pkName>JOBS_PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="JOB_ID" id="F9CFC716-D804-B1D7-C291-E08DA8B4424A">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <commentInRDBMS>Primary key of jobs table.</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>10 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="JOB_TITLE" id="DC5F3334-C7B2-6F12-8243-7ED5D4F1E2C2">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <commentInRDBMS>A not null column that shows job title, e.g. AD_VP, FI_ACCOUNTANT</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>35 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="MIN_SALARY" id="9F68B15B-1117-7352-62E8-C6EA1182A944">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <commentInRDBMS>Minimum salary for a job title.</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>6</dataTypePrecision>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="MAX_SALARY" id="B884FF10-8961-583D-8FA5-7E7276903AE0">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <commentInRDBMS>Maximum salary for a job title</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>6</dataTypePrecision>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="792565A4-2FEB-F537-2AD8-FCCEAFDE2EA1" name="JOBS_PK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="F9CFC716-D804-B1D7-C291-E08DA8B4424A"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

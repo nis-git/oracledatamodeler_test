@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="BDADE069-E99F-2836-C319-98544D6B0AE7" directorySegmentName="seg_0" name="DEPARTMENTS">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-18 12:29:10 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-18 12:29:10 UTC</changedTime>
+   <generatorID>0D20F865-FEBE-D80E-920F-3DC76BDC9DE9</generatorID>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <pkName>DEPT_ID_PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="DEPARTMENT_ID" id="60FFE005-D3B0-6379-CD85-D15A5DD16372">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
+         <commentInRDBMS>Primary key column of departments table.</commentInRDBMS>
+         <generatorID>0EFB4742-E639-7EB9-A132-72FB993D861B</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="DEPARTMENT_NAME" id="14EACF94-4F32-0085-23FB-054A12841104">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
+         <commentInRDBMS>A not null column that shows name of a department. Administration, &amp;lt;br&amp;gt;Marketing, Purchasing, Human Resources, Shipping, IT, Executive, Public &amp;lt;br&amp;gt;Relations, Sales, Finance, and Accounting. </commentInRDBMS>
+         <generatorID>A6653830-785E-8517-5F4E-C19D44A5AACE</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>30 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="MANAGER_ID" id="C35458F5-FE47-B824-C1C7-95FD7FA068C6">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
+         <commentInRDBMS>Manager_id of a department. Foreign key to employee_id column of employees table. The manager_id column of the employee table references this column.</commentInRDBMS>
+         <generatorID>2D846ADA-4B23-48A0-0BB8-285D196BF0F7</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>6</dataTypePrecision>
+         <delegate>AF85FBD1-F45B-CEDC-EB1C-41F2FFB7E9FC</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="8FFED19E-E25B-D87B-25EE-5435A7C5ACA3" referredColumn="AF85FBD1-F45B-CEDC-EB1C-41F2FFB7E9FC"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="LOCATION_ID" id="7040F19D-A107-F9FB-E116-E442B216FC61">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
+         <commentInRDBMS>Location id where a department is located. Foreign key to location_id column of locations table.</commentInRDBMS>
+         <generatorID>B62B5CA3-04A8-F800-EE43-76E0CE370362</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="2A29C296-94E7-FCA6-7ED2-72A23025A014" name="DEPT_ID_PK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
+         <generatorID>471EE550-768A-9739-BCA0-D2625AFB1211</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="60FFE005-D3B0-6379-CD85-D15A5DD16372"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="C775374C-8C69-89F4-F617-E73A1E7CB82F" name="DEPT_MGR_FK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
+         <generatorID>679539BC-80D5-023E-E9B4-85725307B3A6</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="C35458F5-FE47-B824-C1C7-95FD7FA068C6"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

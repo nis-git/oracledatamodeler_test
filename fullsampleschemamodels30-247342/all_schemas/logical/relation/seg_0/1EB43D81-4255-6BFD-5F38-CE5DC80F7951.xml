@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ORDERS_CUSTOMER_ID_FK" id="1EB43D81-4255-6BFD-5F38-CE5DC80F7951" directorySegmentName="seg_0">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2009-01-30 17:20:05 UTC</changedTime>
+   <generatorID>1B8FBB54-9EAF-8BDE-0DE6-98FE1A9C1878</generatorID>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <identifying>false</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>false</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>2CFC0AA7-481A-C8CA-15FD-7E546FAFC72F</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>AF51C786-B84D-BA70-5A4C-95CA1A3963F6</targetEntity>
+   <transferable>true</transferable>
+</Relation>

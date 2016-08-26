@@ -1,0 +1,254 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="8ECB5CC3-2C75-A2E9-5E13-9101AE4B9078" directorySegmentName="seg_0" name="SALES">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-17 12:25:32 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-17 12:25:40 UTC</changedTime>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <schemaObject>92D7A384-7405-004C-11BA-2BF5FDFC8C3C</schemaObject>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="PROD_ID" id="AB0E3208-7AEA-4460-6E6B-01DCC832A75A">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>FK to the products dimension table</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>6</dataTypePrecision>
+         <delegate>B52BFF3B-B13D-5078-C759-EEBD55C8F413</delegate>
+         <associations>
+            <colAssociation fkAssociation="8F85E61B-A071-CFC9-B2C0-3EF25C220DED" referredColumn="B52BFF3B-B13D-5078-C759-EEBD55C8F413"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CUST_ID" id="9738FBDB-0218-A700-DA27-81D56C28EE0C">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>FK to the customers dimension table</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <delegate>152B475E-15BA-5CE0-A096-1F286BF1EA4B</delegate>
+         <associations>
+            <colAssociation fkAssociation="DA0CFF9D-F2E4-41DD-B300-97E31C432FA8" referredColumn="152B475E-15BA-5CE0-A096-1F286BF1EA4B"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="TIME_ID" id="D13435C0-E8A5-CD79-1A1C-1B4E51510760">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>FK to the times dimension table</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+         <delegate>F09E0E0A-426D-A2D0-8146-CF8EB3774ABE</delegate>
+         <associations>
+            <colAssociation fkAssociation="CF323784-991B-0A97-53E5-62FD53510394" referredColumn="F09E0E0A-426D-A2D0-8146-CF8EB3774ABE"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CHANNEL_ID" id="9EA7FB33-9AA4-B434-AC1F-A955C849EC8F">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>FK to the channels dimension table</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <delegate>A00485DC-6F81-9371-3DC1-7F1BFA7A5D86</delegate>
+         <associations>
+            <colAssociation fkAssociation="86F91C96-559D-76C8-F8BB-D9FCCBFFAEC3" referredColumn="A00485DC-6F81-9371-3DC1-7F1BFA7A5D86"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="PROMO_ID" id="A9893477-8DC2-F188-25E4-5D676F0ED20A">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>promotion identifier, without FK constraint (intentionally) to show outer join optimization</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>6</dataTypePrecision>
+         <delegate>BD5DB311-DD4E-B21F-CB61-4FAE00F179DA</delegate>
+         <associations>
+            <colAssociation fkAssociation="CC22EDB5-FB7F-133A-3EEC-DB38D6518470" referredColumn="BD5DB311-DD4E-B21F-CB61-4FAE00F179DA"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="QUANTITY_SOLD" id="F6FA7BD1-F82F-E4D3-BCF9-08D905839EAC">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>product quantity sold with the transaction</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>10</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="AMOUNT_SOLD" id="5CF2BE05-4070-565C-600F-F50230FAFE07">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>invoiced amount to the customer</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>10</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="785B7786-6534-7532-33E6-8E373D43089C" name="COST_IX">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:34 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:34 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="5CF2BE05-4070-565C-600F-F50230FAFE07"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="C00AD01F-347A-E9CD-6454-52A044BF72B7" name="SALES_PROD_BIX">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:34 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:34 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="AB0E3208-7AEA-4460-6E6B-01DCC832A75A"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="83EFC28C-B913-EB93-4810-AEA63DDA06A2" name="SALES_CUST_BIX">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:34 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:34 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="9738FBDB-0218-A700-DA27-81D56C28EE0C"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="5B04D7A5-DFEC-9EF5-89BF-2F96AD693126" name="SALES_TIME_BIX">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:34 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:34 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="D13435C0-E8A5-CD79-1A1C-1B4E51510760"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="680D3C40-8918-6880-175A-23C55F268AB8" name="SALES_CHANNEL_BIX">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:34 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:34 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="9EA7FB33-9AA4-B434-AC1F-A955C849EC8F"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="59A821B4-861F-0B19-3E17-3532561495DC" name="SALES_PROMO_BIX">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:35 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:35 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="A9893477-8DC2-F188-25E4-5D676F0ED20A"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="FFBB8758-2226-DDC2-9746-F6FA1A7AA098" name="SALES_CHANNEL_FK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:40 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="9EA7FB33-9AA4-B434-AC1F-A955C849EC8F"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="37347728-04E5-4873-F6BD-C1A9A3CE7A1B" name="SALES_TIME_FK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:40 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="D13435C0-E8A5-CD79-1A1C-1B4E51510760"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="C04F3741-1D10-CFEF-F7E7-28C5E3E5B251" name="SALES_PRODUCT_FK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:40 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="AB0E3208-7AEA-4460-6E6B-01DCC832A75A"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="CE8AEA12-264D-32F7-CF8E-FCDDFD7A9BA8" name="SALES_CUSTOMER_FK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:40 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="9738FBDB-0218-A700-DA27-81D56C28EE0C"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="FCD64DAA-C049-F4DE-A5FF-109C912F97CF" name="SALES_PROMO_FK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:40 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:40 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="A9893477-8DC2-F188-25E4-5D676F0ED20A"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

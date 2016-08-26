@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="ED524B91-2544-C32F-046F-37416495BC2F" directorySegmentName="seg_0" name="MEDICAL_IMAGE_TABLE">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-17 12:25:32 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-17 12:25:38 UTC</changedTime>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <schemaObject>62ED94B8-0C91-A572-0359-9EDB4F384642</schemaObject>
+   <pkName>SYS_C0021583</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID" id="B1D80CBF-EDA7-1A25-6E17-704A204087CD">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>38</dataTypePrecision>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="DICOM" id="E2FAB37B-B41D-9737-ABC7-D72EAF6E090C">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <structuredType>F50951CE-857B-9553-025E-745702AB9018</structuredType>
+         <use>3</use>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="IMAGETHUMB" id="367012DE-2F1C-115D-9020-650286C9CB07">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LogDes-4972B6D2-6F93-8AE5-6E24-3599E65A7CFE@LOGDT10006</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ANONDICOM" id="9061E515-71BC-74E1-95E6-8E25DC29A08B">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <structuredType>F50951CE-857B-9553-025E-745702AB9018</structuredType>
+         <use>3</use>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="741C307F-4776-6E04-BA89-67138611E202" name="SYS_C0021583">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:34 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:38 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="B1D80CBF-EDA7-1A25-6E17-704A204087CD"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

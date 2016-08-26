@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogicalSubView" name="From_RM_PM" id="9D6DCEB0-12D6-50A0-405B-D67CA4129CF4">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2009-06-20 11:56:54 UTC</createdTime>
+   <changedBy>Administrator</changedBy>
+   <changedTime>2009-06-20 11:56:54 UTC</changedTime>
+   <autoRoute>true</autoRoute>
+   <boxInbox>false</boxInbox>
+   <showLegend>false</showLegend>
+   <showLabels>false</showLabels>
+   <showGrid>false</showGrid>
+   <diagramColor>-1</diagramColor>
+   <display>false</display>
+   <generatorId>4C9AFD67-EA44-5A09-12B5-C3692E3FBA52</generatorId>
+   <notation>1</notation>
+   <objectViews>
+      <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="1BEC8F76-898F-0BDB-1AFE-CB36FD643BCF" otype="Entity" vid="A9A2E1DF-2437-263D-93D5-23C574053FA4">
+         <bounds x="20" y="20" width="280" height="320"/>
+         <generatorID>MEDICAL_IMAGE_TABLE#0</generatorID>
+      </OView>
+      <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="377FA4EB-06A0-9A51-85C2-A066B9EAAE05" otype="Entity" vid="77FEBC86-2326-1E92-0501-90DE19A42B29">
+         <bounds x="20" y="20" width="280" height="320"/>
+         <generatorID>ONLINE_MEDIA#0</generatorID>
+      </OView>
+      <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="A738B778-487A-6B0D-43DA-58C10FE74B67" otype="Entity" vid="8B1AC3F8-939C-A483-B96E-DF89B608C39D">
+         <bounds x="20" y="20" width="280" height="320"/>
+         <generatorID>PRINT_MEDIA#0</generatorID>
+      </OView>
+   </objectViews>
+</Diagram>

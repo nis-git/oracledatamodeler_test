@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Hierarchy class="oracle.dbtools.crest.model.design.multidimensional.Hierarchy" name="PROMO_ROLLUP" id="164CF62D-4FA1-D4FD-308B-79DF782C9CFB" directorySegmentName="seg_0">
+   <createdBy>pstoyano</createdBy>
+   <createdTime>2009-07-01 16:57:26 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2009-07-01 16:57:26 UTC</changedTime>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <nameInOracleAW>PROMO_ROLLUP</nameInOracleAW>
+   <defaultHierarchy>true</defaultHierarchy>
+   <linkToDimension>18FA3149-4A92-EC40-EF00-A7C5C28C1AA0</linkToDimension>
+   <usedLevels>
+      <usedLevel>88F09BD9-29D5-B89D-16DD-6090B802988B</usedLevel>
+      <usedLevel>B0452568-6836-9E89-75EE-DA30408BDB1D</usedLevel>
+      <usedLevel>626D2171-38DA-357B-BD61-0FAFBD55EED9</usedLevel>
+      <usedLevel>9E2C9ECE-8500-B808-D6A7-B45796F44B4F</usedLevel>
+   </usedLevels>
+   <usedLinks>
+      <usedLink>88F09BD9-29D5-B89D-16DD-6090B802988B</usedLink>
+      <usedLink>B0452568-6836-9E89-75EE-DA30408BDB1D</usedLink>
+      <usedLink>626D2171-38DA-357B-BD61-0FAFBD55EED9</usedLink>
+      <usedLink>9E2C9ECE-8500-B808-D6A7-B45796F44B4F</usedLink>
+   </usedLinks>
+</Hierarchy>

@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Full_Sample_Dictionary_Import" id="BF105018-3CC9-F992-06AB-3F0BD4F6521B" mainViewID="DEA404C2-D982-E8AA-90A6-A9340DECA6C9">
+   <createdBy>smharper</createdBy>
+   <createdTime>2011-01-07 09:09:35 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2011-01-07 09:09:35 UTC</changedTime>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <shouldBeOpen>true</shouldBeOpen>
+   <selectedRDBMSSite>D9582E4E-79E2-319F-387A-2ED963CB9D32</selectedRDBMSSite>
+</relationalModel>

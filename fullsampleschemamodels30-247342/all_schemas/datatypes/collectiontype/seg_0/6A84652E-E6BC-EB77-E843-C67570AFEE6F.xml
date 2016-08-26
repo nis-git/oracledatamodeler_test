@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<CollectionType class="oracle.dbtools.crest.model.design.datatypes.CollectionType" name="PHONE_LIST_TYP" id="6A84652E-E6BC-EB77-E843-C67570AFEE6F" directorySegmentName="seg_0">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-17 12:25:26 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-17 12:25:26 UTC</changedTime>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <predefined>false</predefined>
+   <dataTypeDescr class="oracle.dbtools.crest.model.design.datatypes.CollectionType$DataTypeWrapper">
+      <type>LOGDT024</type>
+      <isreference>false</isreference>
+   </dataTypeDescr>
+   <maxElement>5</maxElement>
+   <type>ARRAY</type>
+</CollectionType>

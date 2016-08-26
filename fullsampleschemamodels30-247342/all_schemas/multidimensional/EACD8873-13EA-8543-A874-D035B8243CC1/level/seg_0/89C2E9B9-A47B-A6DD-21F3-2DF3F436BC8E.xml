@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Level class="oracle.dbtools.crest.model.design.multidimensional.Level" name="CUSTOMER" id="89C2E9B9-A47B-A6DD-21F3-2DF3F436BC8E" directorySegmentName="seg_0">
+   <createdBy>pstoyano</createdBy>
+   <createdTime>2009-07-01 16:57:26 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2009-07-01 16:57:26 UTC</changedTime>
+   <generatorID>0DCAAC86-76B1-46B4-CF1C-DF0091E6060D</generatorID>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <nameInOracleAW>CUSTOMER</nameInOracleAW>
+   <levelEntity>B6669596-127B-3B0F-4401-560316C063E4</levelEntity>
+   <rootIdentification>ParentIsBlankSelfOrMissing</rootIdentification>
+   <valueBasedHierarchy>false</valueBasedHierarchy>
+   <oraAWAttributes class="oracle.dbtools.crest.model.design.multidimensional.Level$OraAWAttributes"/>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Level Entity</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Type</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Function</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <levelKey>
+      <attribute>30617CB2-BC49-108A-8C06-0D95EEE743F2</attribute>
+   </levelKey>
+   <descriptiveAttributes>
+      <descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="CUST_FIRST_NAME" id="936031CF-37DB-79EC-0D42-6B5A3EB49944">
+         <attribute>B86CA14B-2E86-405C-DBDC-1EBF7F382A4F</attribute>
+         <classification>USER</classification>
+         <indexed>false</indexed>
+         <type>NONE</type>
+      </descrAttribute>
+      <descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="CUST_LAST_NAME" id="0195FEDF-1510-DA36-3CAC-38AFE9AAA108">
+         <attribute>D13AA335-3849-5427-8648-D78582EF621C</attribute>
+         <classification>USER</classification>
+         <indexed>false</indexed>
+         <type>NONE</type>
+      </descrAttribute>
+      <descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="CUST_GENDER" id="4E35BCB9-2D27-E8B7-EDFB-D30ABF203F20">
+         <attribute>956039F0-CD00-8680-9208-42FAD1AAB71F</attribute>
+         <classification>USER</classification>
+         <indexed>false</indexed>
+         <type>NONE</type>
+      </descrAttribute>
+      <descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="CUST_YEAR_OF_BIRTH" id="C90456B7-707B-6A7C-9AD0-90A6A4AEAEC7">
+         <attribute>508B6355-51D7-95E7-5395-C9AF7464B4F8</attribute>
+         <classification>USER</classification>
+         <indexed>false</indexed>
+         <type>NONE</type>
+      </descrAttribute>
+      <descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="CUST_MARITAL_STATUS" id="B0351B35-8171-5538-65B7-D23901BED88E">
+         <attribute>E005A7AD-B2AC-D46D-D517-150104214516</attribute>
+         <classification>USER</classification>
+         <indexed>false</indexed>
+         <type>NONE</type>
+      </descrAttribute>
+      <descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="CUST_STREET_ADDRESS" id="470EB11D-DDB7-4BC4-C8D4-90844D3EBD06">
+         <attribute>F18AD009-6AE1-A3A9-AF97-F682DAA881E0</attribute>
+         <classification>USER</classification>
+         <indexed>false</indexed>
+         <type>NONE</type>
+      </descrAttribute>
+      <descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="CUST_POSTAL_CODE" id="1D5EA771-BB37-0DE6-9A6B-637E0675A216">
+         <attribute>DF2530D7-2877-0498-E899-ACB4BFB50CBA</attribute>
+         <classification>USER</classification>
+         <indexed>false</indexed>
+         <type>NONE</type>
+      </descrAttribute>
+      <descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="CUST_MAIN_PHONE_NUMBER" id="9B5F605A-333B-677D-83B2-FD0842100DCE">
+         <attribute>E2BBD547-6CF4-E550-0702-9BABA22BF850</attribute>
+         <classification>USER</classification>
+         <indexed>false</indexed>
+         <type>NONE</type>
+      </descrAttribute>
+      <descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="CUST_INCOME_LEVEL" id="A95A345E-5E0F-D73F-EE0A-503839B89BCB">
+         <attribute>919DA4EF-F25B-2C4A-3035-DBFE74A3015D</attribute>
+         <classification>USER</classification>
+         <indexed>false</indexed>
+         <type>NONE</type>
+      </descrAttribute>
+      <descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="CUST_CREDIT_LIMIT" id="8C7A316C-16B0-3320-65CB-7194F5639615">
+         <attribute>7504AC37-9387-3800-5935-1CB428148749</attribute>
+         <classification>USER</classification>
+         <indexed>false</indexed>
+         <type>NONE</type>
+      </descrAttribute>
+      <descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="CUST_EMAIL" id="28ACBD37-A326-155D-8863-23C4251AD620">
+         <attribute>7082246A-3F1A-1B38-37CD-885C5C03A5FC</attribute>
+         <classification>USER</classification>
+         <indexed>false</indexed>
+         <type>NONE</type>
+      </descrAttribute>
+   </descriptiveAttributes>
+</Level>

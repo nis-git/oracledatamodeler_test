@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="OE" id="64C43071-3C36-48BF-D630-895FB97CC32A" directorySegmentName="seg_0">
+   <createdBy>smharper</createdBy>
+   <createdTime>2011-01-07 09:09:41 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2011-01-07 09:09:41 UTC</changedTime>
+   <ownerDesignName>all_schemas</ownerDesignName>
+</SchemaObject>

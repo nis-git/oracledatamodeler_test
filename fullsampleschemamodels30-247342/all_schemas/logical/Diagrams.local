@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="sub_view" objectID="2915A2D2-AF59-D5CB-93A9-5B532EEC6304" name="HR Subview" visible="false"/>
+   <object objectType="main_view" objectID="45148F80-5D25-11DB-AF29-3AB55B8EA726" name="Logical" visible="false"/>
+   <object objectType="sub_view" objectID="7037B130-6C5E-EDE1-1458-CCBB68D692F7" name="From_RM_IX" visible="false"/>
+   <object objectType="sub_view" objectID="9D6DCEB0-12D6-50A0-405B-D67CA4129CF4" name="From_RM_PM" visible="false"/>
+   <object objectType="sub_view" objectID="B4C7106E-5577-7D0A-AAF1-F81BAF3142EF" name="From_RM_SH" visible="false"/>
+   <object objectType="sub_view" objectID="BA5B3AA0-1EFE-3BA3-FC4F-DBE13596143A" name="From_RM_OE" visible="false"/>
+   <object objectType="sub_view" objectID="E03F24C5-2B1E-DBDB-DFC0-7BABA61C12E8" name="From_RM_HR" visible="false"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="CE5545AD-E33E-31D9-D6D4-B9E67A73B788" directorySegmentName="seg_0" name="SALES">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-17 12:39:36 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-17 12:41:24 UTC</changedTime>
+   <generatorID>66CE258A-F419-B34A-DEF0-D99ABECBBD55</generatorID>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="PROD_ID" id="EE29643E-FE8D-343A-6924-F4EA832CAA3B">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:39:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:41:24 UTC</changedTime>
+         <commentInRDBMS>FK to the products dimension table</commentInRDBMS>
+         <generatorID>C869D56E-F8A5-5AF7-0C14-CB4FAE5CD4C2</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CUST_ID" id="617A6434-D340-34AC-3A30-C59C5C28AA87">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:39:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:39:36 UTC</changedTime>
+         <commentInRDBMS>FK to the customers dimension table</commentInRDBMS>
+         <generatorID>9D4DA5C2-417A-D54D-460D-97FD5667F225</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="TIME_ID" id="E1656714-7139-732F-141F-387C5DF138EB">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:39:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:39:36 UTC</changedTime>
+         <commentInRDBMS>FK to the times dimension table</commentInRDBMS>
+         <generatorID>9EF6EE91-8D13-4053-E464-F89BAB0605B8</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+         <delegate>DE14A5C1-4A5A-AB6C-D79A-8A8E32B35F37</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="9CBFDF34-2915-0C93-E383-5CB540E5178C" referredColumn="DE14A5C1-4A5A-AB6C-D79A-8A8E32B35F37"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CHANNEL_ID" id="0B53EC2C-029B-9365-A30C-3380140438F5">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:39:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:39:36 UTC</changedTime>
+         <commentInRDBMS>FK to the channels dimension table</commentInRDBMS>
+         <generatorID>743827F6-96ED-CBFB-AC9A-AADA7C93F097</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <delegate>A33998C8-9628-C3F9-7FAE-D5C6EEC9A1B4</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="69EEB305-8DA4-EFB5-2A5F-82FF2AC8C9FD" referredColumn="A33998C8-9628-C3F9-7FAE-D5C6EEC9A1B4"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="PROMO_ID" id="C67B3BC7-6C3B-B095-0888-E3AADB648809">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:39:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:41:24 UTC</changedTime>
+         <commentInRDBMS>promotion identifier, without FK constraint (intentionally) to show outer join optimization</commentInRDBMS>
+         <generatorID>F2B2207F-2FB2-DAC4-6B43-F4B60E9A14CB</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="QUANTITY_SOLD" id="CFEBAC5F-B374-0ABB-D091-2DD6F2195E3A">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:39:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:39:36 UTC</changedTime>
+         <commentInRDBMS>product quantity sold with the transaction</commentInRDBMS>
+         <generatorID>C3C15A41-E96E-0C81-CC62-B2283C5AE459</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>10</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="AMOUNT_SOLD" id="4514806F-6454-712D-C8C5-7C6E4FAD3BA3">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:39:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:39:36 UTC</changedTime>
+         <commentInRDBMS>invoiced amount to the customer</commentInRDBMS>
+         <generatorID>99DC011A-08D3-96F7-7895-8C8ABBE27736</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>10</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="F9CE9CEB-E093-8242-5FF0-2E194874FECC" name="SALES_CHANNEL_FK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:39:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:39:36 UTC</changedTime>
+         <generatorID>B5E817E3-CC67-3A5D-F079-77127E95E1E1</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="0B53EC2C-029B-9365-A30C-3380140438F5"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="879F8273-4AC5-AD3A-012F-AE3369B48D53" name="SALES_TIME_FK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:39:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:39:36 UTC</changedTime>
+         <generatorID>BD570803-22AE-30E6-2410-906D19F8784C</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="E1656714-7139-732F-141F-387C5DF138EB"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

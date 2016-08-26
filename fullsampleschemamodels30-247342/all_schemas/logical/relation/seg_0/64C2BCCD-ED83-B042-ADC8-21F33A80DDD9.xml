@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SALES_PROMO_FK" id="64C2BCCD-ED83-B042-ADC8-21F33A80DDD9" directorySegmentName="seg_0">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+   <generatorID>CC22EDB5-FB7F-133A-3EEC-DB38D6518470</generatorID>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <identifying>false</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>false</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>30C0AE06-ECE8-9E9F-BBA9-F2EBDBE6B18D</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>3551C5F8-1419-2440-0FD3-57D6D00B90DE</targetEntity>
+   <transferable>true</transferable>
+</Relation>

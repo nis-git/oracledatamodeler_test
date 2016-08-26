@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="3551C5F8-1419-2440-0FD3-57D6D00B90DE" directorySegmentName="seg_0" name="SALES">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2009-07-01 16:57:26 UTC</changedTime>
+   <generatorID>8ECB5CC3-2C75-A2E9-5E13-9101AE4B9078</generatorID>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <typeID>1</typeID>
+   <adequatelyNormalized>NO</adequatelyNormalized>
+   <expectedVolumes>0</expectedVolumes>
+   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+   <growthPercent>0</growthPercent>
+   <growthType>Year</growthType>
+   <maxVolumes>9999999</maxVolumes>
+   <minVolumes>0</minVolumes>
+   <normalForm>Third</normalForm>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="PROD_ID" id="05F7778C-1A6B-06D4-A627-97D89319C5E7">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <commentInRDBMS>FK to the products dimension table</commentInRDBMS>
+         <generatorID>011C47ED-DD68-A8C7-DB62-35631A8E0D4E</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <referedAttribute>78033711-7B13-1521-F0B4-C84C5B382844</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>6</dataTypePrecision>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="CUST_ID" id="2B0C07E1-3F7D-8A7D-D68D-6E01BA353DD7">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <commentInRDBMS>FK to the customers dimension table</commentInRDBMS>
+         <generatorID>28FA4E8D-6B74-CB39-B813-A280B3BFA6CC</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <referedAttribute>30617CB2-BC49-108A-8C06-0D95EEE743F2</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="TIME_ID" id="5947E7FF-2564-A65C-C5A9-6687D5F1B14E">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <commentInRDBMS>FK to the times dimension table</commentInRDBMS>
+         <generatorID>32216DE3-D751-4A14-B1FE-36B36EFAF8E4</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <referedAttribute>D6DBBA06-172C-AEE1-357F-1701351CBAF7</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="CHANNEL_ID" id="72111423-8F06-B6D8-833D-6641ACA02D75">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <commentInRDBMS>FK to the channels dimension table</commentInRDBMS>
+         <generatorID>20D148FC-7A01-5828-3A33-C9B5741EA6FA</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <referedAttribute>5B038C94-023D-4540-C474-78E14D175A80</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="PROMO_ID" id="50E0F902-5469-47A2-4748-9AB897875F09">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <commentInRDBMS>promotion identifier, without FK constraint (intentionally) to show outer join optimization</commentInRDBMS>
+         <generatorID>64C2BCCD-ED83-B042-ADC8-21F33A80DDD9</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <referedAttribute>DF3AB723-B0A2-7320-E8D3-3AC82F56A2E8</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>6</dataTypePrecision>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="QUANTITY_SOLD" id="0961C76A-FC2C-DBE0-427C-0A744288CD56">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <commentInRDBMS>product quantity sold with the transaction</commentInRDBMS>
+         <generatorID>F6FA7BD1-F82F-E4D3-BCF9-08D905839EAC</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>10</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="AMOUNT_SOLD" id="EAC5DC84-9185-92C7-A929-F510D33B0E12">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <commentInRDBMS>invoiced amount to the customer</commentInRDBMS>
+         <generatorID>5CF2BE05-4070-565C-600F-F50230FAFE07</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>10</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+      </Attribute>
+   </attributes>
+</Entity>

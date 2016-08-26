@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" id="30347346-AFEC-5134-73A9-E539F71A341F" directorySegmentName="seg_0" name="AQ$STREAMS_QUEUE_TABLE_S">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-18 12:29:10 UTC</changedTime>
+   <generatorID>EE564BDA-8C49-F2CC-D4E3-33589780897D</generatorID>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <userDefined>true</userDefined>
+   <userDefinedSQL>CREATE OR REPLACE VIEW AQ$STREAMS_QUEUE_TABLE_S&amp;lt;br&amp;gt;AS &amp;lt;br&amp;gt;SELECT queue_name QUEUE, name NAME , address ADDRESS , protocol PROTOCOL, trans_name TRANSFORMATION  FROM &amp;quot;AQ$_STREAMS_QUEUE_TABLE_S&amp;quot; s  WHERE (bitand(s.subscriber_type, 1) = 1)  WITH READ ONLY</userDefinedSQL>
+   <viewType>VIEW</viewType>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+   </fonts>
+   <viewElements>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="QUEUE" id="9F021229-E92F-553E-A9FF-5DCECAEDF8AF">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>545AA793-7B92-EFA7-0611-85EF0A29A750</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>QUEUE</alias>
+         <dataType>VARCHAR2 (30)</dataType>
+         <reference>false</reference>
+         <viewID>30347346-AFEC-5134-73A9-E539F71A341F</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="NAME" id="3049EC62-85B6-8311-0381-DB8F62644DA2">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>C54B738B-B4B6-880B-C691-6689247DBB78</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>NAME</alias>
+         <dataType>VARCHAR2 (30)</dataType>
+         <reference>false</reference>
+         <viewID>30347346-AFEC-5134-73A9-E539F71A341F</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ADDRESS" id="5B6EE4C4-62B4-EA04-9ACB-4A16CFFF3D23">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>84D0824D-2816-3DDC-9DA6-4040B054862B</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>ADDRESS</alias>
+         <dataType>VARCHAR2 (1024)</dataType>
+         <reference>false</reference>
+         <viewID>30347346-AFEC-5134-73A9-E539F71A341F</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="PROTOCOL" id="FE981F2E-B6CD-FA66-CE12-21176583C053">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>758F11D4-94CB-3F5E-8E6E-FA5B709219FE</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>PROTOCOL</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+         <viewID>30347346-AFEC-5134-73A9-E539F71A341F</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="TRANSFORMATION" id="26087F8A-FBE1-88A8-5A65-91C479BF4B58">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>EB0C6EA0-F8CD-FE62-22EE-F03E0787D99C</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>TRANSFORMATION</alias>
+         <dataType>VARCHAR2 (65)</dataType>
+         <reference>false</reference>
+         <viewID>30347346-AFEC-5134-73A9-E539F71A341F</viewID>
+      </viewElement>
+   </viewElements>
+</EntityView>

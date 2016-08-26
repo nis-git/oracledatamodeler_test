@@ -1,0 +1,170 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="ORDIMAGESIGNATURE" id="8326EC56-41AC-189E-9FAC-A59504C1E245" directorySegmentName="seg_0">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-17 12:25:26 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-17 12:25:27 UTC</changedTime>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <predefined>true</predefined>
+   <final>false</final>
+   <instantiable>true</instantiable>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16777056</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Method</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Instantiable</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Mandatory</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="SIGNATURE" id="5F66CA1C-A9C3-6DAE-015A-327954CEDBDA">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <mandatory>false</mandatory>
+         <precision>0</precision>
+         <reference>false</reference>
+         <scale>0</scale>
+         <size>0</size>
+         <type>LOGDT029</type>
+      </Attribute>
+   </attributes>
+   <methods>
+      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="INIT" id="D6C6734E-DB75-3025-850D-A2B987F36BB6">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <number>0</number>
+         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="INIT" id="null">
+            <precision>0</precision>
+            <reference>false</reference>
+            <scale>0</scale>
+            <size>0</size>
+            <typeID>LogDes-4972B6D2-6F93-8AE5-6E24-3599E65A7CFE@LOGDT10007</typeID>
+         </returnValue>
+      </Method>
+      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="EVALUATESCORE" id="F71C4380-61D2-D15C-2308-1E106685F487">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <number>0</number>
+         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="EVALUATESCORE" id="null">
+            <precision>0</precision>
+            <reference>false</reference>
+            <scale>0</scale>
+            <size>0</size>
+            <typeID>LOGDT021</typeID>
+         </returnValue>
+         <parameters>
+            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SIG1" id="38517D62-D46E-AC89-7F0E-6AAFD83041CA">
+               <precision>0</precision>
+               <reference>false</reference>
+               <scale>0</scale>
+               <size>0</size>
+               <typeID>LogDes-4972B6D2-6F93-8AE5-6E24-3599E65A7CFE@LOGDT10007</typeID>
+            </Parameter>
+            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SIG2" id="A2B5951A-8529-6895-9874-29A6BFBD1328">
+               <precision>0</precision>
+               <reference>false</reference>
+               <scale>0</scale>
+               <size>0</size>
+               <typeID>LogDes-4972B6D2-6F93-8AE5-6E24-3599E65A7CFE@LOGDT10007</typeID>
+            </Parameter>
+            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="WEIGHTS" id="09AE92AC-EA02-04B6-6791-5525EF6662A6">
+               <precision>0</precision>
+               <reference>false</reference>
+               <scale>0</scale>
+               <size>0</size>
+               <typeID>LOGDT024</typeID>
+            </Parameter>
+         </parameters>
+      </Method>
+      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="ISSIMILAR" id="B6B75131-D3C3-B688-1616-8D873015BF4C">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <number>0</number>
+         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="ISSIMILAR" id="null">
+            <precision>0</precision>
+            <reference>false</reference>
+            <scale>0</scale>
+            <size>0</size>
+            <typeID>LOGDT017</typeID>
+         </returnValue>
+         <parameters>
+            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SIG1" id="E342629E-36E0-EA7B-3E4B-3F12926881BA">
+               <precision>0</precision>
+               <reference>false</reference>
+               <scale>0</scale>
+               <size>0</size>
+               <typeID>LogDes-4972B6D2-6F93-8AE5-6E24-3599E65A7CFE@LOGDT10007</typeID>
+            </Parameter>
+            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SIG2" id="20240459-16E8-AE54-0497-8E0EC2F67CDD">
+               <precision>0</precision>
+               <reference>false</reference>
+               <scale>0</scale>
+               <size>0</size>
+               <typeID>LogDes-4972B6D2-6F93-8AE5-6E24-3599E65A7CFE@LOGDT10007</typeID>
+            </Parameter>
+            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="WEIGHTS" id="EFCE5554-E2C4-9F9A-2178-0BA8C4ACD2EE">
+               <precision>0</precision>
+               <reference>false</reference>
+               <scale>0</scale>
+               <size>0</size>
+               <typeID>LOGDT024</typeID>
+            </Parameter>
+            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="THRESHOLD" id="BA674758-0C17-3751-961A-CF4545D99A38">
+               <precision>0</precision>
+               <reference>false</reference>
+               <scale>0</scale>
+               <size>0</size>
+               <typeID>LOGDT021</typeID>
+            </Parameter>
+         </parameters>
+      </Method>
+      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GENERATESIGNATURE" id="5761AA01-3ECA-5A3E-91B6-693599E959FD">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <number>0</number>
+         <parameters>
+            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGE" id="741CEDF0-5A90-FAD9-36CC-537C3E757CA3">
+               <precision>0</precision>
+               <reference>false</reference>
+               <scale>0</scale>
+               <size>0</size>
+               <typeID>LogDes-4972B6D2-6F93-8AE5-6E24-3599E65A7CFE@LOGDT10006</typeID>
+            </Parameter>
+         </parameters>
+      </Method>
+   </methods>
+</StructuredType>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<CollectionType class="oracle.dbtools.crest.model.design.datatypes.CollectionType" name="SDO_ORDINATE_ARRAY" id="DBC5B7F7-6B40-7DBA-56AC-CBD66DA9B411" directorySegmentName="seg_0">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-17 12:25:26 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-18 13:25:24 UTC</changedTime>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <predefined>false</predefined>
+   <dataTypeDescr class="oracle.dbtools.crest.model.design.datatypes.CollectionType$DataTypeWrapper">
+      <type>LOGDT019</type>
+      <isreference>false</isreference>
+   </dataTypeDescr>
+   <maxElement>1048576</maxElement>
+   <type>ARRAY</type>
+</CollectionType>

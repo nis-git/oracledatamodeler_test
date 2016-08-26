@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="637C0DA9-0E67-F463-0ED6-936CC804BC81" directorySegmentName="seg_0" name="JOB_HISTORY">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2009-01-30 17:20:50 UTC</changedTime>
+   <generatorID>185FD3DB-3B2C-100B-7A4A-3A651435BE71</generatorID>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <pkName>JHIST_EMP_ID_ST_DATE_PK</pkName>
+   <adequatelyNormalized>NO</adequatelyNormalized>
+   <expectedVolumes>0</expectedVolumes>
+   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+   <growthPercent>0</growthPercent>
+   <growthType>Year</growthType>
+   <maxVolumes>9999999</maxVolumes>
+   <minVolumes>0</minVolumes>
+   <normalForm>Third</normalForm>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="EMPLOYEE_ID" id="F256FE26-5C78-AD75-90D2-FB7E2642217E">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <commentInRDBMS>A not null column in the complex primary key employee_id+start_date.&amp;lt;br&amp;gt;Foreign key to employee_id column of the employee table</commentInRDBMS>
+         <generatorID>2C993147-66CE-D56A-94DA-428FFD1E70E0</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <referedAttribute>BC228D8E-9A55-F6A1-2EA7-1CEC37896733</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>6</dataTypePrecision>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="START_DATE" id="94EE48EE-1133-FB2F-C412-9C12096C5174">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <commentInRDBMS>A not null column in the complex primary key employee_id+start_date. &amp;lt;br&amp;gt;Must be less than the end_date of the job_history table. (enforced by &amp;lt;br&amp;gt;constraint jhist_date_interval)</commentInRDBMS>
+         <generatorID>BB36FE63-BB50-796F-240D-3E01E66C201A</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="END_DATE" id="53B68289-BE58-D61C-7A61-9AEFEDFE4AAC">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <commentInRDBMS>Last day of the employee in this job role. A not null column. Must be &amp;lt;br&amp;gt;greater than the start_date of the job_history table. &amp;lt;br&amp;gt;(enforced by constraint jhist_date_interval)</commentInRDBMS>
+         <generatorID>4E500630-7C00-76A6-C4F4-4F745EF33AF6</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="JOB_ID" id="F584DAA8-594E-99B5-42E3-86F0FACD6F65">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <commentInRDBMS>Job role in which the employee worked in the past; foreign key to &amp;lt;br&amp;gt;job_id column in the jobs table. A not null column.</commentInRDBMS>
+         <generatorID>41581524-1DD9-BCFB-49F8-C6F8E2FCAE9B</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <referedAttribute>77A2DB3A-2DDB-7EDE-6DD9-0DE984ABBB6A</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>10 BYTE</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DEPARTMENT_ID" id="EA270041-6716-1F6C-C334-90B0549CE851">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <commentInRDBMS>Department id in which the employee worked in the past; foreign key to deparment_id column in the departments table</commentInRDBMS>
+         <generatorID>AE824D83-BDBB-1106-5DCF-F4BEAC6C3BFE</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <referedAttribute>0EFB4742-E639-7EB9-A132-72FB993D861B</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+      </Attribute>
+   </attributes>
+   <identifiers>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="5C35482D-74AD-0627-E104-EF1BFF737722" name="JHIST_EMP_ID_ST_DATE_PK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>D3A2DA3F-A26C-5AA9-5556-A1C0CC5B1AB0</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <pk>true</pk>
+         <usedAttributes>
+            <attributeRef>F256FE26-5C78-AD75-90D2-FB7E2642217E</attributeRef>
+            <attributeRef>94EE48EE-1133-FB2F-C412-9C12096C5174</attributeRef>
+         </usedAttributes>
+      </identifier>
+   </identifiers>
+</Entity>

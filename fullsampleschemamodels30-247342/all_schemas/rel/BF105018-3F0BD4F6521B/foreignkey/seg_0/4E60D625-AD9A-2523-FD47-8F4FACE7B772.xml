@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="4E60D625-AD9A-2523-FD47-8F4FACE7B772" directorySegmentName="seg_0" name="COUNTR_REG_FK">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2009-01-30 17:10:26 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2009-01-30 17:10:26 UTC</changedTime>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <containerWithKeyObject>75166F54-179B-6FB5-3E00-01F9980349F8</containerWithKeyObject>
+   <deleteRule>NO ACTION</deleteRule>
+   <localFKIndex>91AB61FB-5449-D059-4268-F604B678F2FE</localFKIndex>
+   <keyObject>E168AF9A-9E18-5E59-7558-B2BD93E8043B</keyObject>
+   <mandatory>false</mandatory>
+   <transferable>true</transferable>
+</FKIndexAssociation>

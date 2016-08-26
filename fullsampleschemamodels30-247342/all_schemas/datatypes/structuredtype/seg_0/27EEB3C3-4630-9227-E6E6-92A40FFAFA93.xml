@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="CUST_ADDRESS_TYP" id="27EEB3C3-4630-9227-E6E6-92A40FFAFA93" directorySegmentName="seg_0">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-17 12:25:26 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-17 12:25:26 UTC</changedTime>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <predefined>false</predefined>
+   <final>true</final>
+   <instantiable>true</instantiable>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16777056</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Method</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Instantiable</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Mandatory</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="STREET_ADDRESS" id="4A6CA265-EF84-49C5-9E34-85F198EDC905">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:26 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:26 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <mandatory>false</mandatory>
+         <precision>0</precision>
+         <reference>false</reference>
+         <scale>0</scale>
+         <size>40</size>
+         <type>LOGDT024</type>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="POSTAL_CODE" id="FDAC9657-90C9-5B9E-F329-FEDD96F4895F">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:26 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:26 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <mandatory>false</mandatory>
+         <precision>0</precision>
+         <reference>false</reference>
+         <scale>0</scale>
+         <size>10</size>
+         <type>LOGDT024</type>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="CITY" id="03E6FDA8-1376-D209-B448-44416CC01FF8">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:26 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:26 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <mandatory>false</mandatory>
+         <precision>0</precision>
+         <reference>false</reference>
+         <scale>0</scale>
+         <size>30</size>
+         <type>LOGDT024</type>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="STATE_PROVINCE" id="B36AD718-AD5F-FBC6-8E07-2BBCE99E23BA">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:26 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:26 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <mandatory>false</mandatory>
+         <precision>0</precision>
+         <reference>false</reference>
+         <scale>0</scale>
+         <size>10</size>
+         <type>LOGDT024</type>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="COUNTRY_ID" id="99A6C984-8398-6582-B2DD-EC4E4D3C306E">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:26 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:26 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <mandatory>false</mandatory>
+         <precision>0</precision>
+         <reference>false</reference>
+         <scale>0</scale>
+         <size>2</size>
+         <type>LOGDT025</type>
+      </Attribute>
+   </attributes>
+</StructuredType>

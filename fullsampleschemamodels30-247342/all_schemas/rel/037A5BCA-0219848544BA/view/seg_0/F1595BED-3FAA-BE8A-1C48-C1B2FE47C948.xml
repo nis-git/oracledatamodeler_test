@@ -1,0 +1,26 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" id="F1595BED-3FAA-BE8A-1C48-C1B2FE47C948" directorySegmentName="seg_0" name="QUANTITIES_SOLD">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-17 12:41:24 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-17 12:41:24 UTC</changedTime>
+   <generatorID>BC1719E1-475D-449A-B59C-98E02F9F27D8</generatorID>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <userDefined>true</userDefined>
+   <userDefinedSQL>CREATE OR REPLACE VIEW QUANTITIES_SOLD&amp;lt;br&amp;gt;AS &amp;lt;br&amp;gt;SELECT &amp;quot;SH&amp;quot;.&amp;quot;COUNTRIES&amp;quot;.&amp;quot;COUNTRY_NAME&amp;quot;, &amp;quot;SH&amp;quot;.&amp;quot;PRODUCTS&amp;quot;.&amp;quot;PROD_NAME&amp;quot;, &amp;quot;SH&amp;quot;.&amp;quot;TIMES&amp;quot;.&amp;quot;CALENDAR_YEAR&amp;quot;, &amp;quot;SH&amp;quot;.&amp;quot;CUSTOMERS&amp;quot;.&amp;quot;CUST_LAST_NAME&amp;quot;, &amp;quot;SH&amp;quot;.&amp;quot;SALES&amp;quot;.&amp;quot;QUANTITY_SOLD&amp;quot; FROM &amp;quot;SH&amp;quot;.&amp;quot;COUNTRIES&amp;quot;, &amp;quot;SH&amp;quot;.&amp;quot;PRODUCTS&amp;quot;, &amp;quot;SH&amp;quot;.&amp;quot;TIMES&amp;quot;, &amp;quot;SH&amp;quot;.&amp;quot;CUSTOMERS&amp;quot;, &amp;quot;SH&amp;quot;.&amp;quot;SALES&amp;quot; WHERE ( &amp;quot;SH&amp;quot;.&amp;quot;CUSTOMERS&amp;quot;.&amp;quot;COUNTRY_ID&amp;quot; = &amp;quot;SH&amp;quot;.&amp;quot;COUNTRIES&amp;quot;.&amp;quot;COUNTRY_ID&amp;quot; ) AND ( &amp;quot;SH&amp;quot;.&amp;quot;SALES&amp;quot;.&amp;quot;CUST_ID&amp;quot; = &amp;quot;SH&amp;quot;.&amp;quot;CUSTOMERS&amp;quot;.&amp;quot;CUST_ID&amp;quot; ) AND ( &amp;quot;SH&amp;quot;.&amp;quot;SALES&amp;quot;.&amp;quot;PROD_ID&amp;quot; = &amp;quot;SH&amp;quot;.&amp;quot;PRODUCTS&amp;quot;.&amp;quot;PROD_ID&amp;quot; ) AND ( &amp;quot;SH&amp;quot;.&amp;quot;SALES&amp;quot;.&amp;quot;TIME_ID&amp;quot; = &amp;quot;SH&amp;quot;.&amp;quot;TIMES&amp;quot;.&amp;quot;TIME_ID&amp;quot; )</userDefinedSQL>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+   </fonts>
+</TableView>

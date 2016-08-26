@@ -1,0 +1,26 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" id="A2013FB0-6399-BA64-515B-ECAF7EC6D456" directorySegmentName="seg_0" name="PROFITS">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-17 12:39:36 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-17 12:39:36 UTC</changedTime>
+   <generatorID>F35AF308-421F-881F-DF09-C35F90618FE7</generatorID>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <userDefined>true</userDefined>
+   <userDefinedSQL>CREATE OR REPLACE VIEW PROFITS&amp;lt;br&amp;gt;AS &amp;lt;br&amp;gt;SELECT&amp;lt;br&amp;gt;	s.channel_id,&amp;lt;br&amp;gt;	s.cust_id,&amp;lt;br&amp;gt;	s.prod_id,&amp;lt;br&amp;gt;	s.promo_id,&amp;lt;br&amp;gt;	s.time_id,&amp;lt;br&amp;gt;	c.unit_cost,&amp;lt;br&amp;gt;	c.unit_price,&amp;lt;br&amp;gt;	s.amount_sold,&amp;lt;br&amp;gt;	s.quantity_sold,&amp;lt;br&amp;gt;	c.unit_cost * s.quantity_sold TOTAL_COST&amp;lt;br&amp;gt; FROM&amp;lt;br&amp;gt;	costs c, sales s&amp;lt;br&amp;gt; WHERE c.prod_id = s.prod_id&amp;lt;br&amp;gt;   AND c.time_id = s.time_id&amp;lt;br&amp;gt;   AND c.channel_id = s.channel_id&amp;lt;br&amp;gt;   AND c.promo_id = s.promo_id</userDefinedSQL>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+   </fonts>
+</TableView>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="5172116E-1FAD-99B9-4D0D-922C1EC035ED" name="CUSTOMERS" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="6009F836-639C-05CA-5BE6-6F0114FDDB94" name="JOBS" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="8D46CAF4-1B86-B683-A615-37E5750B4146" name="ORDERS" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="BDADE069-E99F-2836-C319-98544D6B0AE7" name="DEPARTMENTS" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="C0B50D0E-DCD4-0977-1AE4-C7423F41B56F" name="EMPLOYEES" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="CA733471-7057-7B82-740E-E391DE2EC870" name="JOB_HISTORY" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="26C3DA2C-A104-EFCE-858B-FDC9F0AB1590" name="DEPT_MGR_FK" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="373238F1-1897-94A8-30AE-E370A1F2E1C3" name="ORDERS_SALES_REP_FK" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="8FFED19E-E25B-D87B-25EE-5435A7C5ACA3" name="DEPT_MGR_FK" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="97348E91-6AB6-25FB-E8BE-74CCB186B29F" name="EMP_MANAGER_FK" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="AECE1B76-E34A-A953-BF70-FAB54EC5FE4C" name="JHIST_EMP_FK" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="BDB747D7-FC6D-C39B-6BDE-6B5B301B836E" name="EMP_JOB_FK" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="BEF54B8B-E756-31B0-0FC2-2105AAA32BA1" name="CUSTOMERS_ACCOUNT_MANAGER_FK" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="E58531DC-CBEF-1063-3092-D2F53B0B93D8" name="ORDERS_CUSTOMER_ID_FK" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="F746FBE1-B09E-6FD7-CB3E-EE6821F3EE23" name="JHIST_JOB_FK" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="FFD8EF0D-1308-8929-0FB3-2C48F2876EFB" name="JHIST_DEPT_FK" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

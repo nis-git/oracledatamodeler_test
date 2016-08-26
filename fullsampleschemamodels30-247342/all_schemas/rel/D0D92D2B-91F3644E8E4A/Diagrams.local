@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="12DA50C5-8359-2934-53DC-2BC1DC7C64A8" name="HR_Subset" visible="false"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="JHIST_EMP_FK" id="2C993147-66CE-D56A-94DA-428FFD1E70E0" directorySegmentName="seg_0">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2009-01-30 17:20:05 UTC</changedTime>
+   <generatorID>6F0A4F18-3D90-4F0E-E22F-4572E9EFD924</generatorID>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <identifying>true</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>false</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>EEE3ABF9-1CE1-846A-4FBA-81621407E503</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>637C0DA9-0E67-F463-0ED6-936CC804BC81</targetEntity>
+   <transferable>true</transferable>
+</Relation>

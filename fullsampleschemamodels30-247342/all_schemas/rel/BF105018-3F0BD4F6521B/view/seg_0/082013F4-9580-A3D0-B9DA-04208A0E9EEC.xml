@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" id="082013F4-9580-A3D0-B9DA-04208A0E9EEC" directorySegmentName="seg_0" name="PRODUCT_PRICES">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <schemaObject>64C43071-3C36-48BF-D630-895FB97CC32A</schemaObject>
+   <userDefined>true</userDefined>
+   <userDefinedSQL>CREATE OR REPLACE VIEW PRODUCT_PRICES&amp;lt;br&amp;gt;AS &amp;lt;br&amp;gt;SELECT category_id&amp;lt;br&amp;gt;,      COUNT(*)        as &amp;quot;#_OF_PRODUCTS&amp;quot;&amp;lt;br&amp;gt;,      MIN(list_price) as low_price&amp;lt;br&amp;gt;,      MAX(list_price) as high_price&amp;lt;br&amp;gt;FROM   product_information&amp;lt;br&amp;gt;GROUP BY category_id</userDefinedSQL>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+   </fonts>
+   <viewElements>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="CATEGORY_ID" id="885449D8-33C1-E327-48E4-2D8E0B4469C9">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>CATEGORY_ID</alias>
+         <dataType>NUMBER (2)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="#_OF_PRODUCTS" id="A65BB0EB-DEE9-CDED-61A2-CC02E5B2968B">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>#_OF_PRODUCTS</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="LOW_PRICE" id="22EFADED-0CEE-9A10-E298-DE71BD3CAC11">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>LOW_PRICE</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="HIGH_PRICE" id="5EC23661-C1A7-2997-D4AB-33670D44C0B2">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>HIGH_PRICE</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+      </viewElement>
+   </viewElements>
+</TableView>

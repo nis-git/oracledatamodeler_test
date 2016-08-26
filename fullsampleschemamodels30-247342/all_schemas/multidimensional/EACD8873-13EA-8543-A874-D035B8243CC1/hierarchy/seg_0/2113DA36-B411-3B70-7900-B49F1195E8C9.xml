@@ -1,0 +1,29 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Hierarchy class="oracle.dbtools.crest.model.design.multidimensional.Hierarchy" name="GEOG_ROLLUP" id="2113DA36-B411-3B70-7900-B49F1195E8C9" directorySegmentName="seg_0">
+   <createdBy>pstoyano</createdBy>
+   <createdTime>2009-07-01 16:57:26 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2009-07-01 16:57:26 UTC</changedTime>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <nameInOracleAW>GEOG_ROLLUP</nameInOracleAW>
+   <defaultHierarchy>false</defaultHierarchy>
+   <linkToDimension>6EBA50D5-9B46-6FF3-AC72-21D262828CDF</linkToDimension>
+   <usedLevels>
+      <usedLevel>89C2E9B9-A47B-A6DD-21F3-2DF3F436BC8E</usedLevel>
+      <usedLevel>0B09A13C-469E-FD88-2AD2-9A0136F02E71</usedLevel>
+      <usedLevel>6BEA9087-31E9-3091-28D5-A4D3D0A410E2</usedLevel>
+      <usedLevel>0526F347-519B-BFC9-7577-C37E62401A3F</usedLevel>
+      <usedLevel>8CA0E9BB-27B9-726C-D139-47A27E647754</usedLevel>
+      <usedLevel>534A5CB4-C3E6-E70F-CC97-ED382BD5EDE2</usedLevel>
+      <usedLevel>3C3377A0-2083-5999-DBFA-0BF1A6989455</usedLevel>
+   </usedLevels>
+   <usedLinks>
+      <usedLink>89C2E9B9-A47B-A6DD-21F3-2DF3F436BC8E</usedLink>
+      <usedLink>0B09A13C-469E-FD88-2AD2-9A0136F02E71</usedLink>
+      <usedLink>6BEA9087-31E9-3091-28D5-A4D3D0A410E2</usedLink>
+      <usedLink>0526F347-519B-BFC9-7577-C37E62401A3F</usedLink>
+      <usedLink>8CA0E9BB-27B9-726C-D139-47A27E647754</usedLink>
+      <usedLink>534A5CB4-C3E6-E70F-CC97-ED382BD5EDE2</usedLink>
+      <usedLink>3C3377A0-2083-5999-DBFA-0BF1A6989455</usedLink>
+   </usedLinks>
+</Hierarchy>

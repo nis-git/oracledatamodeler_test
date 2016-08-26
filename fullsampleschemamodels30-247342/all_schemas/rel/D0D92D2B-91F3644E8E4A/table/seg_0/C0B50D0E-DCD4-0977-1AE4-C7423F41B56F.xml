@@ -1,0 +1,265 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="C0B50D0E-DCD4-0977-1AE4-C7423F41B56F" directorySegmentName="seg_0" name="EMPLOYEES">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-18 12:29:10 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-18 12:29:10 UTC</changedTime>
+   <generatorID>EEE3ABF9-1CE1-846A-4FBA-81621407E503</generatorID>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <pkName>EMP_EMP_ID_PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="EMPLOYEE_ID" id="AF85FBD1-F45B-CEDC-EB1C-41F2FFB7E9FC">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
+         <commentInRDBMS>Primary key of employees table.</commentInRDBMS>
+         <generatorID>BC228D8E-9A55-F6A1-2EA7-1CEC37896733</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>6</dataTypePrecision>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="FIRST_NAME" id="CB1ACD6F-C8AD-1AFC-193F-6CFD35CA2F9C">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
+         <commentInRDBMS>First name of the employee. A not null column.</commentInRDBMS>
+         <generatorID>C19C13A4-EF36-99E9-07AC-001932E9D387</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="LAST_NAME" id="BBA5F0AB-345B-F902-1573-31264E664B4C">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
+         <commentInRDBMS>Last name of the employee. A not null column.</commentInRDBMS>
+         <generatorID>0BB6BDB2-1D62-A13E-D0E2-F419A9F82242</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>25 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="EMAIL" id="AC89F8E7-4766-F913-9C1D-F311A1DB73F9">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
+         <commentInRDBMS>Email id of the employee</commentInRDBMS>
+         <generatorID>13381F8A-618B-DD58-9806-AD48EFD681E7</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>25 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="PHONE_NUMBER" id="9F8A1D59-283C-B6B1-E190-38507386CFD4">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
+         <commentInRDBMS>Phone number of the employee; includes country code and area code</commentInRDBMS>
+         <generatorID>20316C5E-5BB6-CC4C-37F3-310CAA377E76</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="HIRE_DATE" id="6A3AA040-A5E0-7F1E-2BEB-4FD8E8AA29A1">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
+         <commentInRDBMS>Date when the employee started on this job. A not null column.</commentInRDBMS>
+         <generatorID>7AA50AFC-50E0-0765-1A2B-F5DA995543E5</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="JOB_ID" id="4692A8F7-C3EC-818E-B1DF-9F40413B952C">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
+         <commentInRDBMS>Current job of the employee; foreign key to job_id column of the &amp;lt;br&amp;gt;jobs table. A not null column.</commentInRDBMS>
+         <generatorID>A48B6058-E00D-898C-0F8B-470B9A7906D2</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>10 BYTE</dataTypeSize>
+         <delegate>493BABD9-9D99-91DC-85F0-CB3608989DF0</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="BDB747D7-FC6D-C39B-6BDE-6B5B301B836E" referredColumn="493BABD9-9D99-91DC-85F0-CB3608989DF0"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="SALARY" id="50C2A294-CD3B-F7C3-567B-E24EB020014C">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
+         <commentInRDBMS>Monthly salary of the employee. Must be greater &amp;lt;br&amp;gt;than zero (enforced by constraint emp_salary_min)</commentInRDBMS>
+         <generatorID>BB26A280-2DA6-DCD8-1A6C-7ECEE10FEF5E</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <useDomainConstraints>false</useDomainConstraints>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>8</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+         <checkConstraint>
+            <implementationDef dbType="Oracle Database 10g" definition="salary > 0"/>
+         </checkConstraint>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="COMMISSION_PCT" id="93ED6144-54F1-B12E-42CA-BA1AEE3126B7">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
+         <commentInRDBMS>Commission percentage of the employee; Only employees in sales &amp;lt;br&amp;gt;department elgible for commission percentage</commentInRDBMS>
+         <generatorID>818904E3-4C18-E98F-EFCD-5456F4369464</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>2</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="MANAGER_ID" id="D35451F9-27DA-7853-FAE0-8F21261C1B54">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
+         <commentInRDBMS>Manager id of the employee; has same domain as manager_id in &amp;lt;br&amp;gt;departments table. Foreign key to employee_id column of employees table.&amp;lt;br&amp;gt;(useful for reflexive joins and CONNECT BY query)</commentInRDBMS>
+         <generatorID>EBC92D81-34F4-B498-F2C9-855706F1D7CE</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>6</dataTypePrecision>
+         <delegate>AF85FBD1-F45B-CEDC-EB1C-41F2FFB7E9FC</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="97348E91-6AB6-25FB-E8BE-74CCB186B29F" referredColumn="AF85FBD1-F45B-CEDC-EB1C-41F2FFB7E9FC"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="DEPARTMENT_ID" id="B788387B-41E1-A3D2-CB25-E26044842D3C">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
+         <commentInRDBMS>Department id where employee works; foreign key to department_id &amp;lt;br&amp;gt;column of the departments table</commentInRDBMS>
+         <generatorID>714935F6-A4E5-E452-DD1A-42A1429C0DF5</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+         <delegate>60FFE005-D3B0-6379-CD85-D15A5DD16372</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="26C3DA2C-A104-EFCE-858B-FDC9F0AB1590" referredColumn="60FFE005-D3B0-6379-CD85-D15A5DD16372"/>
+         </associations>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="02D25A08-8BA2-F6A9-869E-7886D43E64F8" name="EMP_EMP_ID_PK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
+         <generatorID>FDB1A0B4-7569-E58A-B600-5A0526EB45B3</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="AF85FBD1-F45B-CEDC-EB1C-41F2FFB7E9FC"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="1EA4088B-0A44-0083-A3C1-BFCD70A601D4" name="EMP_EMAIL_UK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
+         <generatorID>7B87075E-BB50-DAE7-B008-D11484A1ED24</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <indexState>Unique Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="AC89F8E7-4766-F913-9C1D-F311A1DB73F9"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="0D2D9EC9-4F3D-176E-D64D-B6040CFFEDEB" name="DEPT_MGR_FK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
+         <generatorID>679539BC-80D5-023E-E9B4-85725307B3A6</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="B788387B-41E1-A3D2-CB25-E26044842D3C"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="B58035BC-A313-AB0A-17CE-00072E51C5F7" name="EMP_JOB_FK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
+         <generatorID>39796541-0B82-4423-0870-2CBA84A849FD</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="4692A8F7-C3EC-818E-B1DF-9F40413B952C"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="E936C564-772D-9BE4-B96F-6D8ABD4B8D5A" name="EMP_MANAGER_FK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
+         <generatorID>909303C3-8E13-6B36-C93B-5DA8949A62C0</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="D35451F9-27DA-7853-FAE0-8F21261C1B54"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

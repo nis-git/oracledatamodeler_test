@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EMP_MANAGER_FK" id="909303C3-8E13-6B36-C93B-5DA8949A62C0" directorySegmentName="seg_0">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2009-01-30 17:20:05 UTC</changedTime>
+   <generatorID>58BAE124-4B7D-15BC-0836-6B0A83AF4DCF</generatorID>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <identifying>false</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>true</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>EEE3ABF9-1CE1-846A-4FBA-81621407E503</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>EEE3ABF9-1CE1-846A-4FBA-81621407E503</targetEntity>
+   <transferable>true</transferable>
+</Relation>

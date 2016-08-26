@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" id="E2CA316C-4990-3F4F-DD8A-49C9DEA66DF2" directorySegmentName="seg_0" name="QUANTITIES_SOLD">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-18 12:29:10 UTC</changedTime>
+   <generatorID>06DC31BC-1FE2-AD71-D04A-F1144F91D9E1</generatorID>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <userDefined>true</userDefined>
+   <userDefinedSQL>CREATE OR REPLACE VIEW QUANTITIES_SOLD&amp;lt;br&amp;gt;AS &amp;lt;br&amp;gt;SELECT &amp;quot;SH&amp;quot;.&amp;quot;COUNTRIES&amp;quot;.&amp;quot;COUNTRY_NAME&amp;quot;, &amp;quot;SH&amp;quot;.&amp;quot;PRODUCTS&amp;quot;.&amp;quot;PROD_NAME&amp;quot;, &amp;quot;SH&amp;quot;.&amp;quot;TIMES&amp;quot;.&amp;quot;CALENDAR_YEAR&amp;quot;, &amp;quot;SH&amp;quot;.&amp;quot;CUSTOMERS&amp;quot;.&amp;quot;CUST_LAST_NAME&amp;quot;, &amp;quot;SH&amp;quot;.&amp;quot;SALES&amp;quot;.&amp;quot;QUANTITY_SOLD&amp;quot; FROM &amp;quot;SH&amp;quot;.&amp;quot;COUNTRIES&amp;quot;, &amp;quot;SH&amp;quot;.&amp;quot;PRODUCTS&amp;quot;, &amp;quot;SH&amp;quot;.&amp;quot;TIMES&amp;quot;, &amp;quot;SH&amp;quot;.&amp;quot;CUSTOMERS&amp;quot;, &amp;quot;SH&amp;quot;.&amp;quot;SALES&amp;quot; WHERE ( &amp;quot;SH&amp;quot;.&amp;quot;CUSTOMERS&amp;quot;.&amp;quot;COUNTRY_ID&amp;quot; = &amp;quot;SH&amp;quot;.&amp;quot;COUNTRIES&amp;quot;.&amp;quot;COUNTRY_ID&amp;quot; ) AND ( &amp;quot;SH&amp;quot;.&amp;quot;SALES&amp;quot;.&amp;quot;CUST_ID&amp;quot; = &amp;quot;SH&amp;quot;.&amp;quot;CUSTOMERS&amp;quot;.&amp;quot;CUST_ID&amp;quot; ) AND ( &amp;quot;SH&amp;quot;.&amp;quot;SALES&amp;quot;.&amp;quot;PROD_ID&amp;quot; = &amp;quot;SH&amp;quot;.&amp;quot;PRODUCTS&amp;quot;.&amp;quot;PROD_ID&amp;quot; ) AND ( &amp;quot;SH&amp;quot;.&amp;quot;SALES&amp;quot;.&amp;quot;TIME_ID&amp;quot; = &amp;quot;SH&amp;quot;.&amp;quot;TIMES&amp;quot;.&amp;quot;TIME_ID&amp;quot; )</userDefinedSQL>
+   <viewType>VIEW</viewType>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+   </fonts>
+   <viewElements>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="COUNTRY_NAME" id="C26CBDC5-0EE5-F6F7-0513-977F69AC9A76">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>E445F753-6D56-43D4-C838-BF492E036006</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>COUNTRY_NAME</alias>
+         <dataType>VARCHAR2 (40)</dataType>
+         <reference>false</reference>
+         <viewID>E2CA316C-4990-3F4F-DD8A-49C9DEA66DF2</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="PROD_NAME" id="83C262F8-21BD-FA0E-EF60-4C42D14B3D1F">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>325F0A8A-D2E4-4B65-FF4E-5FD127A811F1</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>PROD_NAME</alias>
+         <dataType>VARCHAR2 (50)</dataType>
+         <reference>false</reference>
+         <viewID>E2CA316C-4990-3F4F-DD8A-49C9DEA66DF2</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="CALENDAR_YEAR" id="CFA63AB7-CF1B-17AD-ABF4-95674E27E223">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>20DC81E5-20EF-E893-5328-6B45B9EC5412</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>CALENDAR_YEAR</alias>
+         <dataType>NUMBER (4)</dataType>
+         <reference>false</reference>
+         <viewID>E2CA316C-4990-3F4F-DD8A-49C9DEA66DF2</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="CUST_LAST_NAME" id="75AADB0B-0675-871C-A3BD-BE36A1439580">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>208DCADE-B2FC-5E3E-309E-9D21E9E498EE</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>CUST_LAST_NAME</alias>
+         <dataType>VARCHAR2 (40)</dataType>
+         <reference>false</reference>
+         <viewID>E2CA316C-4990-3F4F-DD8A-49C9DEA66DF2</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="QUANTITY_SOLD" id="8AB20580-6C99-E88F-7F66-947D65AF445C">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>91BA82D6-3E56-C5B0-4E82-F204AB792F66</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>QUANTITY_SOLD</alias>
+         <dataType>NUMBER (10, 2)</dataType>
+         <reference>false</reference>
+         <viewID>E2CA316C-4990-3F4F-DD8A-49C9DEA66DF2</viewID>
+      </viewElement>
+   </viewElements>
+</EntityView>

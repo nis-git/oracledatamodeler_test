@@ -1,0 +1,220 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" id="3BF9E5F2-88AD-B8B4-42B0-847A560EF67C" directorySegmentName="seg_0" name="EMP_DETAILS_VIEW">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <importedID>AEE0BEA8-2C88-358A-788E-08923D0741E6</importedID>
+   <userDefined>true</userDefined>
+   <userDefinedSQL>CREATE OR REPLACE VIEW EMP_DETAILS_VIEW&amp;lt;br&amp;gt;AS &amp;lt;br&amp;gt;SELECT&amp;lt;br&amp;gt;  e.employee_id, &amp;lt;br&amp;gt;  e.job_id, &amp;lt;br&amp;gt;  e.manager_id, &amp;lt;br&amp;gt;  e.department_id,&amp;lt;br&amp;gt;  d.location_id,&amp;lt;br&amp;gt;  l.country_id,&amp;lt;br&amp;gt;  e.first_name,&amp;lt;br&amp;gt;  e.last_name,&amp;lt;br&amp;gt;  e.salary,&amp;lt;br&amp;gt;  e.commission_pct,&amp;lt;br&amp;gt;  d.department_name,&amp;lt;br&amp;gt;  j.job_title,&amp;lt;br&amp;gt;  l.city,&amp;lt;br&amp;gt;  l.state_province,&amp;lt;br&amp;gt;  c.country_name,&amp;lt;br&amp;gt;  r.region_name&amp;lt;br&amp;gt;FROM&amp;lt;br&amp;gt;  employees e,&amp;lt;br&amp;gt;  departments d,&amp;lt;br&amp;gt;  jobs j,&amp;lt;br&amp;gt;  locations l,&amp;lt;br&amp;gt;  countries c,&amp;lt;br&amp;gt;  regions r&amp;lt;br&amp;gt;WHERE e.department_id = d.department_id&amp;lt;br&amp;gt;  AND d.location_id = l.location_id&amp;lt;br&amp;gt;  AND l.country_id = c.country_id&amp;lt;br&amp;gt;  AND c.region_id = r.region_id&amp;lt;br&amp;gt;  AND j.job_id = e.job_id &amp;lt;br&amp;gt;WITH READ ONLY</userDefinedSQL>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+   </fonts>
+   <viewElements>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="EMPLOYEE_ID" id="85A772EE-1ECF-7AB1-AF4D-CC810E9751D2">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>EMPLOYEE_ID</alias>
+         <dataType>NUMBER (6)</dataType>
+         <reference>false</reference>
+         <viewID>3BF9E5F2-88AD-B8B4-42B0-847A560EF67C</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="JOB_ID" id="87E4E9F6-71C4-0C03-72E4-6A7AA7176300">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>JOB_ID</alias>
+         <dataType>VARCHAR2 (10)</dataType>
+         <reference>false</reference>
+         <viewID>3BF9E5F2-88AD-B8B4-42B0-847A560EF67C</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="MANAGER_ID" id="BD37BA11-4AF9-31EB-ACD7-5BE9173E0E95">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>MANAGER_ID</alias>
+         <dataType>NUMBER (6)</dataType>
+         <reference>false</reference>
+         <viewID>3BF9E5F2-88AD-B8B4-42B0-847A560EF67C</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DEPARTMENT_ID" id="A5405242-A119-78C6-68C9-D9061F93BD5F">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>DEPARTMENT_ID</alias>
+         <dataType>NUMBER (4)</dataType>
+         <reference>false</reference>
+         <viewID>3BF9E5F2-88AD-B8B4-42B0-847A560EF67C</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="LOCATION_ID" id="3BFF7B59-2522-52F1-E8B6-264D35F52C24">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>LOCATION_ID</alias>
+         <dataType>NUMBER (4)</dataType>
+         <reference>false</reference>
+         <viewID>3BF9E5F2-88AD-B8B4-42B0-847A560EF67C</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COUNTRY_ID" id="C3686EC4-2EA5-249D-E967-EF8F937C5AE9">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>COUNTRY_ID</alias>
+         <dataType>CHAR (2)</dataType>
+         <reference>false</reference>
+         <viewID>3BF9E5F2-88AD-B8B4-42B0-847A560EF67C</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="FIRST_NAME" id="DEA44D6E-80D5-A800-8D3C-CBFAF5F5CF7E">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>FIRST_NAME</alias>
+         <dataType>VARCHAR2 (20)</dataType>
+         <reference>false</reference>
+         <viewID>3BF9E5F2-88AD-B8B4-42B0-847A560EF67C</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="LAST_NAME" id="E97B6961-B900-5DAF-90BB-4BCFD4BEC8ED">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>LAST_NAME</alias>
+         <dataType>VARCHAR2 (25)</dataType>
+         <reference>false</reference>
+         <viewID>3BF9E5F2-88AD-B8B4-42B0-847A560EF67C</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="SALARY" id="000011CF-AD93-5A6D-F25C-70F7B4AB7624">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>SALARY</alias>
+         <dataType>NUMBER (8, 2)</dataType>
+         <reference>false</reference>
+         <viewID>3BF9E5F2-88AD-B8B4-42B0-847A560EF67C</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COMMISSION_PCT" id="30D258AA-A958-6B27-9B55-494AEF1B52EF">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>COMMISSION_PCT</alias>
+         <dataType>NUMBER (2, 2)</dataType>
+         <reference>false</reference>
+         <viewID>3BF9E5F2-88AD-B8B4-42B0-847A560EF67C</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DEPARTMENT_NAME" id="B39FB6E3-CC94-F47B-CD88-C13493A9AE72">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>DEPARTMENT_NAME</alias>
+         <dataType>VARCHAR2 (30)</dataType>
+         <reference>false</reference>
+         <viewID>3BF9E5F2-88AD-B8B4-42B0-847A560EF67C</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="JOB_TITLE" id="130F1970-992E-7028-9FFD-E4D0FBC7A7F5">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>JOB_TITLE</alias>
+         <dataType>VARCHAR2 (35)</dataType>
+         <reference>false</reference>
+         <viewID>3BF9E5F2-88AD-B8B4-42B0-847A560EF67C</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="CITY" id="2C844807-088D-3537-0116-40375AE35FA1">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>CITY</alias>
+         <dataType>VARCHAR2 (30)</dataType>
+         <reference>false</reference>
+         <viewID>3BF9E5F2-88AD-B8B4-42B0-847A560EF67C</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="STATE_PROVINCE" id="6E23EBBC-4E2A-20BF-E4B9-8CF396E1CA3F">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>STATE_PROVINCE</alias>
+         <dataType>VARCHAR2 (25)</dataType>
+         <reference>false</reference>
+         <viewID>3BF9E5F2-88AD-B8B4-42B0-847A560EF67C</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COUNTRY_NAME" id="C46AD56B-720C-CDC5-F482-10219DB1F352">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>COUNTRY_NAME</alias>
+         <dataType>VARCHAR2 (40)</dataType>
+         <reference>false</reference>
+         <viewID>3BF9E5F2-88AD-B8B4-42B0-847A560EF67C</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="REGION_NAME" id="3EBF5703-503F-2462-AAA3-94BF97D5BF9D">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>REGION_NAME</alias>
+         <dataType>VARCHAR2 (25)</dataType>
+         <reference>false</reference>
+         <viewID>3BF9E5F2-88AD-B8B4-42B0-847A560EF67C</viewID>
+      </viewElement>
+   </viewElements>
+</TableView>

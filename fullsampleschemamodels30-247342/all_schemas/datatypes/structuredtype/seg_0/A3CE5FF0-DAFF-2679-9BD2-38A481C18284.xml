@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="AQ$_SIG_PROP" id="A3CE5FF0-DAFF-2679-9BD2-38A481C18284" directorySegmentName="seg_0">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-17 12:25:26 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-17 12:25:26 UTC</changedTime>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <predefined>true</predefined>
+   <final>false</final>
+   <instantiable>true</instantiable>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16777056</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Method</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Instantiable</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Mandatory</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="SIGNATURE" id="B03A429A-26E2-3666-85A4-40E78F3B1F94">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:26 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:26 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <mandatory>false</mandatory>
+         <precision>0</precision>
+         <reference>false</reference>
+         <scale>0</scale>
+         <size>2000</size>
+         <type>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</type>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="CANALGO" id="DBD59123-B22E-11B7-D7D1-CC74784C94BE">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:26 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:26 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <mandatory>false</mandatory>
+         <precision>0</precision>
+         <reference>false</reference>
+         <scale>0</scale>
+         <size>2000</size>
+         <type>LOGDT024</type>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="DIGALGO" id="1DD12313-0EF6-AC5E-AA0C-530BA60EA4DC">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:26 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:26 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <mandatory>false</mandatory>
+         <precision>0</precision>
+         <reference>false</reference>
+         <scale>0</scale>
+         <size>2000</size>
+         <type>LOGDT024</type>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="SIGALGO" id="59A749D5-B739-AF7C-8721-1B811CDA4EA6">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:26 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:26 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <mandatory>false</mandatory>
+         <precision>0</precision>
+         <reference>false</reference>
+         <scale>0</scale>
+         <size>2000</size>
+         <type>LOGDT024</type>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="CERTIFICATE" id="3264E45E-277D-756E-1A55-8AD77843AB61">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:26 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:26 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <mandatory>false</mandatory>
+         <precision>0</precision>
+         <reference>false</reference>
+         <scale>0</scale>
+         <size>2000</size>
+         <type>LOGDT024</type>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="DIGVAL" id="1CD90B39-B0A3-35E4-538A-8D25B96EB3AC">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:26 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:26 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <mandatory>false</mandatory>
+         <precision>0</precision>
+         <reference>false</reference>
+         <scale>0</scale>
+         <size>2000</size>
+         <type>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</type>
+      </Attribute>
+   </attributes>
+</StructuredType>

@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="ORDER_EVENT_TYP" id="52190FE4-6217-1F29-53B0-0F404DB23232" directorySegmentName="seg_0">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-17 12:25:26 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-17 12:25:26 UTC</changedTime>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <predefined>false</predefined>
+   <final>true</final>
+   <instantiable>true</instantiable>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16777056</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Method</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Instantiable</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Mandatory</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="ORDER_ID" id="A09E9AD2-8A0A-AE7F-A5FE-17EA0EBC9F95">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:26 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:26 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <mandatory>false</mandatory>
+         <precision>12</precision>
+         <reference>false</reference>
+         <scale>0</scale>
+         <size>0</size>
+         <type>LOGDT019</type>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="PRODUCT_ID" id="87D63B6C-C024-97B9-F59D-413176DE7AAF">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:26 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:26 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <mandatory>false</mandatory>
+         <precision>6</precision>
+         <reference>false</reference>
+         <scale>0</scale>
+         <size>0</size>
+         <type>LOGDT019</type>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="CUSTOMER_ID" id="7D5BE538-4332-A8F5-6B07-16834AE0226A">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:26 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:26 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <mandatory>false</mandatory>
+         <precision>6</precision>
+         <reference>false</reference>
+         <scale>0</scale>
+         <size>0</size>
+         <type>LOGDT019</type>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="CUST_FIRST_NAME" id="C7C9693F-AF79-BE56-97C9-5F01E5E27DE4">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:26 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:26 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <mandatory>false</mandatory>
+         <precision>0</precision>
+         <reference>false</reference>
+         <scale>0</scale>
+         <size>20</size>
+         <type>LOGDT024</type>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="CUST_LAST_NAME" id="C0F971F4-69F5-BC62-FE46-CBBF338CA681">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:26 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:26 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <mandatory>false</mandatory>
+         <precision>0</precision>
+         <reference>false</reference>
+         <scale>0</scale>
+         <size>20</size>
+         <type>LOGDT024</type>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="ORDER_STATUS" id="7A7070F7-FA92-DBCC-F199-3D52B7A257F7">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:26 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:26 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <mandatory>false</mandatory>
+         <precision>2</precision>
+         <reference>false</reference>
+         <scale>0</scale>
+         <size>0</size>
+         <type>LOGDT019</type>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="DELIVERY_DATE" id="FD1EE656-E504-493D-FC04-5BBE6A80E328">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:26 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:26 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <mandatory>false</mandatory>
+         <precision>0</precision>
+         <reference>false</reference>
+         <scale>0</scale>
+         <size>0</size>
+         <type>LOGDT007</type>
+      </Attribute>
+   </attributes>
+</StructuredType>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<CollectionType class="oracle.dbtools.crest.model.design.datatypes.CollectionType" name="TEXTDOC_TAB" id="736E7E22-2B06-3651-DC8B-E6684EC4BF91" directorySegmentName="seg_0">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-17 12:25:26 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-17 12:25:26 UTC</changedTime>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <predefined>false</predefined>
+   <dataTypeDescr class="oracle.dbtools.crest.model.design.datatypes.CollectionType$DataTypeWrapper">
+      <type>CB3A0155-1676-D38E-944E-036F696E12F0</type>
+      <isreference>false</isreference>
+   </dataTypeDescr>
+   <maxElement>1</maxElement>
+   <type>COLLECTION</type>
+</CollectionType>

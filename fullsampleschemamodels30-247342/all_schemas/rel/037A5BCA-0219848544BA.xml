@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="SalesHistoryModel" id="037A5BCA-FECF-4DC5-9A0B-0219848544BA" mainViewID="138CC10D-2F3B-243C-E610-852B4D58F450">
+   <createdBy>smharper</createdBy>
+   <createdTime>2011-01-07 09:09:35 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2011-01-07 09:09:35 UTC</changedTime>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <shouldBeOpen>true</shouldBeOpen>
+   <selectedRDBMSSite>D9582E4E-79E2-319F-387A-2ED963CB9D32</selectedRDBMSSite>
+</relationalModel>

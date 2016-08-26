@@ -1,0 +1,451 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="2E16E288-1889-58DC-8FF6-F1C377C810F9" directorySegmentName="seg_0" name="TIMES">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-17 12:25:32 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-17 12:25:39 UTC</changedTime>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <schemaObject>92D7A384-7405-004C-11BA-2BF5FDFC8C3C</schemaObject>
+   <pkName>TIMES_PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="TIME_ID" id="F09E0E0A-426D-A2D0-8146-CF8EB3774ABE">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>primary key; day date, finest granularity, CORRECT ORDER</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="DAY_NAME" id="66885B07-E9C3-8AB5-87C9-EB692E06BD62">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>Monday to Sunday, repeating</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>9 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="DAY_NUMBER_IN_WEEK" id="AE477A14-E54B-F5F9-E70A-CF3841F8E01E">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>1 to 7, repeating</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>1</dataTypePrecision>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="DAY_NUMBER_IN_MONTH" id="E9CA28A8-9EB5-83A9-DC1E-837838791BCE">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>1 to 31, repeating</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>2</dataTypePrecision>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CALENDAR_WEEK_NUMBER" id="0F9171CF-A146-0CC1-D3C6-949F00085933">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>1 to 53, repeating</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>2</dataTypePrecision>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="FISCAL_WEEK_NUMBER" id="038025DF-0E1F-6D30-DCDF-862D4EE67F7B">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>1 to 53, repeating</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>2</dataTypePrecision>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="WEEK_ENDING_DAY" id="CBBD50C7-0698-FAD8-D442-8D1F1024197A">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>date of last day in week, CORRECT ORDER</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="WEEK_ENDING_DAY_ID" id="D748697B-BB05-5C12-A302-6E15436618F5">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CALENDAR_MONTH_NUMBER" id="88BF85B4-48D3-D614-8DA2-6B9404128BC9">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>1 to 12, repeating</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>2</dataTypePrecision>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="FISCAL_MONTH_NUMBER" id="77FD77DB-23F5-EDA3-45DE-8F40F0FAEF66">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>1 to 12, repeating</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>2</dataTypePrecision>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CALENDAR_MONTH_DESC" id="3D647085-4776-9658-32EF-F33FCC4095BF">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>e.g. 1998-01, CORRECT ORDER</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>8 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CALENDAR_MONTH_ID" id="6A79D83E-5334-9B83-725A-2C259B407E14">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="FISCAL_MONTH_DESC" id="FBCF11C4-DBC3-A4AB-ABCE-1BE3B8DC814A">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>e.g. 1998-01, CORRECT ORDER</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>8 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="FISCAL_MONTH_ID" id="617342C9-A447-0B27-236F-7C5E3CD67EA9">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="DAYS_IN_CAL_MONTH" id="1A190A9A-4367-FC5E-7A99-69BC5E1D1213">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>e.g. 28,31, repeating</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="DAYS_IN_FIS_MONTH" id="1E1449E0-C5B5-78BF-9EB6-B45DA5CF1A2D">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>e.g. 25,32, repeating</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="END_OF_CAL_MONTH" id="94D315FC-5494-FA21-D78A-B3E8B8B15DC6">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>last day of calendar month</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="END_OF_FIS_MONTH" id="CDC9DF8F-FDC0-5E53-EE71-95130DD19DBC">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>last day of fiscal month</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CALENDAR_MONTH_NAME" id="02C6DB43-96D8-0D5D-6EA7-9EF75649A8A1">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>January to December, repeating</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>9 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="FISCAL_MONTH_NAME" id="BA0EDD6E-9339-6854-03E6-183AC442DA97">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>January to December, repeating</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>9 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CALENDAR_QUARTER_DESC" id="2BD341E2-0B79-E56A-82C4-BAB4DD79C3C6">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>e.g. 1998-Q1, CORRECT ORDER</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+         <dataTypeSize>7 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CALENDAR_QUARTER_ID" id="1ECF7FDC-BB2B-C000-A2AB-20AB1F15F08F">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="FISCAL_QUARTER_DESC" id="A51B6792-0715-B6A7-C120-00E517B08C98">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>e.g. 1999-Q3, CORRECT ORDER</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+         <dataTypeSize>7 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="FISCAL_QUARTER_ID" id="7595BE4D-E523-1379-A991-FCE3AE78C284">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="DAYS_IN_CAL_QUARTER" id="8B9E1E89-4342-7494-6788-40A657FB1CA8">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>e.g. 88,90, repeating</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="DAYS_IN_FIS_QUARTER" id="A35D3017-235F-4BC9-B599-9837A6AB8EA2">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>e.g. 88,90, repeating</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="END_OF_CAL_QUARTER" id="D137A997-F9C0-A512-1C9A-A071EC5ACF4F">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>last day of calendar quarter</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="END_OF_FIS_QUARTER" id="CBEE91FD-C705-2426-6056-2A187B7AE682">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>last day of fiscal quarter</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CALENDAR_QUARTER_NUMBER" id="0D1D2EE8-A5A3-773B-6289-D0BD2E875803">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>1 to 4, repeating</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>1</dataTypePrecision>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="FISCAL_QUARTER_NUMBER" id="67B787CE-939B-A90A-9565-D540D0DE3155">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>1 to 4, repeating</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>1</dataTypePrecision>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CALENDAR_YEAR" id="0D685E60-E7A4-FE84-EE40-6ED440FE240F">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>e.g. 1999, CORRECT ORDER</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CALENDAR_YEAR_ID" id="B210087C-962F-F2B9-CD4D-A00C1E243911">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="FISCAL_YEAR" id="28900D2E-EEBB-265C-17D2-CD432C1BCC9B">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>e.g. 1999, CORRECT ORDER</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="FISCAL_YEAR_ID" id="B665AF93-BF2C-694D-F585-4B47CFC26A12">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="DAYS_IN_CAL_YEAR" id="E2A10475-EEA2-F350-B83D-AA11AA0C5F50">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>365,366 repeating</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="DAYS_IN_FIS_YEAR" id="30B3221D-491C-A9E1-09A5-2E0FD21D78B4">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>e.g. 355,364, repeating</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="END_OF_CAL_YEAR" id="02EF65DB-77B5-9127-5A83-41915D599C51">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>last day of cal year</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="END_OF_FIS_YEAR" id="175A21B0-C76B-8D31-3AB0-56FFB49BBED7">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
+         <commentInRDBMS>last day of fiscal year</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="31F92048-14B1-3435-970B-CD62646326EA" name="TIMES_PK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:35 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:39 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="F09E0E0A-426D-A2D0-8146-CF8EB3774ABE"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

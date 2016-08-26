@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" id="460D3B6A-E02B-52E2-89D2-983D73A43C30" directorySegmentName="seg_0" name="PROFITS">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-18 12:29:10 UTC</changedTime>
+   <generatorID>5E20AD7D-95A4-D0CD-3020-5BCAA836B257</generatorID>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <userDefined>true</userDefined>
+   <userDefinedSQL>CREATE OR REPLACE VIEW PROFITS&amp;lt;br&amp;gt;AS &amp;lt;br&amp;gt;SELECT&amp;lt;br&amp;gt;	s.channel_id,&amp;lt;br&amp;gt;	s.cust_id,&amp;lt;br&amp;gt;	s.prod_id,&amp;lt;br&amp;gt;	s.promo_id,&amp;lt;br&amp;gt;	s.time_id,&amp;lt;br&amp;gt;	c.unit_cost,&amp;lt;br&amp;gt;	c.unit_price,&amp;lt;br&amp;gt;	s.amount_sold,&amp;lt;br&amp;gt;	s.quantity_sold,&amp;lt;br&amp;gt;	c.unit_cost * s.quantity_sold TOTAL_COST&amp;lt;br&amp;gt; FROM&amp;lt;br&amp;gt;	costs c, sales s&amp;lt;br&amp;gt; WHERE c.prod_id = s.prod_id&amp;lt;br&amp;gt;   AND c.time_id = s.time_id&amp;lt;br&amp;gt;   AND c.channel_id = s.channel_id&amp;lt;br&amp;gt;   AND c.promo_id = s.promo_id</userDefinedSQL>
+   <viewType>VIEW</viewType>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+   </fonts>
+   <viewElements>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="CHANNEL_ID" id="DE03FCDB-4AA9-E2DD-2D28-BC83D67E7C43">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>76DA29BF-63E5-DE74-32CA-DDF5AEC54513</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>CHANNEL_ID</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+         <viewID>460D3B6A-E02B-52E2-89D2-983D73A43C30</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="CUST_ID" id="A538DF4D-7ED0-A222-3B99-48747EFDAE4E">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>60B4C415-AA27-F7A5-D1CB-FA3C4CCB70AD</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>CUST_ID</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+         <viewID>460D3B6A-E02B-52E2-89D2-983D73A43C30</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="PROD_ID" id="AF734C8E-6863-7D3A-8F10-027878B2C6F4">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>27EACD7A-03AE-18F6-EA77-6B58B9EF27A3</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>PROD_ID</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+         <viewID>460D3B6A-E02B-52E2-89D2-983D73A43C30</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="PROMO_ID" id="BA993639-9DAA-450F-EA3D-CBED7ACA9121">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>1D88DB6E-3C16-2B6A-FB0E-89EB2AB84CD6</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>PROMO_ID</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+         <viewID>460D3B6A-E02B-52E2-89D2-983D73A43C30</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="TIME_ID" id="A3893A6E-E73D-A54A-EE2B-55C6D27E1172">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>6CB80560-F811-AC28-5523-44D3FB7DBDD7</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>TIME_ID</alias>
+         <dataType>DATE (7)</dataType>
+         <reference>false</reference>
+         <viewID>460D3B6A-E02B-52E2-89D2-983D73A43C30</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="UNIT_COST" id="9A550650-1699-CD87-09F3-BF4BDFF8EE7C">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>F29247E7-6C16-B14C-DE5D-A070D1F31C43</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>UNIT_COST</alias>
+         <dataType>NUMBER (10, 2)</dataType>
+         <reference>false</reference>
+         <viewID>460D3B6A-E02B-52E2-89D2-983D73A43C30</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="UNIT_PRICE" id="B26939F6-51AA-5B18-751D-28F1EE32A196">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>DFAFBD1D-FD86-6DA4-8955-1ACC6A2245D7</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>UNIT_PRICE</alias>
+         <dataType>NUMBER (10, 2)</dataType>
+         <reference>false</reference>
+         <viewID>460D3B6A-E02B-52E2-89D2-983D73A43C30</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="AMOUNT_SOLD" id="577301A6-9188-35AE-7162-EF7E9ECFA1DD">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>2D9E33C5-3B47-CA09-321B-FEB7E1FC7197</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>AMOUNT_SOLD</alias>
+         <dataType>NUMBER (10, 2)</dataType>
+         <reference>false</reference>
+         <viewID>460D3B6A-E02B-52E2-89D2-983D73A43C30</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="QUANTITY_SOLD" id="5A31EBFD-4373-3A90-D9E0-5373D51DAAD0">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>0087D31F-45DB-0524-1EB2-EE54CBB9ACD7</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>QUANTITY_SOLD</alias>
+         <dataType>NUMBER (10, 2)</dataType>
+         <reference>false</reference>
+         <viewID>460D3B6A-E02B-52E2-89D2-983D73A43C30</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="TOTAL_COST" id="2D7D3B5B-2886-B2C5-5E66-0A972EB2AA5C">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>CD700A02-1D8D-8B78-78A5-AFB3FDE65C09</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>TOTAL_COST</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+         <viewID>460D3B6A-E02B-52E2-89D2-983D73A43C30</viewID>
+      </viewElement>
+   </viewElements>
+</EntityView>

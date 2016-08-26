@@ -1,0 +1,197 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="DEE6E5DB-5E35-C098-CD09-31C36103F4B2" directorySegmentName="seg_0" name="JOB_HISTORY">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <importedID>85037ECE-8FDD-C14F-8EF4-9D7E8D25838D</importedID>
+   <pkName>JOB_HISTORY_PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="EMPLOYEE_ID" id="BA38F4D7-B3B0-C6FF-B095-4A41AFD85F79">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <commentInRDBMS>A not null column in the complex primary key employee_id+start_date.&amp;lt;br&amp;gt;Foreign key to employee_id column of the employee table</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>6</dataTypePrecision>
+         <delegate>3CAE3F8D-2339-F179-97F8-2A3B2F9E5444</delegate>
+         <associations>
+            <colAssociation fkAssociation="82D94D08-7B27-994B-0EB0-5EEA980983CC" referredColumn="3CAE3F8D-2339-F179-97F8-2A3B2F9E5444"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="START_DATE" id="6CD40E49-9E20-9883-AB45-0FC07E3BFEC3">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <commentInRDBMS>A not null column in the complex primary key employee_id+start_date. &amp;lt;br&amp;gt;Must be less than the end_date of the job_history table. (enforced by &amp;lt;br&amp;gt;constraint jhist_date_interval)</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="END_DATE" id="1E2DE478-BCD6-FA94-289A-EF3F082DB4FD">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <commentInRDBMS>Last day of the employee in this job role. A not null column. Must be &amp;lt;br&amp;gt;greater than the start_date of the job_history table. &amp;lt;br&amp;gt;(enforced by constraint jhist_date_interval)</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="JOB_ID" id="1C073981-293B-4029-CA0F-EEC3A5D0D919">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <commentInRDBMS>Job role in which the employee worked in the past; foreign key to &amp;lt;br&amp;gt;job_id column in the jobs table. A not null column.</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>10 BYTE</dataTypeSize>
+         <delegate>F9CFC716-D804-B1D7-C291-E08DA8B4424A</delegate>
+         <associations>
+            <colAssociation fkAssociation="8B9150A5-02DB-7DD2-A7ED-238550340A1F" referredColumn="F9CFC716-D804-B1D7-C291-E08DA8B4424A"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="DEPARTMENT_ID" id="33F1FA35-AD2F-904A-C5AD-1D85B7328C92">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>smharper</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <commentInRDBMS>Department id in which the employee worked in the past; foreign key to deparment_id column in the departments table</commentInRDBMS>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+         <delegate>C361EB61-C2C3-63C6-5A3F-D020C28B6201</delegate>
+         <associations>
+            <colAssociation fkAssociation="0D9ACB7F-D2D8-62CD-412F-299BBC2E90C2" referredColumn="C361EB61-C2C3-63C6-5A3F-D020C28B6201"/>
+         </associations>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="91F06A0D-D49F-03D7-4BDF-94E52B9938EC" name="JOB_HISTORY_PK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="BA38F4D7-B3B0-C6FF-B095-4A41AFD85F79"/>
+            <colUsage columnID="6CD40E49-9E20-9883-AB45-0FC07E3BFEC3"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="A7BA679A-33B4-CBB4-D1AE-7AE0EEACE5CA" name="JOB_HISTORY_DEPARTMENT_ID_IDX">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="33F1FA35-AD2F-904A-C5AD-1D85B7328C92"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="0D404EC7-E6E3-F968-E6A4-30DC1AB8E5A0" name="JOB_HISTORY_JOB_ID_IDX">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="1C073981-293B-4029-CA0F-EEC3A5D0D919"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="04CD619B-CF12-4236-4799-74977A6ECFA2" name="JOB_HISTORY_EMPLOYEE_ID_IDX">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="BA38F4D7-B3B0-C6FF-B095-4A41AFD85F79"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="74765575-EE8C-1128-DB82-97A58BB2E058" name="JOB_HISTORY_DEPARTMENTS_FK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="33F1FA35-AD2F-904A-C5AD-1D85B7328C92"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="B36420BA-C167-644B-2C39-EDD7AF67753E" name="JOB_HISTORY_EMPLOYEES_FK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="BA38F4D7-B3B0-C6FF-B095-4A41AFD85F79"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="D84A949A-486C-4E15-E352-FCC55C01316A" name="JOB_HISTORY_JOBS_FK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:37:43 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:37:43 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="1C073981-293B-4029-CA0F-EEC3A5D0D919"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+   <tableCheckConstraints>
+      <tableCheckConstraint class="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" name="JOB_HISTORY_CK" id="F9C78B5C-D77B-01B6-BEA8-58AA1AEE3133" directorySegmentName="seg_0">
+         <createdBy>smharper</createdBy>
+         <createdTime>2011-01-07 09:09:43 UTC</createdTime>
+         <changedBy>smharper</changedBy>
+         <changedTime>2011-01-07 09:09:43 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <rule>end_date &amp;gt; start_date</rule>
+      </tableCheckConstraint>
+   </tableCheckConstraints>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="WAREHOUSES_LOCATION_FK" id="810007C9-41F9-3D23-A4C3-D3C098FACD7E" directorySegmentName="seg_0">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+   <generatorID>CA7D141D-18B4-E3B3-CDCA-6DE203897E5A</generatorID>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <identifying>false</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>true</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>917C1D88-8D4F-8C7F-F30C-52FEA5D93310</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>B22C0D25-309A-9340-DFCD-EB449D0DABE7</targetEntity>
+   <transferable>true</transferable>
+</Relation>

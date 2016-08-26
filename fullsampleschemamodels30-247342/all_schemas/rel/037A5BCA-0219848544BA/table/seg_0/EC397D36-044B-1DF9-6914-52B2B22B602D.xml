@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="EC397D36-044B-1DF9-6914-52B2B22B602D" directorySegmentName="seg_0" name="CHANNELS">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-17 12:39:36 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-17 12:39:36 UTC</changedTime>
+   <generatorID>5B0669D1-1935-3AE7-F65E-37292030BF0F</generatorID>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <pkName>CHANNELS_PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CHANNEL_ID" id="A33998C8-9628-C3F9-7FAE-D5C6EEC9A1B4">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:39:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:39:36 UTC</changedTime>
+         <commentInRDBMS>primary key column</commentInRDBMS>
+         <generatorID>2AB4A220-4F9D-3E01-B021-61CE43E53C10</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CHANNEL_DESC" id="627A187C-5885-670B-F4BE-90F7EC085727">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:39:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:39:36 UTC</changedTime>
+         <commentInRDBMS>e.g. telesales, internet, catalog</commentInRDBMS>
+         <generatorID>E45188C6-8CE3-8C7F-D158-1F8B35B59AD6</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CHANNEL_CLASS" id="49F7530C-7C2E-90DC-A704-203CC3719E3E">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:39:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:39:36 UTC</changedTime>
+         <commentInRDBMS>e.g. direct, indirect</commentInRDBMS>
+         <generatorID>C3618530-6709-793D-B41B-8F81DD3AD742</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CHANNEL_CLASS_ID" id="4A94AAD3-764F-5A80-D5E0-4CF953A8FA8F">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:39:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:39:36 UTC</changedTime>
+         <generatorID>80FFB816-D6F6-8BBB-4C8C-A703C98C12D2</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CHANNEL_TOTAL" id="A85E388F-4F43-DDAA-55FA-07B69802E929">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:39:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:39:36 UTC</changedTime>
+         <generatorID>E52D4D08-724D-FFBD-D929-466E3E3E1B8B</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>13 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CHANNEL_TOTAL_ID" id="E9F105BC-4A6F-D283-BF6D-43DE834F6F30">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:39:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:39:36 UTC</changedTime>
+         <generatorID>86EB0054-36F6-2A5D-FC35-98DB15B505D4</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="797DE237-626C-5EB2-EF5C-81B33AE493FB" name="CHANNELS_PK">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:39:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:39:36 UTC</changedTime>
+         <generatorID>9B54A02E-58BB-62C4-563C-24C6DEB3046F</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="A33998C8-9628-C3F9-7FAE-D5C6EEC9A1B4"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

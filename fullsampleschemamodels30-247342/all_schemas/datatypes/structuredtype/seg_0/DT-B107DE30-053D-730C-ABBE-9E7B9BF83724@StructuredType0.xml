@@ -1,0 +1,297 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="SDO_GEOMETRYv1" id="DT-B107DE30-053D-730C-ABBE-9E7B9BF83724@StructuredType0" directorySegmentName="seg_0">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-17 12:24:13 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-17 12:25:27 UTC</changedTime>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <visible>false</visible>
+   <predefined>true</predefined>
+   <final>false</final>
+   <instantiable>true</instantiable>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16777056</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Method</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Instantiable</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Mandatory</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="SDO_GTYPE" id="0569C00B-EEB6-B3FC-3EA4-7AF192E445A4">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:26 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:26 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <mandatory>false</mandatory>
+         <precision>0</precision>
+         <reference>false</reference>
+         <scale>0</scale>
+         <size>0</size>
+         <type>LOGDT019</type>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="SDO_SRID" id="6E74A5E4-0732-0E1B-B400-5C6221046919">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:26 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:26 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <mandatory>false</mandatory>
+         <precision>0</precision>
+         <reference>false</reference>
+         <scale>0</scale>
+         <size>0</size>
+         <type>LOGDT019</type>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="SDO_POINT" id="F27707FD-5018-C2EC-0968-75C54E43F275">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:26 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <mandatory>false</mandatory>
+         <precision>0</precision>
+         <reference>false</reference>
+         <referencerelation>9883BA80-1F7F-1E1C-BBD7-32C3ED79EA80</referencerelation>
+         <scale>0</scale>
+         <size>0</size>
+         <type>E97DCA69-D5F5-0391-5B08-69D50246B57A</type>
+         <referenceID>9883BA80-1F7F-1E1C-BBD7-32C3ED79EA80</referenceID>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="SDO_ELEM_INFO" id="353E3436-217C-E050-0CDE-8BA660C1E62C">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <mandatory>false</mandatory>
+         <precision>0</precision>
+         <reference>false</reference>
+         <scale>0</scale>
+         <size>0</size>
+         <type>6194A2AD-9BF2-2017-8D63-140376DD99FF</type>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="SDO_ORDINATES" id="6C750FC1-0B0C-08FA-8F1D-1257DA2A4507">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <mandatory>false</mandatory>
+         <precision>0</precision>
+         <reference>false</reference>
+         <scale>0</scale>
+         <size>0</size>
+         <type>DBC5B7F7-6B40-7DBA-56AC-CBD66DA9B411</type>
+      </Attribute>
+   </attributes>
+   <methods>
+      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GET_GTYPE" id="D0C64F0B-F7DA-802A-C35F-4B5B1EF0C8BE">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <number>0</number>
+         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GET_GTYPE" id="null">
+            <precision>0</precision>
+            <reference>false</reference>
+            <scale>0</scale>
+            <size>0</size>
+            <typeID>LOGDT019</typeID>
+         </returnValue>
+      </Method>
+      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GET_DIMS" id="DC47F1B5-D04B-D334-03C4-8C8BE1FF68A0">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <number>0</number>
+         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GET_DIMS" id="null">
+            <precision>0</precision>
+            <reference>false</reference>
+            <scale>0</scale>
+            <size>0</size>
+            <typeID>LOGDT019</typeID>
+         </returnValue>
+      </Method>
+      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GET_LRS_DIM" id="DD4E2CC8-2FE4-1059-BB1F-DFC6B3FDDB31">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <number>0</number>
+         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GET_LRS_DIM" id="null">
+            <precision>0</precision>
+            <reference>false</reference>
+            <scale>0</scale>
+            <size>0</size>
+            <typeID>LOGDT019</typeID>
+         </returnValue>
+      </Method>
+      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GET_WKB" id="21041406-D2C9-FA4D-62DE-EA4D5FBF2869">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <number>0</number>
+         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GET_WKB" id="null">
+            <precision>0</precision>
+            <reference>false</reference>
+            <scale>0</scale>
+            <size>0</size>
+            <typeID>LOGDT029</typeID>
+         </returnValue>
+      </Method>
+      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GET_WKT" id="69C606B1-4631-5193-136A-EF265AAA266A">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <number>0</number>
+         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GET_WKT" id="null">
+            <precision>0</precision>
+            <reference>false</reference>
+            <scale>0</scale>
+            <size>0</size>
+            <typeID>LOGDT028</typeID>
+         </returnValue>
+      </Method>
+      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="ST_COORDDIM" id="2E16FF60-FEE4-0D7E-DD5C-634C772992B3">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <number>0</number>
+         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="ST_COORDDIM" id="null">
+            <precision>0</precision>
+            <reference>false</reference>
+            <scale>0</scale>
+            <size>0</size>
+            <typeID>LOGDT018</typeID>
+         </returnValue>
+      </Method>
+      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="ST_ISVALID" id="CCABA24F-8D35-4E27-AE62-86B02E677EC2">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <number>0</number>
+         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="ST_ISVALID" id="null">
+            <precision>0</precision>
+            <reference>false</reference>
+            <scale>0</scale>
+            <size>0</size>
+            <typeID>LOGDT011</typeID>
+         </returnValue>
+      </Method>
+      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="SDO_GEOMETRY" id="4A93F9FE-820A-BDD0-B466-18E74366BF7F">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <constructor>true</constructor>
+         <number>0</number>
+         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SDO_GEOMETRY" id="null">
+            <precision>0</precision>
+            <reference>false</reference>
+            <scale>0</scale>
+            <size>0</size>
+            <typeID>DT-B107DE30-053D-730C-ABBE-9E7B9BF83724@StructuredType0</typeID>
+         </returnValue>
+         <parameters>
+            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="WKT" id="E4E7B2C6-9DC0-11E9-9000-05D0EA738A46">
+               <precision>0</precision>
+               <reference>false</reference>
+               <scale>0</scale>
+               <size>0</size>
+               <typeID>LOGDT028</typeID>
+            </Parameter>
+            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SRID" id="054AC72C-2F7B-A927-0B39-DFD6795F8EE2">
+               <precision>0</precision>
+               <reference>false</reference>
+               <scale>0</scale>
+               <size>0</size>
+               <typeID>LOGDT011</typeID>
+            </Parameter>
+         </parameters>
+      </Method>
+      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="SDO_GEOMETRY" id="5E60997D-1A9D-B0C9-6B10-1887BA26E796">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <constructor>true</constructor>
+         <number>0</number>
+         <parameters>
+            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="WKT" id="E13BA94E-B2B0-38A1-8649-831F944173E0">
+               <precision>0</precision>
+               <reference>false</reference>
+               <scale>0</scale>
+               <size>0</size>
+               <typeID>LOGDT024</typeID>
+            </Parameter>
+            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SRID" id="4EF41830-0818-5394-6F21-8D65581B7F88">
+               <precision>0</precision>
+               <reference>false</reference>
+               <scale>0</scale>
+               <size>0</size>
+               <typeID>LOGDT011</typeID>
+            </Parameter>
+         </parameters>
+      </Method>
+      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="SDO_GEOMETRY" id="03A0668C-1254-9606-5BEB-C1CF32532B4C">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <constructor>true</constructor>
+         <number>0</number>
+         <parameters>
+            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="WKB" id="07EFEA1F-1E1F-C4E3-B75D-31A224F8CE69">
+               <precision>0</precision>
+               <reference>false</reference>
+               <scale>0</scale>
+               <size>0</size>
+               <typeID>LOGDT029</typeID>
+            </Parameter>
+            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SRID" id="D6FD4815-712E-8F69-DEDC-962CC6179EB2">
+               <precision>0</precision>
+               <reference>false</reference>
+               <scale>0</scale>
+               <size>0</size>
+               <typeID>LOGDT011</typeID>
+            </Parameter>
+         </parameters>
+      </Method>
+   </methods>
+</StructuredType>

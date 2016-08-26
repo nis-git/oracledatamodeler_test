@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COSTS_TIME_FK" id="B8768BDD-03C6-1F49-28CC-07F00E614FCA" directorySegmentName="seg_0">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+   <generatorID>E48444FD-0899-07E0-3DD4-A7212EF1ECC3</generatorID>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <identifying>false</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>false</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>AA211A68-F484-5A49-F686-76FAC2A16607</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>20C8685B-C3BC-EF71-B9BC-6C994E6C4D21</targetEntity>
+   <transferable>true</transferable>
+</Relation>

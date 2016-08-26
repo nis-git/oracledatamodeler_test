@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Level class="oracle.dbtools.crest.model.design.multidimensional.Level" name="PRODUCT" id="89CA2761-D193-5F58-1D43-2AF1692604A3" directorySegmentName="seg_0">
+   <createdBy>pstoyano</createdBy>
+   <createdTime>2009-07-01 16:57:26 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2009-07-01 16:57:26 UTC</changedTime>
+   <generatorID>D136D7A4-AE47-B503-25D2-0F5AB5408FC3</generatorID>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <nameInOracleAW>PRODUCT</nameInOracleAW>
+   <levelEntity>7DDBC3B3-89AC-983C-3DEB-94DE01717E43</levelEntity>
+   <rootIdentification>ParentIsBlankSelfOrMissing</rootIdentification>
+   <valueBasedHierarchy>false</valueBasedHierarchy>
+   <oraAWAttributes class="oracle.dbtools.crest.model.design.multidimensional.Level$OraAWAttributes"/>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Level Entity</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Type</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Function</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <levelKey>
+      <attribute>78033711-7B13-1521-F0B4-C84C5B382844</attribute>
+   </levelKey>
+   <descriptiveAttributes>
+      <descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="PROD_NAME" id="34B35F5D-0037-4285-58EC-E32A3481F4BE">
+         <attribute>FD3D7A63-4D39-200A-550D-68C98FD11ACE</attribute>
+         <classification>USER</classification>
+         <indexed>false</indexed>
+         <type>NONE</type>
+      </descrAttribute>
+      <descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="PROD_DESC" id="EB8A571A-671A-0808-2427-3365229077A9">
+         <attribute>DD2880CC-2CF0-67C4-B38F-4E7FCEDD6AD2</attribute>
+         <classification>USER</classification>
+         <indexed>false</indexed>
+         <type>NONE</type>
+      </descrAttribute>
+      <descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="PROD_WEIGHT_CLASS" id="ED6A04D9-4B01-46B8-174A-626019CB44EE">
+         <attribute>E82C4651-C087-B832-A5D8-821D2E9571AB</attribute>
+         <classification>USER</classification>
+         <indexed>false</indexed>
+         <type>NONE</type>
+      </descrAttribute>
+      <descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="PROD_UNIT_OF_MEASURE" id="1E0A8D5D-D751-08AF-A131-547E0F52A6C1">
+         <attribute>31F0412C-5396-3D71-5050-1E4B494C07AF</attribute>
+         <classification>USER</classification>
+         <indexed>false</indexed>
+         <type>NONE</type>
+      </descrAttribute>
+      <descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="PROD_PACK_SIZE" id="D3B2C9F5-7C02-427C-AC7D-98C7FDB1A185">
+         <attribute>11262AA3-0B84-C7C5-BD99-B26E2BFD1C81</attribute>
+         <classification>USER</classification>
+         <indexed>false</indexed>
+         <type>NONE</type>
+      </descrAttribute>
+      <descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="PROD_STATUS" id="F262D81E-8EA8-2D80-5825-FF7902F22294">
+         <attribute>105281CB-EC01-B34D-4B62-E470B1356C3D</attribute>
+         <classification>USER</classification>
+         <indexed>false</indexed>
+         <type>NONE</type>
+      </descrAttribute>
+      <descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="PROD_LIST_PRICE" id="79FCAB0C-82A6-7ED0-D9CA-00C243B439D7">
+         <attribute>F8B12476-6F25-925E-2F3D-FB944BEFB21A</attribute>
+         <classification>USER</classification>
+         <indexed>false</indexed>
+         <type>NONE</type>
+      </descrAttribute>
+      <descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="PROD_MIN_PRICE" id="246215D6-C858-AD9E-1F90-0697910E6A91">
+         <attribute>916DFDBF-37D3-CCA8-163F-B7FECD8D9E8B</attribute>
+         <classification>USER</classification>
+         <indexed>false</indexed>
+         <type>NONE</type>
+      </descrAttribute>
+   </descriptiveAttributes>
+</Level>

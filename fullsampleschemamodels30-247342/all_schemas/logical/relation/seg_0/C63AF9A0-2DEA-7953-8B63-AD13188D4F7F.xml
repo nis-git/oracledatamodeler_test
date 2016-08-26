@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COUNTR_REG_FK" id="C63AF9A0-2DEA-7953-8B63-AD13188D4F7F" directorySegmentName="seg_0">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+   <generatorID>4E60D625-AD9A-2523-FD47-8F4FACE7B772</generatorID>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <identifying>false</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>true</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>CE7EDFB1-74BC-9CB7-6DDA-67F4C9503488</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>CEEC9063-E683-C9E3-5E7A-F99AC8429FB3</targetEntity>
+   <transferable>true</transferable>
+</Relation>

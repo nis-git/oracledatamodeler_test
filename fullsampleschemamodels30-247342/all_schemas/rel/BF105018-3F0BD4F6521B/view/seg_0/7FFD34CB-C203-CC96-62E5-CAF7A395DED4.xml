@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" id="7FFD34CB-C203-CC96-62E5-CAF7A395DED4" directorySegmentName="seg_0" name="SALES_VIEW">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <schemaObject>92D7A384-7405-004C-11BA-2BF5FDFC8C3C</schemaObject>
+   <userDefined>true</userDefined>
+   <userDefinedSQL>CREATE OR REPLACE VIEW SALES_VIEW&amp;lt;br&amp;gt;AS &amp;lt;br&amp;gt;SELECT country_name country,&amp;lt;br&amp;gt;         prod_name prod,&amp;lt;br&amp;gt;         calendar_year year,&amp;lt;br&amp;gt;         SUM(amount_sold) sale,&amp;lt;br&amp;gt;         COUNT(amount_sold) cnt&amp;lt;br&amp;gt;    FROM sales,times,customers,countries,products&amp;lt;br&amp;gt;    WHERE sales.time_id = times.time_id AND&amp;lt;br&amp;gt;          sales.prod_id = products.prod_id AND&amp;lt;br&amp;gt;          sales.cust_id = customers.cust_id AND&amp;lt;br&amp;gt;          customers.country_id = countries.country_id AND&amp;lt;br&amp;gt;          ( customers.country_id = 52779 OR &amp;lt;br&amp;gt;            customers.country_id = 52776 ) AND&amp;lt;br&amp;gt;          ( prod_name = &amp;apos;Standard Mouse&amp;apos; OR&amp;lt;br&amp;gt;            prod_name = &amp;apos;Mouse Pad&amp;apos; )&amp;lt;br&amp;gt;    GROUP BY country_name,prod_name,calendar_year</userDefinedSQL>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+   </fonts>
+   <viewElements>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COUNTRY" id="C3CEECC6-774D-305F-70A1-9FC5B2E49F8F">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>COUNTRY</alias>
+         <dataType>VARCHAR2 (40)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PROD" id="CFC32BF2-1E4C-CDBD-AF19-90E172BDF630">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>PROD</alias>
+         <dataType>VARCHAR2 (50)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="YEAR" id="71752653-5746-BFE0-B508-2702FA99866E">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>YEAR</alias>
+         <dataType>NUMBER (4)</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="SALE" id="D9AC2A92-E3F6-BA9C-9A04-D419D0B36D20">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>SALE</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="CNT" id="082FEB0B-8804-C195-EBCE-30979C42F2A1">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-17 12:25:42 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-17 12:25:42 UTC</changedTime>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>CNT</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+      </viewElement>
+   </viewElements>
+</TableView>

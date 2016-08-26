@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DataTypesDesign class="oracle.dbtools.crest.model.design.datatypes.DataTypesDesign" name="DataTypes" id="DT-B107DE30-053D-730C-ABBE-9E7B9BF83724" mainViewID="21DB5D9C-69A3-95D5-C882-0F9C15FEBBC1">
+   <createdBy>smharper</createdBy>
+   <createdTime>2011-01-07 09:09:35 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2011-01-07 09:09:35 UTC</changedTime>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <shouldBeOpen>false</shouldBeOpen>
+</DataTypesDesign>

@@ -1,0 +1,497 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" id="60CD20D9-ED67-4311-93A3-24F0E1BF4DA7" directorySegmentName="seg_0" name="AQ$_STREAMS_QUEUE_TABLE_F">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-18 12:29:10 UTC</changedTime>
+   <generatorID>8214BB8F-6B2A-18EB-E207-49DB7A89E69A</generatorID>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <userDefined>true</userDefined>
+   <userDefinedSQL>CREATE OR REPLACE VIEW AQ$_STREAMS_QUEUE_TABLE_F&amp;lt;br&amp;gt;AS &amp;lt;br&amp;gt;SELECT qt.q_name Q_NAME, qt.rowid ROW_ID, qt.msgid MSGID, qt.corrid CORRID, qt.priority PRIORITY, qt.state STATE, qt.delay DELAY, qt.expiration EXPIRATION, qt.enq_time ENQ_TIME, qt.enq_uid ENQ_UID, qt.enq_tid ENQ_TID, qt.deq_time DEQ_TIME, qt.deq_uid DEQ_UID, qt.deq_tid DEQ_TID, qt.retry_count RETRY_COUNT, qt.exception_qschema EXCEPTION_QSCHEMA, qt.exception_queue EXCEPTION_QUEUE, qt.cscn CSCN, qt.dscn DSCN, qt.chain_no CHAIN_NO, qt.local_order_no LOCAL_ORDER_NO, qt.time_manager_info TIME_MANAGER_INFO, qt.step_no STEP_NO, qt.user_data USER_DATA, qt.sender_name SENDER_NAME, qt.sender_address SENDER_ADDRESS, qt.sender_protocol SENDER_PROTOCOL, qt.dequeue_msgid DEQUEUE_MSGID, &amp;apos;PERSISTENT&amp;apos; DELIVERY_MODE, 0 SEQUENCE_NUM, 0 MSG_NUM, qo.qid QUEUE_ID, qt.user_prop USER_PROP, iot.subscriber# SUBSCRIBER_ID, iot.name SUBSCRIBER_NAME, iot.queue# QUEUE_EVTID FROM &amp;quot;STREAMS_QUEUE_TABLE&amp;quot; qt, &amp;quot;AQ$_STREAMS_QUEUE_TABLE_I&amp;quot; iot, USER_AQ_AGENT_PRIVS up, ALL_DEQUEUE_QUEUES qo  WHERE qt.msgid=iot.msgid  and (iot.name = up.agent_name or  iot.subscriber# = (select s.subscriber_id from &amp;quot;AQ$_STREAMS_QUEUE_TABLE_S&amp;quot; s  where s.name = up.agent_name and  bitand(s.subscriber_type, 8) = 0)) and qt.q_name = qo.name  AND qo.owner = &amp;apos;IX&amp;apos; WITH READ ONLY</userDefinedSQL>
+   <viewType>VIEW</viewType>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+   </fonts>
+   <viewElements>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="Q_NAME" id="2D0420CC-9D90-403E-C62F-8B0DC9600AFE">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>2B3AD4CE-1B50-8522-AF5F-110F96C3EDB4</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>Q_NAME</alias>
+         <dataType>VARCHAR2 (30)</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ROW_ID" id="B353C339-FEF3-9331-9A90-364EE6484073">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>F1B922C5-93F1-42CB-2071-1585C0BFCB4B</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>ROW_ID</alias>
+         <dataType>ROWID (10)</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="MSGID" id="99AEE4E6-30E0-AD47-D3FD-3A44757EA462">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>FF7B66B1-9559-0846-BCA2-FD455F6A3220</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>MSGID</alias>
+         <dataType>RAW (16)</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="CORRID" id="B9241C0E-960E-BB49-D202-B1A1F501D113">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>41F13F49-8B17-DF30-1DA6-B57C46CB2952</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>CORRID</alias>
+         <dataType>VARCHAR2 (128)</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="PRIORITY" id="232C6EB6-2CA7-5630-E184-F389696F5EEE">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>2032301A-B8D9-6CF4-1F3E-B0311B9E2E9C</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>PRIORITY</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="STATE" id="0203D794-C602-4F13-95E9-AC6C48D86C44">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>026EF50B-A68E-700F-215D-7122A4BCEBD0</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>STATE</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="DELAY" id="503B761C-4F56-B979-D6E7-00AFC28F25EF">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>9443C000-5184-C5E8-94E5-057BA5842D41</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>DELAY</alias>
+         <dataType>TIMESTAMP(6) (11, 6)</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="EXPIRATION" id="2DEE4E20-FBB4-F7C0-BE5D-6011BF454120">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>CC01FE21-70E8-DC1A-D59E-088D30764017</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>EXPIRATION</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ENQ_TIME" id="5C132238-20C8-97FF-E8B3-6CB633A5A8D5">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>8A1DFE1C-D7B6-C9BE-D8D2-CF998CBA55F0</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>ENQ_TIME</alias>
+         <dataType>TIMESTAMP(6) (11, 6)</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ENQ_UID" id="1221FEC6-111D-F593-11B2-1EBBD754EFCA">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>DAA89576-4256-3470-DA74-C453AA59D54B</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>ENQ_UID</alias>
+         <dataType>VARCHAR2 (30)</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ENQ_TID" id="07728993-0F37-7971-22B9-7F7B5C913BED">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>32E007E6-C761-0EE4-D678-D108C2F099C6</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>ENQ_TID</alias>
+         <dataType>VARCHAR2 (30)</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="DEQ_TIME" id="10D71A69-CE91-2B7B-14DE-4F093AD2E930">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>CFB71404-D91E-D079-D0F0-0223FBCCB925</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>DEQ_TIME</alias>
+         <dataType>TIMESTAMP(6) (11, 6)</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="DEQ_UID" id="269C6336-376A-45EB-D25E-33A71E2ABAEF">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>A39A9A6E-511B-91CA-33AA-7D50721F2BDE</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>DEQ_UID</alias>
+         <dataType>VARCHAR2 (30)</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="DEQ_TID" id="23FEE4C6-D4CA-05E1-783C-AC9E1FE09F25">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>C0ED5EF4-BD77-F74D-12EB-97EC4D717FA9</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>DEQ_TID</alias>
+         <dataType>VARCHAR2 (30)</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="RETRY_COUNT" id="14A9D69C-381F-04D9-7E68-595BE0CD12F8">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>278F87BD-118F-1CBF-51D9-62AFBD825A14</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>RETRY_COUNT</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="EXCEPTION_QSCHEMA" id="5F182862-AD39-258E-0F1C-98D35344CBCF">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>4E6BC4C5-66F8-0973-6FDA-51B5FF71C833</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>EXCEPTION_QSCHEMA</alias>
+         <dataType>VARCHAR2 (30)</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="EXCEPTION_QUEUE" id="C1D2696A-75DB-7CA7-87D1-2B5BDAD24FE1">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>DB66FC24-75B2-D4BC-6F47-BDD68313267B</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>EXCEPTION_QUEUE</alias>
+         <dataType>VARCHAR2 (30)</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="CSCN" id="222B49DC-FC63-7FF7-27CC-2F3F86810E2E">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>441218CC-D2C8-C295-A28F-F76880AF881E</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>CSCN</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="DSCN" id="DA6DF27A-54A1-2340-0B8D-06A8B2CE0B7F">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>ABE3D8C3-559F-3A9D-DE1A-A70904E10599</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>DSCN</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="CHAIN_NO" id="F26A1D3D-2E70-0418-7B88-A47D222D17B6">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>B55DA26E-E9C8-0AAB-29CB-A140F599F09F</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>CHAIN_NO</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="LOCAL_ORDER_NO" id="6B03ED4B-EC51-442B-CEAD-86A154155346">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>1BA45F3F-BB6C-63B0-7638-B3EF9C0CCF35</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>LOCAL_ORDER_NO</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="TIME_MANAGER_INFO" id="DDC5A501-A039-4C18-FD08-FBAC0FF53B41">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>AF967967-2648-68A3-BD3F-E9BF2B607A95</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>TIME_MANAGER_INFO</alias>
+         <dataType>TIMESTAMP(6) (11, 6)</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="STEP_NO" id="20950CF4-E0D0-0BC4-27AB-109C1A8D55E8">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>0335081D-3E35-9899-487D-76BED8B5CFD8</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>STEP_NO</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="USER_DATA" id="52BC6A2E-9D8F-76AD-1633-CAACC82B17CE">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>01AD7731-92E2-EAE9-B065-FC9A1C466076</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>USER_DATA</alias>
+         <dataType>ANYDATA (40)</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="SENDER_NAME" id="8F743293-6E8A-29B4-279C-57C2AC5F9F2E">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>ECD1F0D4-2DBF-4E0F-730F-90E398C54CAF</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>SENDER_NAME</alias>
+         <dataType>VARCHAR2 (30)</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="SENDER_ADDRESS" id="BBE2BD44-FF8D-68EB-80B4-83697E8B37C9">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>F4D9E55C-5272-4AD6-E340-1E31C3CC46BF</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>SENDER_ADDRESS</alias>
+         <dataType>VARCHAR2 (1024)</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="SENDER_PROTOCOL" id="FF3217A4-319B-D53A-DE8D-61FC71EF6671">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>33E02C7E-4F4D-F210-D4C3-954A141E1227</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>SENDER_PROTOCOL</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="DEQUEUE_MSGID" id="3367969C-4FFE-468E-BAA5-F2A341CE0526">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>C3374EC2-0049-330F-2BC9-0FBF123B5D89</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>DEQUEUE_MSGID</alias>
+         <dataType>RAW (16)</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="DELIVERY_MODE" id="8FCD9736-C434-BF3F-5B15-E57F356833DB">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>706C4230-285B-B5FE-CA29-F3FFA5417CA3</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>DELIVERY_MODE</alias>
+         <dataType>CHAR (10)</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="SEQUENCE_NUM" id="23A57529-971C-2581-730B-7BD687C0C7CD">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>6EFBB710-946C-2020-C587-B901977855AC</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>SEQUENCE_NUM</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="MSG_NUM" id="EED13E40-C3E3-7757-2488-8FBA6A874CAE">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>923CC12B-C726-2D87-10FC-C79BB93E616A</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>MSG_NUM</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="QUEUE_ID" id="C34DD440-F448-5FD5-8F4F-62648F5EC9E2">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>0E5631CD-01D7-500F-39E3-328533556488</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>QUEUE_ID</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="USER_PROP" id="21C9D987-2F32-77F3-E141-2003B7EF25FF">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>FFBE6563-ADA5-1AC2-3CB8-670D6E4228E5</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>USER_PROP</alias>
+         <dataType>ANYDATA (40)</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="SUBSCRIBER_ID" id="3B9DB8A5-2206-EE67-D372-748E7A4F1777">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>7EF43E0D-9709-C9A4-2AED-34CDE6FBA72C</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>SUBSCRIBER_ID</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="SUBSCRIBER_NAME" id="A32A2B0B-0B61-CF0E-5221-CAD742E60E2D">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>7C827D87-7D08-B65B-8EC5-85766443A02B</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>SUBSCRIBER_NAME</alias>
+         <dataType>VARCHAR2 (30)</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+      <viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="QUEUE_EVTID" id="28765087-AE93-7D9A-F70C-BD417BE21374">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>8E84886D-8707-7FF5-9BEE-AA7406CE021F</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <alias>QUEUE_EVTID</alias>
+         <dataType>NUMBER</dataType>
+         <reference>false</reference>
+         <viewID>60CD20D9-ED67-4311-93A3-24F0E1BF4DA7</viewID>
+      </viewElement>
+   </viewElements>
+</EntityView>

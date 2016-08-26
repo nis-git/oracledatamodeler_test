@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="5B4B62A6-B09D-DC04-7414-716A3629BBB1" directorySegmentName="seg_0" name="SUM_SALES">
+   <createdBy>Administrator</createdBy>
+   <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+   <changedBy>smharper</changedBy>
+   <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+   <generatorID>53351FA5-C8DD-8D1F-0336-1F96256F014D</generatorID>
+   <ownerDesignName>all_schemas</ownerDesignName>
+   <typeID>4</typeID>
+   <adequatelyNormalized>NO</adequatelyNormalized>
+   <expectedVolumes>0</expectedVolumes>
+   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+   <growthPercent>0</growthPercent>
+   <growthType>Year</growthType>
+   <maxVolumes>9999999</maxVolumes>
+   <minVolumes>0</minVolumes>
+   <normalForm>Third</normalForm>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="PROD_ID" id="B1DC404C-0914-D796-1773-B253F4DF43C4">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>4F6C6183-FB17-96F6-3F67-9A1625780E32</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="TIME_ID" id="4B9A5A30-3FF3-7B6A-70B0-956C336B6CAD">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>9B8AC9C7-B3A9-65F1-3378-E545324279F7</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="COUNT_GRP" id="8C093CE7-36D5-0792-3C8C-C1343125D192">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>685AAD23-5501-DA1B-FE90-1EB68BCBBE44</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <formulaDesc>COUNT(*)</formulaDesc>
+         <nullsAllowed>true</nullsAllowed>
+         <sourceType>Aggregate</sourceType>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="SUM_DOLLAR_SALES" id="7FDD3794-4136-0FB2-DE65-6E1014644438">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>B5324DE0-FB72-5904-B9C1-E3E15C785C61</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <formulaDesc>SUM(&amp;quot;SH&amp;quot;.&amp;quot;S&amp;quot;.&amp;quot;AMOUNT_SOLD&amp;quot;)</formulaDesc>
+         <nullsAllowed>true</nullsAllowed>
+         <sourceType>Aggregate</sourceType>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="COUNT_DOLLAR_SALES" id="9DD0E263-7110-FD2A-DA85-8DBA10BCC5C0">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>EE5B7091-0901-02A5-D739-990C85A68838</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <formulaDesc>COUNT(&amp;quot;SH&amp;quot;.&amp;quot;S&amp;quot;.&amp;quot;AMOUNT_SOLD&amp;quot;)</formulaDesc>
+         <nullsAllowed>true</nullsAllowed>
+         <sourceType>Aggregate</sourceType>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="SUM_QUANTITY_SALES" id="30A2993B-F36E-2FDF-F777-A6AAD8736F1C">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>16F6813E-690F-41FF-6D95-3F48F255CA0D</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <formulaDesc>SUM(&amp;quot;SH&amp;quot;.&amp;quot;S&amp;quot;.&amp;quot;QUANTITY_SOLD&amp;quot;)</formulaDesc>
+         <nullsAllowed>true</nullsAllowed>
+         <sourceType>Aggregate</sourceType>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="COUNT_QUANTITY_SALES" id="3D3473D8-0E6A-49C4-3E27-FDE4807596C4">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
+         <changedBy>Administrator</changedBy>
+         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
+         <generatorID>698E9AFE-D2F8-F9D6-2851-E7F1F6B912DA</generatorID>
+         <ownerDesignName>all_schemas</ownerDesignName>
+         <formulaDesc>COUNT(&amp;quot;SH&amp;quot;.&amp;quot;S&amp;quot;.&amp;quot;QUANTITY_SOLD&amp;quot;)</formulaDesc>
+         <nullsAllowed>true</nullsAllowed>
+         <sourceType>Aggregate</sourceType>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Attribute>
+   </attributes>
+</Entity>
