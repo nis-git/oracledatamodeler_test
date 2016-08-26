@@ -1,66 +1,33 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="MESSAGE_TYP" id="56B74DB5-8A2A-64F3-DBA9-141017DC75D7" directorySegmentName="seg_0">
-   <createdBy>Administrator</createdBy>
-   <createdTime>2008-11-17 12:25:26 UTC</createdTime>
-   <changedBy>smharper</changedBy>
-   <changedTime>2008-11-17 12:25:26 UTC</changedTime>
-   <ownerDesignName>all_schemas</ownerDesignName>
-   <predefined>false</predefined>
-   <final>true</final>
-   <instantiable>true</instantiable>
-   <fonts>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Title</foType>
-         <fontStyle>1</fontStyle>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Attribute</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Datatype</foType>
-         <colorRGB>-16777056</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Method</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Not Instantiable</foType>
-         <colorRGB>-65536</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Mandatory</foType>
-         <colorRGB>-65536</colorRGB>
-      </FontObject>
-   </fonts>
-   <attributes>
-      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="SUBJECT" id="840F9FF5-28F1-64F3-FBAB-BCF527944F68">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:26 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:26 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <mandatory>false</mandatory>
-         <precision>0</precision>
-         <reference>false</reference>
-         <scale>0</scale>
-         <size>30</size>
-         <type>LOGDT024</type>
-      </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="TEXT" id="42587388-9FA0-60E9-E453-344CC622C9CB">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:26 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:26 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <mandatory>false</mandatory>
-         <precision>0</precision>
-         <reference>false</reference>
-         <scale>0</scale>
-         <size>80</size>
-         <type>LOGDT024</type>
-      </Attribute>
-   </attributes>
+<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="MESSAGE_TYP" directorySegmentName="seg_0" id="56B74DB5-8A2A-64F3-DBA9-141017DC75D7">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:26 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<predefined>false</predefined>
+<final>true</final>
+<instantiable>true</instantiable>
+<attributes itemClass="oracle.dbtools.crest.model.design.datatypes.TypeElement">
+<Attribute name="SUBJECT" id="840F9FF5-28F1-64F3-FBAB-BCF527944F68">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:26 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>30</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="TEXT" id="42587388-9FA0-60E9-E453-344CC622C9CB">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:26 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>80</size>
+<type>LOGDT024</type>
+</Attribute>
+</attributes>
 </StructuredType>

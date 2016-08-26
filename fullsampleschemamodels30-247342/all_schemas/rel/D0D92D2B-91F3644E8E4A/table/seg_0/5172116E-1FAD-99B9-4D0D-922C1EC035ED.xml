@@ -1,260 +1,217 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" id="5172116E-1FAD-99B9-4D0D-922C1EC035ED" directorySegmentName="seg_0" name="CUSTOMERS">
-   <createdBy>Administrator</createdBy>
-   <createdTime>2008-11-18 12:29:10 UTC</createdTime>
-   <changedBy>smharper</changedBy>
-   <changedTime>2008-11-18 12:29:10 UTC</changedTime>
-   <generatorID>2CFC0AA7-481A-C8CA-15FD-7E546FAFC72F</generatorID>
-   <ownerDesignName>all_schemas</ownerDesignName>
-   <pkName>CUSTOMERS_PK</pkName>
-   <fonts>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Title</foType>
-         <fontStyle>1</fontStyle>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Column</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Datatype</foType>
-         <colorRGB>-16744448</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>PK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>FK Element</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>UK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Not Null</foType>
-         <colorRGB>-65536</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Key</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-   </fonts>
-   <columns>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CUSTOMER_ID" id="045775BB-9C06-55FF-529D-EAE10357DA77">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
-         <generatorID>34B6F5E0-3303-535D-DF8A-DE3E60C5D38E</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <useDomainConstraints>false</useDomainConstraints>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>6</dataTypePrecision>
-         <checkConstraint>
-            <implementationDef dbType="Oracle Database 10g" definition="customer_id > 0"/>
-         </checkConstraint>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CUST_FIRST_NAME" id="8726E353-2CD7-FE03-BCFB-F1E06B51DFFE">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
-         <generatorID>58BF5921-1BC5-6A3E-0DF1-5D618D70AFF9</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>20 BYTE</dataTypeSize>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CUST_LAST_NAME" id="323507FD-95AB-FB8E-559D-7225BC6D6DAC">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
-         <generatorID>3D77D65C-5D2B-54B8-598D-7E65F998283D</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>20 BYTE</dataTypeSize>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CUST_ADDRESS" id="C70EE3FB-A3BB-8056-3B56-538564FA743A">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
-         <generatorID>EBD64F9D-C52F-CA60-2C53-FAFCFA11D02C</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <structuredType>27EEB3C3-4630-9227-E6E6-92A40FFAFA93</structuredType>
-         <use>3</use>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="PHONE_NUMBERS" id="55D41690-7859-C51D-B20D-1ECBDE262E5F">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
-         <generatorID>60561476-D8F5-9916-1E44-682003FFC9F8</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <collectionType>6A84652E-E6BC-EB77-E843-C67570AFEE6F</collectionType>
-         <nullsAllowed>true</nullsAllowed>
-         <use>4</use>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="NLS_LANGUAGE" id="5177F8AC-EF66-164C-3510-511FF143EA80">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
-         <generatorID>9E7173D0-2830-8775-39B2-F5C9B92E8F26</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>3 BYTE</dataTypeSize>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="NLS_TERRITORY" id="F10164DC-92EB-8B96-E279-0A2095A18293">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
-         <generatorID>C38BBD47-60E4-0481-0AFC-D78AE08E5A00</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>30 BYTE</dataTypeSize>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CREDIT_LIMIT" id="928FD32A-98C5-5F39-C3FB-A1A1C714C162">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
-         <generatorID>E93CFF8C-2FF2-B067-E941-04EED22E22C2</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <useDomainConstraints>false</useDomainConstraints>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>9</dataTypePrecision>
-         <dataTypeScale>2</dataTypeScale>
-         <checkConstraint>
-            <implementationDef dbType="Oracle Database 10g" definition="credit_limit &lt;= 5000"/>
-         </checkConstraint>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CUST_EMAIL" id="C56A2688-3832-AFE7-2DA5-1583ADC2166E">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
-         <generatorID>18AD4C68-0458-F7E6-A0B6-C1EBF38F7AA2</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>30 BYTE</dataTypeSize>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ACCOUNT_MGR_ID" id="2152638F-22C8-2F91-3853-832B3EB5517F">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
-         <generatorID>71383CB1-4759-FDE2-5E4A-8B9C9DE7A707</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>6</dataTypePrecision>
-         <delegate>AF85FBD1-F45B-CEDC-EB1C-41F2FFB7E9FC</delegate>
-         <previousColumn>false</previousColumn>
-         <associations>
-            <colAssociation fkAssociation="BEF54B8B-E756-31B0-0FC2-2105AAA32BA1" referredColumn="AF85FBD1-F45B-CEDC-EB1C-41F2FFB7E9FC"/>
-         </associations>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CUST_GEO_LOCATION" id="A15E372C-C3E3-6B2C-48CC-CD9DCA081640">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
-         <generatorID>00875940-3D8A-6628-BFC1-37799A4DDFA2</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <structuredType>DT-B107DE30-053D-730C-ABBE-9E7B9BF83724@StructuredType0</structuredType>
-         <use>3</use>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="DATE_OF_BIRTH" id="9F304409-195A-DD8B-E8D4-708944271423">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
-         <generatorID>2FD14A05-9EB6-0B65-32B5-5F36BE94D508</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT007</logicalDatatype>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="MARITAL_STATUS" id="2B699710-338E-1EBC-C800-3579BE144205">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
-         <generatorID>73ADE531-A407-98CB-C018-D202E0802908</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>20 BYTE</dataTypeSize>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="GENDER" id="FAF8E739-D9AD-8FC8-3585-AF67F957CA6F">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
-         <generatorID>EF2CF307-4676-EAF4-AB96-DC19F0D8D2EC</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>1 BYTE</dataTypeSize>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="INCOME_LEVEL" id="AFBEE051-1665-8321-5A35-D47BDD88B7E2">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
-         <generatorID>1538086E-55A3-15D5-F0D6-B225491929FE</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>20 BYTE</dataTypeSize>
-      </Column>
-   </columns>
-   <indexes>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="BF61C8C8-3384-6870-7C74-88263AC2F82C" name="CUSTOMERS_PK">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
-         <generatorID>0151BC9C-EE0D-0253-63F9-CAD95BE1D536</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <pk>true</pk>
-         <indexState>Primary Constraint</indexState>
-         <indexColumnUsage>
-            <colUsage columnID="045775BB-9C06-55FF-529D-EAE10357DA77"/>
-         </indexColumnUsage>
-      </ind_PK_UK>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="96CC6B18-BC65-34F3-FDB8-3B9ACB3037A0" name="CUSTOMERS_ACCOUNT_MANAGER_FK">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:29:10 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:29:10 UTC</changedTime>
-         <generatorID>704078D2-3F50-7FA3-D835-A5CD2CBB7065</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <indexColumnUsage>
-            <colUsage columnID="2152638F-22C8-2F91-3853-832B3EB5517F"/>
-         </indexColumnUsage>
-      </ind_PK_UK>
-   </indexes>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5172116E-1FAD-99B9-4D0D-922C1EC035ED" name="CUSTOMERS">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:29:10 UTC</createdTime>
+<generatorID>2CFC0AA7-481A-C8CA-15FD-7E546FAFC72F</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTOMER_ID" id="045775BB-9C06-55FF-529D-EAE10357DA77">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:29:10 UTC</createdTime>
+<generatorID>34B6F5E0-3303-535D-DF8A-DE3E60C5D38E</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 10g" definition="customer_id &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Column>
+<Column name="CUST_FIRST_NAME" id="8726E353-2CD7-FE03-BCFB-F1E06B51DFFE">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:29:10 UTC</createdTime>
+<generatorID>58BF5921-1BC5-6A3E-0DF1-5D618D70AFF9</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Column>
+<Column name="CUST_LAST_NAME" id="323507FD-95AB-FB8E-559D-7225BC6D6DAC">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:29:10 UTC</createdTime>
+<generatorID>3D77D65C-5D2B-54B8-598D-7E65F998283D</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Column>
+<Column name="CUST_ADDRESS" id="C70EE3FB-A3BB-8056-3B56-538564FA743A">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:29:10 UTC</createdTime>
+<generatorID>EBD64F9D-C52F-CA60-2C53-FAFCFA11D02C</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>27EEB3C3-4630-9227-E6E6-92A40FFAFA93</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Column>
+<Column name="PHONE_NUMBERS" id="55D41690-7859-C51D-B20D-1ECBDE262E5F">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:29:10 UTC</createdTime>
+<generatorID>60561476-D8F5-9916-1E44-682003FFC9F8</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>4</use>
+<collectionType>6A84652E-E6BC-EB77-E843-C67570AFEE6F</collectionType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Column>
+<Column name="NLS_LANGUAGE" id="5177F8AC-EF66-164C-3510-511FF143EA80">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:29:10 UTC</createdTime>
+<generatorID>9E7173D0-2830-8775-39B2-F5C9B92E8F26</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+</Column>
+<Column name="NLS_TERRITORY" id="F10164DC-92EB-8B96-E279-0A2095A18293">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:29:10 UTC</createdTime>
+<generatorID>C38BBD47-60E4-0481-0AFC-D78AE08E5A00</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Column>
+<Column name="CREDIT_LIMIT" id="928FD32A-98C5-5F39-C3FB-A1A1C714C162">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:29:10 UTC</createdTime>
+<generatorID>E93CFF8C-2FF2-B067-E941-04EED22E22C2</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 10g" definition="credit_limit &lt;= 5000"/>
+</checkConstraint>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</Column>
+<Column name="CUST_EMAIL" id="C56A2688-3832-AFE7-2DA5-1583ADC2166E">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:29:10 UTC</createdTime>
+<generatorID>18AD4C68-0458-F7E6-A0B6-C1EBF38F7AA2</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Column>
+<Column name="ACCOUNT_MGR_ID" id="2152638F-22C8-2F91-3853-832B3EB5517F">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:29:10 UTC</createdTime>
+<generatorID>71383CB1-4759-FDE2-5E4A-8B9C9DE7A707</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<associations>
+<colAssociation fkAssociation="BEF54B8B-E756-31B0-0FC2-2105AAA32BA1" referredColumn="AF85FBD1-F45B-CEDC-EB1C-41F2FFB7E9FC"/>
+</associations>
+</Column>
+<Column name="CUST_GEO_LOCATION" id="A15E372C-C3E3-6B2C-48CC-CD9DCA081640">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:29:10 UTC</createdTime>
+<generatorID>00875940-3D8A-6628-BFC1-37799A4DDFA2</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>DT-B107DE30-053D-730C-ABBE-9E7B9BF83724@StructuredType0</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Column>
+<Column name="DATE_OF_BIRTH" id="9F304409-195A-DD8B-E8D4-708944271423">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:29:10 UTC</createdTime>
+<generatorID>2FD14A05-9EB6-0B65-32B5-5F36BE94D508</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Column>
+<Column name="MARITAL_STATUS" id="2B699710-338E-1EBC-C800-3579BE144205">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:29:10 UTC</createdTime>
+<generatorID>73ADE531-A407-98CB-C018-D202E0802908</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Column>
+<Column name="GENDER" id="FAF8E739-D9AD-8FC8-3585-AF67F957CA6F">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:29:10 UTC</createdTime>
+<generatorID>EF2CF307-4676-EAF4-AB96-DC19F0D8D2EC</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Column>
+<Column name="INCOME_LEVEL" id="AFBEE051-1665-8321-5A35-D47BDD88B7E2">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:29:10 UTC</createdTime>
+<generatorID>1538086E-55A3-15D5-F0D6-B225491929FE</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF61C8C8-3384-6870-7C74-88263AC2F82C" name="CUSTOMERS_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:29:10 UTC</createdTime>
+<generatorID>0151BC9C-EE0D-0253-63F9-CAD95BE1D536</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="045775BB-9C06-55FF-529D-EAE10357DA77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96CC6B18-BC65-34F3-FDB8-3B9ACB3037A0" name="CUSTOMERS_ACCOUNT_MANAGER_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:29:10 UTC</createdTime>
+<generatorID>704078D2-3F50-7FA3-D835-A5CD2CBB7065</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="2152638F-22C8-2F91-3853-832B3EB5517F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

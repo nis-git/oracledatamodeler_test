@@ -1,104 +1,94 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="8EFD57D5-5820-9496-2EC1-7EB8046DE755" directorySegmentName="seg_0" name="CATEGORIES">
-   <createdBy>Administrator</createdBy>
-   <createdTime>2008-11-18 12:15:36 UTC</createdTime>
-   <changedBy>smharper</changedBy>
-   <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-   <generatorID>9443AE59-506B-195D-39B8-E45A779C90BE</generatorID>
-   <ownerDesignName>all_schemas</ownerDesignName>
-   <pkName>CATEGORIES_PK1</pkName>
-   <adequatelyNormalized>NO</adequatelyNormalized>
-   <expectedVolumes>0</expectedVolumes>
-   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
-   <growthPercent>0</growthPercent>
-   <growthType>Year</growthType>
-   <maxVolumes>9999999</maxVolumes>
-   <minVolumes>0</minVolumes>
-   <normalForm>Third</normalForm>
-   <fonts>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Title</foType>
-         <fontStyle>1</fontStyle>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Attribute</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Datatype</foType>
-         <colorRGB>-16744448</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>PK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>FK Element</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>UK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Not Null</foType>
-         <colorRGB>-65536</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Key</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-   </fonts>
-   <attributes>
-      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="CATEGORY_NAME" id="C8A6566B-22B3-86D1-5003-B7546D94F0C2">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-         <generatorID>92B17E14-19A8-A151-2DD4-A4516A09F07B</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>50 BYTE</dataTypeSize>
-      </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="CATEGORY_DESCRIPTION" id="772F3BD8-098B-A923-8C23-DEE364332F9B">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-         <generatorID>1706ECAF-AD30-12D1-D7EC-471A1E2BFAF0</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>1000 BYTE</dataTypeSize>
-      </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="CATEGORY_ID" id="08D075D0-EE8C-90B5-5D48-3126A87C0ADD">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-         <generatorID>AA040327-BE57-3663-5DA4-8E4C4E3F807B</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>2</dataTypePrecision>
-      </Attribute>
-   </attributes>
-   <identifiers>
-      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="3C192FCF-807C-0650-06C0-DED9F275B52D" name="CATEGORIES_PK1">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-         <generatorID>BD2EA96F-B7D2-7B51-8553-FDECE4779376</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <pk>true</pk>
-         <usedAttributes>
-            <attributeRef>08D075D0-EE8C-90B5-5D48-3126A87C0ADD</attributeRef>
-         </usedAttributes>
-      </identifier>
-   </identifiers>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8EFD57D5-5820-9496-2EC1-7EB8046DE755" name="CATEGORIES">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:15:36 UTC</createdTime>
+<generatorID>9443AE59-506B-195D-39B8-E45A779C90BE</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<engineerTo>
+<item key="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" value="true"/>
+<item key="037A5BCA-FECF-4DC5-9A0B-0219848544BA" value="true"/>
+<item key="44BA4DCC-3408-55FA-38FE-22F0223CD0E3" value="true"/>
+<item key="BF105018-3CC9-F992-06AB-3F0BD4F6521B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CATEGORY_NAME" id="C8A6566B-22B3-86D1-5003-B7546D94F0C2">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:15:36 UTC</createdTime>
+<generatorID>92B17E14-19A8-A151-2DD4-A4516A09F07B</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<engineerTo>
+<item key="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" value="true"/>
+<item key="037A5BCA-FECF-4DC5-9A0B-0219848544BA" value="true"/>
+<item key="44BA4DCC-3408-55FA-38FE-22F0223CD0E3" value="true"/>
+<item key="BF105018-3CC9-F992-06AB-3F0BD4F6521B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CATEGORY_DESCRIPTION" id="772F3BD8-098B-A923-8C23-DEE364332F9B">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:15:36 UTC</createdTime>
+<generatorID>1706ECAF-AD30-12D1-D7EC-471A1E2BFAF0</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<engineerTo>
+<item key="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" value="true"/>
+<item key="037A5BCA-FECF-4DC5-9A0B-0219848544BA" value="true"/>
+<item key="44BA4DCC-3408-55FA-38FE-22F0223CD0E3" value="true"/>
+<item key="BF105018-3CC9-F992-06AB-3F0BD4F6521B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CATEGORY_ID" id="08D075D0-EE8C-90B5-5D48-3126A87C0ADD">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:15:36 UTC</createdTime>
+<generatorID>AA040327-BE57-3663-5DA4-8E4C4E3F807B</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<engineerTo>
+<item key="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" value="true"/>
+<item key="037A5BCA-FECF-4DC5-9A0B-0219848544BA" value="true"/>
+<item key="44BA4DCC-3408-55FA-38FE-22F0223CD0E3" value="true"/>
+<item key="BF105018-3CC9-F992-06AB-3F0BD4F6521B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3C192FCF-807C-0650-06C0-DED9F275B52D" name="CATEGORIES_PK1">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:15:36 UTC</createdTime>
+<generatorID>BD2EA96F-B7D2-7B51-8553-FDECE4779376</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<engineerTo>
+<item key="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" value="true"/>
+<item key="037A5BCA-FECF-4DC5-9A0B-0219848544BA" value="true"/>
+<item key="44BA4DCC-3408-55FA-38FE-22F0223CD0E3" value="true"/>
+<item key="BF105018-3CC9-F992-06AB-3F0BD4F6521B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>08D075D0-EE8C-90B5-5D48-3126A87C0ADD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

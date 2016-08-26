@@ -1,10 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="HR_Subset" id="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" mainViewID="12DA50C5-8359-2934-53DC-2BC1DC7C64A8">
-   <createdBy>smharper</createdBy>
-   <createdTime>2011-01-07 09:09:35 UTC</createdTime>
-   <changedBy>smharper</changedBy>
-   <changedTime>2011-01-07 09:09:35 UTC</changedTime>
-   <ownerDesignName>all_schemas</ownerDesignName>
-   <shouldBeOpen>true</shouldBeOpen>
-   <selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+<createdBy>smharper</createdBy>
+<createdTime>2011-01-07 09:09:35 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
 </relationalModel>

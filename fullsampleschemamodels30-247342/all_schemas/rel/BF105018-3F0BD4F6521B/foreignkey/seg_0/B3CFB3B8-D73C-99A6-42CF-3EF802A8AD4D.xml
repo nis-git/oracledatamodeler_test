@@ -1,14 +1,14 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="B3CFB3B8-D73C-99A6-42CF-3EF802A8AD4D" directorySegmentName="seg_0" name="CUSTOMERS_ACCOUNT_MANAGER_FK">
-   <createdBy>Administrator</createdBy>
-   <createdTime>2009-01-30 17:10:26 UTC</createdTime>
-   <changedBy>smharper</changedBy>
-   <changedTime>2009-01-30 17:10:26 UTC</changedTime>
-   <ownerDesignName>all_schemas</ownerDesignName>
-   <containerWithKeyObject>BE0F0A9F-0561-BB7C-19CE-D8BED34BB5B7</containerWithKeyObject>
-   <deleteRule>SET NULL</deleteRule>
-   <localFKIndex>2B19AE9A-F0AD-40F5-3274-273B286EE810</localFKIndex>
-   <keyObject>B625395C-D403-2E10-C92D-217174C035C0</keyObject>
-   <mandatory>false</mandatory>
-   <transferable>true</transferable>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B3CFB3B8-D73C-99A6-42CF-3EF802A8AD4D" containerWithKeyObject="BE0F0A9F-0561-BB7C-19CE-D8BED34BB5B7" localFKIndex="2B19AE9A-F0AD-40F5-3274-273B286EE810" name="CUSTOMERS_ACCOUNT_MANAGER_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2009-01-30 17:10:26 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<deleteRule>SET NULL</deleteRule>
+<referredTableID>ACFDBD4E-C2A9-60D1-639A-3841326467E9</referredTableID>
+<keyObject>B625395C-D403-2E10-C92D-217174C035C0</keyObject>
+<referredKeyID>B625395C-D403-2E10-C92D-217174C035C0</referredKeyID>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>false</columnDependencyConstraintGenerateInDDL>
 </FKIndexAssociation>

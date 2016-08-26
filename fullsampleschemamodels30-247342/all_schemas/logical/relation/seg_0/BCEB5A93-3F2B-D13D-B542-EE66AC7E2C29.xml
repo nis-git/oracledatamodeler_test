@@ -1,17 +1,22 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="LOC_C_ID_FK" id="BCEB5A93-3F2B-D13D-B542-EE66AC7E2C29" directorySegmentName="seg_0">
-   <createdBy>Administrator</createdBy>
-   <createdTime>2008-11-18 12:15:36 UTC</createdTime>
-   <changedBy>smharper</changedBy>
-   <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-   <generatorID>CF053FBA-A938-AE7A-DB2A-85B0DF2F3784</generatorID>
-   <ownerDesignName>all_schemas</ownerDesignName>
-   <identifying>false</identifying>
-   <optionalSource>true</optionalSource>
-   <optionalTarget>true</optionalTarget>
-   <sourceCardinality>1</sourceCardinality>
-   <sourceEntity>CEEC9063-E683-C9E3-5E7A-F99AC8429FB3</sourceEntity>
-   <targetCardinalityString>*</targetCardinalityString>
-   <targetEntity>917C1D88-8D4F-8C7F-F30C-52FEA5D93310</targetEntity>
-   <transferable>true</transferable>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="LOC_C_ID_FK" directorySegmentName="seg_0" id="BCEB5A93-3F2B-D13D-B542-EE66AC7E2C29">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:15:36 UTC</createdTime>
+<generatorID>CF053FBA-A938-AE7A-DB2A-85B0DF2F3784</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<engineerTo>
+<item key="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" value="true"/>
+<item key="037A5BCA-FECF-4DC5-9A0B-0219848544BA" value="true"/>
+<item key="44BA4DCC-3408-55FA-38FE-22F0223CD0E3" value="true"/>
+<item key="BF105018-3CC9-F992-06AB-3F0BD4F6521B" value="true"/>
+</engineerTo>
+<sourcePk>F3B23357-9859-6C39-C910-60FF558A067E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CEEC9063-E683-C9E3-5E7A-F99AC8429FB3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>917C1D88-8D4F-8C7F-F30C-52FEA5D93310</targetEntity>
+<transferable>true</transferable>
 </Relation>

@@ -1,175 +1,135 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" id="7BB39DCA-43D1-0D67-381D-E259FD6A61F8" directorySegmentName="seg_0" name="AQ$_STREAMS_QUEUE_TABLE_I">
-   <createdBy>Administrator</createdBy>
-   <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-   <changedBy>smharper</changedBy>
-   <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-   <ownerDesignName>all_schemas</ownerDesignName>
-   <shouldEngineer>false</shouldEngineer>
-   <schemaObject>A30D5C25-7C94-3B59-6BB5-14B696217C10</schemaObject>
-   <pkName>SYS_IOT_TOP_70423</pkName>
-   <fonts>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Title</foType>
-         <fontStyle>1</fontStyle>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Column</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Datatype</foType>
-         <colorRGB>-16744448</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>PK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>FK Element</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>UK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Not Null</foType>
-         <colorRGB>-65536</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Key</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-   </fonts>
-   <columns>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="SUBSCRIBER#" id="38B86834-1265-C5F5-0696-ADA5A7453544">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="NAME" id="4C2C1B4D-8733-536F-AD24-C5C5B708F9F0">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>30 BYTE</dataTypeSize>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="QUEUE#" id="841FEA17-FA30-DA2C-FE07-48A57DFDF676">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="MSG_ENQ_TID" id="EDC79086-6688-28EA-B08D-2038B219CD16">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>30 BYTE</dataTypeSize>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="SENDER#" id="1C9928A3-2677-F469-6E6F-03B7E3E5ED7B">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="TXN_STEP#" id="C5C5A6FC-59C9-D897-019F-6FEC7D324CB3">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="MSG_CHAIN_NO" id="ADAE2A7F-33E8-31E3-E41D-526BD6E4FDA5">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="MSG_LOCAL_ORDER_NO" id="61B1C8B8-0EE6-D62E-BD6E-13CD106C844F">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="MSGID" id="D91D1A7B-C984-B110-8F37-B3638FFA2118">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
-         <dataTypeSize>16</dataTypeSize>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="HINT" id="B7477CF6-2C87-7A4F-526A-B7944DC6DF68">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT032</logicalDatatype>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="SPARE" id="35806535-82D4-2A1C-BCB3-68AC5DD68EA9">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
-         <dataTypeSize>16</dataTypeSize>
-      </Column>
-   </columns>
-   <indexes>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="CEF5BABB-78B9-1A5C-ED0E-28B941CD5332" name="SYS_IOT_TOP_70423">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:34 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:37 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <pk>true</pk>
-         <indexState>Primary Constraint</indexState>
-         <indexColumnUsage>
-            <colUsage columnID="38B86834-1265-C5F5-0696-ADA5A7453544"/>
-            <colUsage columnID="4C2C1B4D-8733-536F-AD24-C5C5B708F9F0"/>
-            <colUsage columnID="841FEA17-FA30-DA2C-FE07-48A57DFDF676"/>
-            <colUsage columnID="EDC79086-6688-28EA-B08D-2038B219CD16"/>
-            <colUsage columnID="1C9928A3-2677-F469-6E6F-03B7E3E5ED7B"/>
-            <colUsage columnID="C5C5A6FC-59C9-D897-019F-6FEC7D324CB3"/>
-            <colUsage columnID="ADAE2A7F-33E8-31E3-E41D-526BD6E4FDA5"/>
-            <colUsage columnID="61B1C8B8-0EE6-D62E-BD6E-13CD106C844F"/>
-            <colUsage columnID="D91D1A7B-C984-B110-8F37-B3638FFA2118"/>
-         </indexColumnUsage>
-      </ind_PK_UK>
-   </indexes>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7BB39DCA-43D1-0D67-381D-E259FD6A61F8" schemaObject="A30D5C25-7C94-3B59-6BB5-14B696217C10" name="AQ$_STREAMS_QUEUE_TABLE_I">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SUBSCRIBER#" id="38B86834-1265-C5F5-0696-ADA5A7453544">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Column>
+<Column name="NAME" id="4C2C1B4D-8733-536F-AD24-C5C5B708F9F0">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Column>
+<Column name="QUEUE#" id="841FEA17-FA30-DA2C-FE07-48A57DFDF676">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Column>
+<Column name="MSG_ENQ_TID" id="EDC79086-6688-28EA-B08D-2038B219CD16">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Column>
+<Column name="SENDER#" id="1C9928A3-2677-F469-6E6F-03B7E3E5ED7B">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Column>
+<Column name="TXN_STEP#" id="C5C5A6FC-59C9-D897-019F-6FEC7D324CB3">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Column>
+<Column name="MSG_CHAIN_NO" id="ADAE2A7F-33E8-31E3-E41D-526BD6E4FDA5">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Column>
+<Column name="MSG_LOCAL_ORDER_NO" id="61B1C8B8-0EE6-D62E-BD6E-13CD106C844F">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Column>
+<Column name="MSGID" id="D91D1A7B-C984-B110-8F37-B3638FFA2118">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Column>
+<Column name="HINT" id="B7477CF6-2C87-7A4F-526A-B7944DC6DF68">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT032</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Column>
+<Column name="SPARE" id="35806535-82D4-2A1C-BCB3-68AC5DD68EA9">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CEF5BABB-78B9-1A5C-ED0E-28B941CD5332" name="SYS_IOT_TOP_70423">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:34 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="38B86834-1265-C5F5-0696-ADA5A7453544"/>
+<colUsage columnID="4C2C1B4D-8733-536F-AD24-C5C5B708F9F0"/>
+<colUsage columnID="841FEA17-FA30-DA2C-FE07-48A57DFDF676"/>
+<colUsage columnID="EDC79086-6688-28EA-B08D-2038B219CD16"/>
+<colUsage columnID="1C9928A3-2677-F469-6E6F-03B7E3E5ED7B"/>
+<colUsage columnID="C5C5A6FC-59C9-D897-019F-6FEC7D324CB3"/>
+<colUsage columnID="ADAE2A7F-33E8-31E3-E41D-526BD6E4FDA5"/>
+<colUsage columnID="61B1C8B8-0EE6-D62E-BD6E-13CD106C844F"/>
+<colUsage columnID="D91D1A7B-C984-B110-8F37-B3638FFA2118"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

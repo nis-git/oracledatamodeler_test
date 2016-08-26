@@ -1,79 +1,44 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="SDO_POINT_TYPE" id="E97DCA69-D5F5-0391-5B08-69D50246B57A" directorySegmentName="seg_0">
-   <createdBy>Administrator</createdBy>
-   <createdTime>2008-11-17 12:25:26 UTC</createdTime>
-   <changedBy>smharper</changedBy>
-   <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-   <ownerDesignName>all_schemas</ownerDesignName>
-   <predefined>true</predefined>
-   <final>false</final>
-   <instantiable>true</instantiable>
-   <fonts>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Title</foType>
-         <fontStyle>1</fontStyle>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Attribute</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Datatype</foType>
-         <colorRGB>-16777056</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Method</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Not Instantiable</foType>
-         <colorRGB>-65536</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Mandatory</foType>
-         <colorRGB>-65536</colorRGB>
-      </FontObject>
-   </fonts>
-   <attributes>
-      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="X" id="66D2C588-9D39-A7A6-0FBA-9B1C04F02EF7">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <mandatory>false</mandatory>
-         <precision>0</precision>
-         <reference>false</reference>
-         <scale>0</scale>
-         <size>0</size>
-         <type>LOGDT019</type>
-      </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="Y" id="EE18C00C-7322-5307-2D52-D04B1C61C90A">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <mandatory>false</mandatory>
-         <precision>0</precision>
-         <reference>false</reference>
-         <scale>0</scale>
-         <size>0</size>
-         <type>LOGDT019</type>
-      </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="Z" id="98214A83-9A62-42D3-D646-F5AA0E149BC4">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <mandatory>false</mandatory>
-         <precision>0</precision>
-         <reference>false</reference>
-         <scale>0</scale>
-         <size>0</size>
-         <type>LOGDT019</type>
-      </Attribute>
-   </attributes>
+<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="SDO_POINT_TYPE" directorySegmentName="seg_0" id="E97DCA69-D5F5-0391-5B08-69D50246B57A">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:26 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<predefined>true</predefined>
+<final>false</final>
+<instantiable>true</instantiable>
+<attributes itemClass="oracle.dbtools.crest.model.design.datatypes.TypeElement">
+<Attribute name="X" id="66D2C588-9D39-A7A6-0FBA-9B1C04F02EF7">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="Y" id="EE18C00C-7322-5307-2D52-D04B1C61C90A">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<type>LOGDT019</type>
+</Attribute>
+<Attribute name="Z" id="98214A83-9A62-42D3-D646-F5AA0E149BC4">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<type>LOGDT019</type>
+</Attribute>
+</attributes>
 </StructuredType>

@@ -1,8 +1,6 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="IX" id="A30D5C25-7C94-3B59-6BB5-14B696217C10" directorySegmentName="seg_0">
-   <createdBy>smharper</createdBy>
-   <createdTime>2011-01-07 09:09:41 UTC</createdTime>
-   <changedBy>smharper</changedBy>
-   <changedTime>2011-01-07 09:09:41 UTC</changedTime>
-   <ownerDesignName>all_schemas</ownerDesignName>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="IX" directorySegmentName="seg_0" id="A30D5C25-7C94-3B59-6BB5-14B696217C10">
+<createdBy>smharper</createdBy>
+<createdTime>2011-01-07 09:09:41 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
 </SchemaObject>

@@ -1,173 +1,191 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="AF51C786-B84D-BA70-5A4C-95CA1A3963F6" directorySegmentName="seg_0" name="ORDERS">
-   <createdBy>Administrator</createdBy>
-   <createdTime>2008-11-18 12:15:36 UTC</createdTime>
-   <changedBy>smharper</changedBy>
-   <changedTime>2009-01-30 17:20:50 UTC</changedTime>
-   <generatorID>4967EC81-4213-65F8-490C-689F2C3AA263</generatorID>
-   <ownerDesignName>all_schemas</ownerDesignName>
-   <pkName>ORDER_PK</pkName>
-   <adequatelyNormalized>NO</adequatelyNormalized>
-   <expectedVolumes>0</expectedVolumes>
-   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
-   <growthPercent>0</growthPercent>
-   <growthType>Year</growthType>
-   <maxVolumes>9999999</maxVolumes>
-   <minVolumes>0</minVolumes>
-   <normalForm>Third</normalForm>
-   <fonts>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Title</foType>
-         <fontStyle>1</fontStyle>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Attribute</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Datatype</foType>
-         <colorRGB>-16744448</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>PK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>FK Element</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>UK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Not Null</foType>
-         <colorRGB>-65536</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Key</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-   </fonts>
-   <attributes>
-      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ORDER_ID" id="D74BC95A-22CB-CC36-8148-7C36DDF3BF8F">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-         <generatorID>4624050C-7BE6-2E61-F15B-C077895DE33B</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>12</dataTypePrecision>
-      </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ORDER_DATE" id="FED6DF57-9757-EEF6-2300-0660B4DE4337">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-         <generatorID>70D63F25-C408-7B60-743E-AFB48544B36A</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LOGDT047</logicalDatatype>
-         <dataTypePrecision>6</dataTypePrecision>
-      </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ORDER_MODE" id="F22019E7-981E-7975-02A7-C342E9CBD634">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-         <generatorID>45C92A9C-A82A-E454-41F1-4F3FCF351DB6</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <useDomainConstraints>false</useDomainConstraints>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>8 BYTE</dataTypeSize>
-         <checkConstraint>
-            <implementationDef dbType="Oracle Database 10g" definition="order_mode in ('direct','online')"/>
-         </checkConstraint>
-      </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="CUSTOMER_ID" id="38EDC446-463A-C934-0CE6-57ED69D3433A">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-         <generatorID>1EB43D81-4255-6BFD-5F38-CE5DC80F7951</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <referedAttribute>34B6F5E0-3303-535D-DF8A-DE3E60C5D38E</referedAttribute>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>6</dataTypePrecision>
-      </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ORDER_STATUS" id="721EDD42-FC98-29AE-CC92-6052CBB42080">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-         <generatorID>A9828A0F-9654-CF4C-5DA6-60A76D397F6F</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>2</dataTypePrecision>
-      </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ORDER_TOTAL" id="526EC8C1-2EA1-6419-DF3E-ECD02013217A">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-         <generatorID>E7EF659B-E54A-C8EA-89BE-93B33FB2B55F</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <useDomainConstraints>false</useDomainConstraints>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>8</dataTypePrecision>
-         <dataTypeScale>2</dataTypeScale>
-         <checkConstraint>
-            <implementationDef dbType="Oracle Database 10g" definition="order_total >= 0"/>
-         </checkConstraint>
-      </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="SALES_REP_ID" id="40C3E7C4-3B6F-BE01-BAAA-5A595A5750AB">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-         <generatorID>E30BC26B-4656-AD91-150F-66CD9380B1D6</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <referedAttribute>BC228D8E-9A55-F6A1-2EA7-1CEC37896733</referedAttribute>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>6</dataTypePrecision>
-      </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="PROMOTION_ID" id="4CFF0C90-34A4-EDE7-F427-A31830948EB5">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-         <generatorID>721527F3-1A4C-ED19-9952-D7833186ACBA</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>6</dataTypePrecision>
-      </Attribute>
-   </attributes>
-   <identifiers>
-      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="3DD9D429-635F-8C33-8E1C-3994054377B1" name="ORDER_PK">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-         <generatorID>CEA8E15B-FDCA-AB22-9EB0-4EF6E1CC28B8</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <pk>true</pk>
-         <usedAttributes>
-            <attributeRef>D74BC95A-22CB-CC36-8148-7C36DDF3BF8F</attributeRef>
-         </usedAttributes>
-      </identifier>
-   </identifiers>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AF51C786-B84D-BA70-5A4C-95CA1A3963F6" name="ORDERS">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:15:36 UTC</createdTime>
+<generatorID>4967EC81-4213-65F8-490C-689F2C3AA263</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<engineerTo>
+<item key="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" value="true"/>
+<item key="037A5BCA-FECF-4DC5-9A0B-0219848544BA" value="true"/>
+<item key="44BA4DCC-3408-55FA-38FE-22F0223CD0E3" value="true"/>
+<item key="BF105018-3CC9-F992-06AB-3F0BD4F6521B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ORDER_ID" id="D74BC95A-22CB-CC36-8148-7C36DDF3BF8F">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:15:36 UTC</createdTime>
+<generatorID>4624050C-7BE6-2E61-F15B-C077895DE33B</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<engineerTo>
+<item key="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" value="true"/>
+<item key="037A5BCA-FECF-4DC5-9A0B-0219848544BA" value="true"/>
+<item key="44BA4DCC-3408-55FA-38FE-22F0223CD0E3" value="true"/>
+<item key="BF105018-3CC9-F992-06AB-3F0BD4F6521B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORDER_DATE" id="FED6DF57-9757-EEF6-2300-0660B4DE4337">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:15:36 UTC</createdTime>
+<generatorID>70D63F25-C408-7B60-743E-AFB48544B36A</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<engineerTo>
+<item key="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" value="true"/>
+<item key="037A5BCA-FECF-4DC5-9A0B-0219848544BA" value="true"/>
+<item key="44BA4DCC-3408-55FA-38FE-22F0223CD0E3" value="true"/>
+<item key="BF105018-3CC9-F992-06AB-3F0BD4F6521B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORDER_MODE" id="F22019E7-981E-7975-02A7-C342E9CBD634">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:15:36 UTC</createdTime>
+<generatorID>45C92A9C-A82A-E454-41F1-4F3FCF351DB6</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<engineerTo>
+<item key="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" value="true"/>
+<item key="037A5BCA-FECF-4DC5-9A0B-0219848544BA" value="true"/>
+<item key="44BA4DCC-3408-55FA-38FE-22F0223CD0E3" value="true"/>
+<item key="BF105018-3CC9-F992-06AB-3F0BD4F6521B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 10g" definition="order_mode in (&apos;direct&apos;,&apos;online&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUSTOMER_ID" id="38EDC446-463A-C934-0CE6-57ED69D3433A">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:15:36 UTC</createdTime>
+<generatorID>1EB43D81-4255-6BFD-5F38-CE5DC80F7951</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<engineerTo>
+<item key="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" value="true"/>
+<item key="037A5BCA-FECF-4DC5-9A0B-0219848544BA" value="true"/>
+<item key="44BA4DCC-3408-55FA-38FE-22F0223CD0E3" value="true"/>
+<item key="BF105018-3CC9-F992-06AB-3F0BD4F6521B" value="true"/>
+</engineerTo>
+<referedAttribute>34B6F5E0-3303-535D-DF8A-DE3E60C5D38E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORDER_STATUS" id="721EDD42-FC98-29AE-CC92-6052CBB42080">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:15:36 UTC</createdTime>
+<generatorID>A9828A0F-9654-CF4C-5DA6-60A76D397F6F</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<engineerTo>
+<item key="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" value="true"/>
+<item key="037A5BCA-FECF-4DC5-9A0B-0219848544BA" value="true"/>
+<item key="44BA4DCC-3408-55FA-38FE-22F0223CD0E3" value="true"/>
+<item key="BF105018-3CC9-F992-06AB-3F0BD4F6521B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORDER_TOTAL" id="526EC8C1-2EA1-6419-DF3E-ECD02013217A">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:15:36 UTC</createdTime>
+<generatorID>E7EF659B-E54A-C8EA-89BE-93B33FB2B55F</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<engineerTo>
+<item key="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" value="true"/>
+<item key="037A5BCA-FECF-4DC5-9A0B-0219848544BA" value="true"/>
+<item key="44BA4DCC-3408-55FA-38FE-22F0223CD0E3" value="true"/>
+<item key="BF105018-3CC9-F992-06AB-3F0BD4F6521B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 10g" definition="order_total &gt;= 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SALES_REP_ID" id="40C3E7C4-3B6F-BE01-BAAA-5A595A5750AB">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:15:36 UTC</createdTime>
+<generatorID>E30BC26B-4656-AD91-150F-66CD9380B1D6</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<engineerTo>
+<item key="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" value="true"/>
+<item key="037A5BCA-FECF-4DC5-9A0B-0219848544BA" value="true"/>
+<item key="44BA4DCC-3408-55FA-38FE-22F0223CD0E3" value="true"/>
+<item key="BF105018-3CC9-F992-06AB-3F0BD4F6521B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>BC228D8E-9A55-F6A1-2EA7-1CEC37896733</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROMOTION_ID" id="4CFF0C90-34A4-EDE7-F427-A31830948EB5">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:15:36 UTC</createdTime>
+<generatorID>721527F3-1A4C-ED19-9952-D7833186ACBA</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<engineerTo>
+<item key="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" value="true"/>
+<item key="037A5BCA-FECF-4DC5-9A0B-0219848544BA" value="true"/>
+<item key="44BA4DCC-3408-55FA-38FE-22F0223CD0E3" value="true"/>
+<item key="BF105018-3CC9-F992-06AB-3F0BD4F6521B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3DD9D429-635F-8C33-8E1C-3994054377B1" name="ORDER_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:15:36 UTC</createdTime>
+<generatorID>CEA8E15B-FDCA-AB22-9EB0-4EF6E1CC28B8</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<engineerTo>
+<item key="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" value="true"/>
+<item key="037A5BCA-FECF-4DC5-9A0B-0219848544BA" value="true"/>
+<item key="44BA4DCC-3408-55FA-38FE-22F0223CD0E3" value="true"/>
+<item key="BF105018-3CC9-F992-06AB-3F0BD4F6521B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D74BC95A-22CB-CC36-8148-7C36DDF3BF8F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

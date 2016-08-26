@@ -1,17 +1,22 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="JHIST_EMP_FK" id="2C993147-66CE-D56A-94DA-428FFD1E70E0" directorySegmentName="seg_0">
-   <createdBy>Administrator</createdBy>
-   <createdTime>2008-11-18 12:15:36 UTC</createdTime>
-   <changedBy>smharper</changedBy>
-   <changedTime>2009-01-30 17:20:05 UTC</changedTime>
-   <generatorID>6F0A4F18-3D90-4F0E-E22F-4572E9EFD924</generatorID>
-   <ownerDesignName>all_schemas</ownerDesignName>
-   <identifying>true</identifying>
-   <optionalSource>true</optionalSource>
-   <optionalTarget>false</optionalTarget>
-   <sourceCardinality>1</sourceCardinality>
-   <sourceEntity>EEE3ABF9-1CE1-846A-4FBA-81621407E503</sourceEntity>
-   <targetCardinalityString>*</targetCardinalityString>
-   <targetEntity>637C0DA9-0E67-F463-0ED6-936CC804BC81</targetEntity>
-   <transferable>true</transferable>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="JHIST_EMP_FK" directorySegmentName="seg_0" id="2C993147-66CE-D56A-94DA-428FFD1E70E0">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:15:36 UTC</createdTime>
+<generatorID>6F0A4F18-3D90-4F0E-E22F-4572E9EFD924</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<engineerTo>
+<item key="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" value="true"/>
+<item key="037A5BCA-FECF-4DC5-9A0B-0219848544BA" value="true"/>
+<item key="44BA4DCC-3408-55FA-38FE-22F0223CD0E3" value="true"/>
+<item key="BF105018-3CC9-F992-06AB-3F0BD4F6521B" value="true"/>
+</engineerTo>
+<sourcePk>FDB1A0B4-7569-E58A-B600-5A0526EB45B3</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EEE3ABF9-1CE1-846A-4FBA-81621407E503</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>637C0DA9-0E67-F463-0ED6-936CC804BC81</targetEntity>
+<transferable>true</transferable>
 </Relation>

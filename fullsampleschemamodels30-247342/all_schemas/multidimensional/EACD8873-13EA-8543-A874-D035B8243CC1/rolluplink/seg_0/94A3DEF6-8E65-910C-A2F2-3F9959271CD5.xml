@@ -1,25 +1,21 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<RollupLink class="oracle.dbtools.crest.model.design.multidimensional.RollupLink" name="RollupLink_22" id="94A3DEF6-8E65-910C-A2F2-3F9959271CD5" directorySegmentName="seg_0">
-   <createdBy>pstoyano</createdBy>
-   <createdTime>2009-07-01 16:57:26 UTC</createdTime>
-   <changedBy>smharper</changedBy>
-   <changedTime>2009-07-01 16:57:26 UTC</changedTime>
-   <ownerDesignName>all_schemas</ownerDesignName>
-   <nameInOracleAW>ROLLUPLINK_22</nameInOracleAW>
-   <childLevel>626D2171-38DA-357B-BD61-0FAFBD55EED9</childLevel>
-   <defaultAggregationOperator>SUM</defaultAggregationOperator>
-   <parentLevel>9E2C9ECE-8500-B808-D6A7-B45796F44B4F</parentLevel>
-   <rolePlaying>false</rolePlaying>
-   <sparseDimension>false</sparseDimension>
-   <link class="oracle.dbtools.crest.model.design.multidimensional.Link" name="Link_27" id="2D6364A7-E09B-B2BE-7848-3989362AAD4B">
-      <createdBy>pstoyano</createdBy>
-      <createdTime>2009-07-01 16:57:26 UTC</createdTime>
-      <changedBy>pstoyano</changedBy>
-      <changedTime>2009-07-01 16:57:26 UTC</changedTime>
-      <ownerDesignName>all_schemas</ownerDesignName>
-      <nameInOracleAW>LINK_27</nameInOracleAW>
-      <rollupLink>94A3DEF6-8E65-910C-A2F2-3F9959271CD5</rollupLink>
-      <sourceMDObject>626D2171-38DA-357B-BD61-0FAFBD55EED9</sourceMDObject>
-      <targetMDObject>9E2C9ECE-8500-B808-D6A7-B45796F44B4F</targetMDObject>
-   </link>
+<RollupLink class="oracle.dbtools.crest.model.design.multidimensional.RollupLink" name="RollupLink_22" directorySegmentName="seg_0" id="94A3DEF6-8E65-910C-A2F2-3F9959271CD5">
+<createdBy>pstoyano</createdBy>
+<createdTime>2009-07-01 16:57:26 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nameInOracleAW>ROLLUPLINK_22</nameInOracleAW>
+<childLevel>626D2171-38DA-357B-BD61-0FAFBD55EED9</childLevel>
+<defaultAggregationOperator>SUM</defaultAggregationOperator>
+<parentLevel>9E2C9ECE-8500-B808-D6A7-B45796F44B4F</parentLevel>
+<rolePlaying>false</rolePlaying>
+<sparseDimension>false</sparseDimension>
+<link class="oracle.dbtools.crest.model.design.multidimensional.Link" name="Link_27" id="2D6364A7-E09B-B2BE-7848-3989362AAD4B">
+<createdBy>pstoyano</createdBy>
+<createdTime>2009-07-01 16:57:26 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nameInOracleAW>LINK_27</nameInOracleAW>
+<rollupLink>94A3DEF6-8E65-910C-A2F2-3F9959271CD5</rollupLink>
+<sourceMDObject>626D2171-38DA-357B-BD61-0FAFBD55EED9</sourceMDObject>
+<targetMDObject>9E2C9ECE-8500-B808-D6A7-B45796F44B4F</targetMDObject>
+</link>
 </RollupLink>

@@ -1,175 +1,127 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" id="2C531C8D-3DA3-59B5-0452-F1A0D969C27C" directorySegmentName="seg_0" name="LOCATIONS">
-   <createdBy>Administrator</createdBy>
-   <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-   <changedBy>smharper</changedBy>
-   <changedTime>2008-11-17 12:25:40 UTC</changedTime>
-   <ownerDesignName>all_schemas</ownerDesignName>
-   <schemaObject>6CBB3992-DF5E-72F4-3F69-975D6746DC2D</schemaObject>
-   <pkName>LOC_ID_PK</pkName>
-   <fonts>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Title</foType>
-         <fontStyle>1</fontStyle>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Column</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Datatype</foType>
-         <colorRGB>-16744448</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>PK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>FK Element</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>UK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Not Null</foType>
-         <colorRGB>-65536</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Key</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-   </fonts>
-   <columns>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="LOCATION_ID" id="5FF83CBC-1C24-45D7-94CD-788A8DB6480B">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <commentInRDBMS>Primary key of locations table</commentInRDBMS>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>4</dataTypePrecision>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="STREET_ADDRESS" id="C11AE0EA-0BAB-EC7C-3778-735D8A4B14BE">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <commentInRDBMS>Street address of an office, warehouse, or production site of a company.&amp;lt;br&amp;gt;Contains building number and street name</commentInRDBMS>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>40 BYTE</dataTypeSize>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="POSTAL_CODE" id="B5EFE736-DE28-BB6B-D075-7A71D96E2486">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <commentInRDBMS>Postal code of the location of an office, warehouse, or production site &amp;lt;br&amp;gt;of a company. </commentInRDBMS>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>12 BYTE</dataTypeSize>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CITY" id="E1B44F5A-FADB-C963-C018-12123013A038">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <commentInRDBMS>A not null column that shows city where an office, warehouse, or &amp;lt;br&amp;gt;production site of a company is located. </commentInRDBMS>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>30 BYTE</dataTypeSize>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="STATE_PROVINCE" id="67D9AD9B-9704-224C-A811-801A590CC10D">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <commentInRDBMS>State or Province where an office, warehouse, or production site of a &amp;lt;br&amp;gt;company is located.</commentInRDBMS>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>25 BYTE</dataTypeSize>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="COUNTRY_ID" id="EC03FC16-1B8C-5D2C-DA28-794F17713EA3">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <commentInRDBMS>Country where an office, warehouse, or production site of a company is&amp;lt;br&amp;gt;located. Foreign key to country_id column of the countries table.</commentInRDBMS>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT025</logicalDatatype>
-         <dataTypeSize>2 BYTE</dataTypeSize>
-         <delegate>8BECA963-50D3-4E82-1C71-43EBE496A89C</delegate>
-         <associations>
-            <colAssociation fkAssociation="CF053FBA-A938-AE7A-DB2A-85B0DF2F3784" referredColumn="8BECA963-50D3-4E82-1C71-43EBE496A89C"/>
-         </associations>
-      </Column>
-   </columns>
-   <indexes>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="26049F41-094F-4046-E866-00F371FDFE04" name="LOC_ID_PK">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:34 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:36 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <pk>true</pk>
-         <indexState>Primary Constraint</indexState>
-         <indexColumnUsage>
-            <colUsage columnID="5FF83CBC-1C24-45D7-94CD-788A8DB6480B"/>
-         </indexColumnUsage>
-      </ind_PK_UK>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="86B32A2D-2312-2BBA-DD21-316655AE5450" name="LOC_CITY_IX">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:34 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:34 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <indexColumnUsage>
-            <colUsage columnID="E1B44F5A-FADB-C963-C018-12123013A038"/>
-         </indexColumnUsage>
-      </ind_PK_UK>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="E3C96500-61F1-7FC3-8996-71DE1E6D4649" name="LOC_STATE_PROVINCE_IX">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:34 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:34 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <indexColumnUsage>
-            <colUsage columnID="67D9AD9B-9704-224C-A811-801A590CC10D"/>
-         </indexColumnUsage>
-      </ind_PK_UK>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="3C0E7937-6781-8802-812A-1615E49286C0" name="LOC_COUNTRY_IX">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:34 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:34 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <indexColumnUsage>
-            <colUsage columnID="EC03FC16-1B8C-5D2C-DA28-794F17713EA3"/>
-         </indexColumnUsage>
-      </ind_PK_UK>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="B7A55BBD-8CD4-56CC-B426-83DD71144A6F" name="LOC_C_ID_FK">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:40 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:40 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <indexColumnUsage>
-            <colUsage columnID="EC03FC16-1B8C-5D2C-DA28-794F17713EA3"/>
-         </indexColumnUsage>
-      </ind_PK_UK>
-   </indexes>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C531C8D-3DA3-59B5-0452-F1A0D969C27C" schemaObject="6CBB3992-DF5E-72F4-3F69-975D6746DC2D" name="LOCATIONS">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LOCATION_ID" id="5FF83CBC-1C24-45D7-94CD-788A8DB6480B">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<commentInRDBMS>Primary key of locations table</commentInRDBMS>
+<ownerDesignName>all_schemas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Column>
+<Column name="STREET_ADDRESS" id="C11AE0EA-0BAB-EC7C-3778-735D8A4B14BE">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<commentInRDBMS>Street address of an office, warehouse, or production site of a company.&lt;br&gt;Contains building number and street name</commentInRDBMS>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+</Column>
+<Column name="POSTAL_CODE" id="B5EFE736-DE28-BB6B-D075-7A71D96E2486">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<commentInRDBMS>Postal code of the location of an office, warehouse, or production site &lt;br&gt;of a company. </commentInRDBMS>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+</Column>
+<Column name="CITY" id="E1B44F5A-FADB-C963-C018-12123013A038">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<commentInRDBMS>A not null column that shows city where an office, warehouse, or &lt;br&gt;production site of a company is located. </commentInRDBMS>
+<ownerDesignName>all_schemas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Column>
+<Column name="STATE_PROVINCE" id="67D9AD9B-9704-224C-A811-801A590CC10D">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<commentInRDBMS>State or Province where an office, warehouse, or production site of a &lt;br&gt;company is located.</commentInRDBMS>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+</Column>
+<Column name="COUNTRY_ID" id="EC03FC16-1B8C-5D2C-DA28-794F17713EA3">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<commentInRDBMS>Country where an office, warehouse, or production site of a company is&lt;br&gt;located. Foreign key to country_id column of the countries table.</commentInRDBMS>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<associations>
+<colAssociation fkAssociation="CF053FBA-A938-AE7A-DB2A-85B0DF2F3784" referredColumn="8BECA963-50D3-4E82-1C71-43EBE496A89C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26049F41-094F-4046-E866-00F371FDFE04" name="LOC_ID_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:34 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="5FF83CBC-1C24-45D7-94CD-788A8DB6480B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86B32A2D-2312-2BBA-DD21-316655AE5450" name="LOC_CITY_IX">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:34 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<indexColumnUsage>
+<colUsage columnID="E1B44F5A-FADB-C963-C018-12123013A038"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3C96500-61F1-7FC3-8996-71DE1E6D4649" name="LOC_STATE_PROVINCE_IX">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:34 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<indexColumnUsage>
+<colUsage columnID="67D9AD9B-9704-224C-A811-801A590CC10D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C0E7937-6781-8802-812A-1615E49286C0" name="LOC_COUNTRY_IX">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:34 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<indexColumnUsage>
+<colUsage columnID="EC03FC16-1B8C-5D2C-DA28-794F17713EA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7A55BBD-8CD4-56CC-B426-83DD71144A6F" name="LOC_C_ID_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:40 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="EC03FC16-1B8C-5D2C-DA28-794F17713EA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

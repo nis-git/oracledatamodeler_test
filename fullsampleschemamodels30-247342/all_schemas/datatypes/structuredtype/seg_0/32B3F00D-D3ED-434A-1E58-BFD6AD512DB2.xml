@@ -1,1791 +1,1626 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="ORDIMAGE" id="32B3F00D-D3ED-434A-1E58-BFD6AD512DB2" directorySegmentName="seg_0">
-   <createdBy>Administrator</createdBy>
-   <createdTime>2008-11-17 12:25:26 UTC</createdTime>
-   <changedBy>smharper</changedBy>
-   <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-   <ownerDesignName>all_schemas</ownerDesignName>
-   <predefined>true</predefined>
-   <final>false</final>
-   <instantiable>true</instantiable>
-   <fonts>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Title</foType>
-         <fontStyle>1</fontStyle>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Attribute</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Datatype</foType>
-         <colorRGB>-16777056</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Method</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Not Instantiable</foType>
-         <colorRGB>-65536</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Mandatory</foType>
-         <colorRGB>-65536</colorRGB>
-      </FontObject>
-   </fonts>
-   <attributes>
-      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="SOURCE" id="EBAAEE57-5775-A81C-1FB6-95FB02E0AB72">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <mandatory>false</mandatory>
-         <precision>0</precision>
-         <reference>false</reference>
-         <referencerelation>BC21AFD0-9857-6B0D-64C0-7C5C405E9DDD</referencerelation>
-         <scale>0</scale>
-         <size>0</size>
-         <type>D0888014-7254-0045-9DEF-915F6076A298</type>
-         <referenceID>BC21AFD0-9857-6B0D-64C0-7C5C405E9DDD</referenceID>
-      </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="HEIGHT" id="603C5820-DB75-1B06-859B-794F4EA9B904">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <mandatory>false</mandatory>
-         <precision>0</precision>
-         <reference>false</reference>
-         <scale>0</scale>
-         <size>0</size>
-         <type>LOGDT011</type>
-      </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="WIDTH" id="B8EA8144-23FF-5ADE-2A6D-2C31ADFCA7B4">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <mandatory>false</mandatory>
-         <precision>0</precision>
-         <reference>false</reference>
-         <scale>0</scale>
-         <size>0</size>
-         <type>LOGDT011</type>
-      </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="CONTENTLENGTH" id="35696FA1-26D0-10B0-2ED1-F6C3E96C7BDD">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <mandatory>false</mandatory>
-         <precision>0</precision>
-         <reference>false</reference>
-         <scale>0</scale>
-         <size>0</size>
-         <type>LOGDT011</type>
-      </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="FILEFORMAT" id="0922C661-A25F-1306-0B0C-B94B2234EC8E">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <mandatory>false</mandatory>
-         <precision>0</precision>
-         <reference>false</reference>
-         <scale>0</scale>
-         <size>4000</size>
-         <type>LOGDT024</type>
-      </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="CONTENTFORMAT" id="3489B7B2-6B97-D9D8-6652-D32E17C01667">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <mandatory>false</mandatory>
-         <precision>0</precision>
-         <reference>false</reference>
-         <scale>0</scale>
-         <size>4000</size>
-         <type>LOGDT024</type>
-      </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="COMPRESSIONFORMAT" id="0400BF2E-35D7-C1D4-C6AA-2A4A722275CB">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <mandatory>false</mandatory>
-         <precision>0</precision>
-         <reference>false</reference>
-         <scale>0</scale>
-         <size>4000</size>
-         <type>LOGDT024</type>
-      </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.datatypes.TypeElement" name="MIMETYPE" id="FC9B974F-B0B4-2E72-F244-9EB03F42AA3A">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <mandatory>false</mandatory>
-         <precision>0</precision>
-         <reference>false</reference>
-         <scale>0</scale>
-         <size>4000</size>
-         <type>LOGDT024</type>
-      </Attribute>
-   </attributes>
-   <methods>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="INIT" id="708B3475-6DA3-F97A-55E2-47A36F64E2D9">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="INIT" id="null">
-            <precision>0</precision>
-            <reference>false</reference>
-            <scale>0</scale>
-            <size>0</size>
-            <typeID>LogDes-4972B6D2-6F93-8AE5-6E24-3599E65A7CFE@LOGDT10006</typeID>
-         </returnValue>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="INIT" id="76DB450E-1B45-E174-A719-C38AF52C4FA6">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SRCTYPE" id="7854833D-F573-4E1F-057F-836FD75BEF94">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SRCLOCATION" id="E9396617-411F-4B6B-32CF-8043CFED83BE">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SRCNAME" id="AC59ED43-81EE-523B-7C33-6D1E0F2FB2F0">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="COPY" id="BDFD692D-E863-C8C9-11A1-BFA93BD0EF11">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="DEST" id="F09949C2-F06E-E99B-3C1B-B1EE59042BDC">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LogDes-4972B6D2-6F93-8AE5-6E24-3599E65A7CFE@LOGDT10006</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="PROCESS" id="58014B5D-208F-8116-3A38-C827371B8D14">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="COMMAND" id="5F763824-CAAC-07F7-B893-B6714578AA63">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="PROCESSCOPY" id="DE85F3B2-52CA-F818-4307-6D8B1151D66E">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="COMMAND" id="161E02E7-3265-5B42-6E48-F0CD9A7BCCB7">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="DEST" id="9E0F2D3C-179D-1E86-7DD5-B618EADC0BE6">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LogDes-4972B6D2-6F93-8AE5-6E24-3599E65A7CFE@LOGDT10006</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="SETPROPERTIES" id="CAE84658-E776-C620-0A8E-0BBA9AD59EFC">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="SETPROPERTIES" id="EBDD1606-500F-6CF3-368D-437CCDAD25A2">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="DESCRIPTION" id="2E201BB6-B5AC-BDD5-DC9D-0EF62691EF98">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="CHECKPROPERTIES" id="2A246FDD-EBD5-B840-D8B6-05493B557BFD">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CHECKPROPERTIES" id="null">
-            <precision>0</precision>
-            <reference>false</reference>
-            <scale>0</scale>
-            <size>0</size>
-            <typeID>LOGDT017</typeID>
-         </returnValue>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GETHEIGHT" id="5C91E908-8CCD-A59F-25FA-5909C070F9BF">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETHEIGHT" id="null">
-            <precision>0</precision>
-            <reference>false</reference>
-            <scale>0</scale>
-            <size>0</size>
-            <typeID>LOGDT011</typeID>
-         </returnValue>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GETWIDTH" id="FFA2011D-BC0F-B6B6-F2D8-366EBC7A2841">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETWIDTH" id="null">
-            <precision>0</precision>
-            <reference>false</reference>
-            <scale>0</scale>
-            <size>0</size>
-            <typeID>LOGDT011</typeID>
-         </returnValue>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GETFILEFORMAT" id="41C879E2-A8F0-AFC9-84B9-175BC3580915">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETFILEFORMAT" id="null">
-            <precision>0</precision>
-            <reference>false</reference>
-            <scale>0</scale>
-            <size>0</size>
-            <typeID>LOGDT024</typeID>
-         </returnValue>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GETCONTENTFORMAT" id="D66778A6-2121-8BFB-8187-45A7859497BB">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETCONTENTFORMAT" id="null">
-            <precision>0</precision>
-            <reference>false</reference>
-            <scale>0</scale>
-            <size>0</size>
-            <typeID>LOGDT024</typeID>
-         </returnValue>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GETCOMPRESSIONFORMAT" id="0CDE0B01-D4FB-D218-B2D8-95965A0C7DB0">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETCOMPRESSIONFORMAT" id="null">
-            <precision>0</precision>
-            <reference>false</reference>
-            <scale>0</scale>
-            <size>0</size>
-            <typeID>LOGDT024</typeID>
-         </returnValue>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GETMETADATA" id="AB777811-9E38-ED68-2EFE-1B91F16D9835">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETMETADATA" id="null">
-            <precision>0</precision>
-            <reference>false</reference>
-            <scale>0</scale>
-            <size>0</size>
-            <typeID>AEDEF8B0-F2AA-9A3E-19FE-BE1CDA1A4E4B</typeID>
-         </returnValue>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="METADATATYPE" id="4C96A492-7FB0-8D76-BEC0-96FB1CC27D63">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="PUTMETADATA" id="C5591300-1A56-9520-C20E-FA930C188B8C">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="XMLDATA" id="72D878E1-C9C3-8193-D89B-7A9AAD3243DF">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT050</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="METADATATYPE" id="D6755117-7474-4ECE-0E6D-D9BF06D97820">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="ENCODING" id="7069BE94-03B2-1373-95A6-B03B166BE1B0">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="SETLOCAL" id="ADF900F3-9FB4-2141-F465-78A5BB68E940">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="CLEARLOCAL" id="B7DF88E4-A1C8-64F6-06FC-8028F9A17547">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="ISLOCAL" id="56D9FFEB-B872-1D98-EE08-06858DC07DD0">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="ISLOCAL" id="null">
-            <precision>0</precision>
-            <reference>false</reference>
-            <scale>0</scale>
-            <size>0</size>
-            <typeID>LOGDT017</typeID>
-         </returnValue>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GETUPDATETIME" id="B6A73918-BA99-F4AC-A5C4-D8565F6DD06B">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETUPDATETIME" id="null">
-            <precision>0</precision>
-            <reference>false</reference>
-            <scale>0</scale>
-            <size>0</size>
-            <typeID>LOGDT007</typeID>
-         </returnValue>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="SETUPDATETIME" id="0A73CF68-6F16-5664-BE74-4599EEDB7A31">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CURRENT_TIME" id="CC9EAD64-36E7-E6CF-077E-CCECE9DAAAB0">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT007</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GETMIMETYPE" id="E5F4A2F7-252D-30D2-C1A4-A822C58F2F09">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETMIMETYPE" id="null">
-            <precision>0</precision>
-            <reference>false</reference>
-            <scale>0</scale>
-            <size>0</size>
-            <typeID>LOGDT024</typeID>
-         </returnValue>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="SETMIMETYPE" id="DD633F1E-5D37-24B5-0088-B83E986C0450">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="MIME" id="B4BB8120-634C-BBC2-E6FB-078150C23CBF">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GETCONTENTLENGTH" id="4393AC0E-E829-44EF-FB6C-DAA157CC6288">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETCONTENTLENGTH" id="null">
-            <precision>0</precision>
-            <reference>false</reference>
-            <scale>0</scale>
-            <size>0</size>
-            <typeID>LOGDT011</typeID>
-         </returnValue>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GETCONTENT" id="F36732C9-13BB-FE34-BAA0-B487AAFC49BF">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETCONTENT" id="null">
-            <precision>0</precision>
-            <reference>false</reference>
-            <scale>0</scale>
-            <size>0</size>
-            <typeID>LOGDT029</typeID>
-         </returnValue>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GETBFILE" id="14502B5D-55D1-0B89-F9ED-12D0BABFC61F">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETBFILE" id="null">
-            <precision>0</precision>
-            <reference>false</reference>
-            <scale>0</scale>
-            <size>0</size>
-            <typeID>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10034</typeID>
-         </returnValue>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="DELETECONTENT" id="4EF7942E-6143-57E6-8A67-141068E483FF">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GETDICOMMETADATA" id="FE74425F-E0B5-4063-A45B-B3384AFA7846">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETDICOMMETADATA" id="null">
-            <precision>0</precision>
-            <reference>false</reference>
-            <scale>0</scale>
-            <size>0</size>
-            <typeID>LOGDT050</typeID>
-         </returnValue>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="OPTIONSTRING" id="6B3A9050-BDAA-7E7E-C637-B3F537EA7E29">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="SETSOURCE" id="2E993A48-CBBF-B7FB-34E3-9B88391FF78C">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_TYPE" id="02C02C3B-63E9-86F2-5568-E0D449815773">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_LOCATION" id="4F607BD1-F684-0E99-3504-0CDB58D4722F">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_NAME" id="39F74E85-C404-FD28-EC57-DDA741D33D97">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GETSOURCE" id="17ADE05D-6FBD-E630-3DD4-91AF10EE0D97">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETSOURCE" id="null">
-            <precision>0</precision>
-            <reference>false</reference>
-            <scale>0</scale>
-            <size>0</size>
-            <typeID>LOGDT024</typeID>
-         </returnValue>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GETSOURCETYPE" id="E43A7650-4C99-88C0-8B9B-D9C7F7855D81">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETSOURCETYPE" id="null">
-            <precision>0</precision>
-            <reference>false</reference>
-            <scale>0</scale>
-            <size>0</size>
-            <typeID>LOGDT024</typeID>
-         </returnValue>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GETSOURCELOCATION" id="6A25DD06-9EF2-C669-157D-C4BF8786D38E">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETSOURCELOCATION" id="null">
-            <precision>0</precision>
-            <reference>false</reference>
-            <scale>0</scale>
-            <size>0</size>
-            <typeID>LOGDT024</typeID>
-         </returnValue>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GETSOURCENAME" id="4D2CE6BC-E45E-E7AC-69B4-B2BD8A358804">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETSOURCENAME" id="null">
-            <precision>0</precision>
-            <reference>false</reference>
-            <scale>0</scale>
-            <size>0</size>
-            <typeID>LOGDT024</typeID>
-         </returnValue>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="IMPORT" id="3765F234-8719-BE12-CDA0-8414190B3B1E">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CTX" id="40C3F9EE-94CA-6A1B-3300-C79DADDC7204">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="IMPORTFROM" id="F987FE6E-4E16-93A3-7EF7-0013D8CE0D1F">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CTX" id="07791D3F-D3B4-30E2-19DE-7CEECECBA09C">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_TYPE" id="B6D08A7E-9CA5-0032-E09B-0F2D03C4C203">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_LOCATION" id="ABAA92A1-1F53-395F-32FF-F26E41F5BBAB">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_NAME" id="46745AB1-E769-FA23-F981-255502A7F1A3">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="EXPORT" id="670E2081-AB2A-1830-7E2A-70804397146C">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CTX" id="332814F8-0E1E-F7FC-19AA-AE3372069925">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_TYPE" id="3D6738B1-834A-D802-6FD7-61F3B4B25150">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_LOCATION" id="EC2176F4-BE42-74E2-55E0-4EBD87D7232F">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_NAME" id="1C07AEA7-EF37-D5CE-3301-BC5CB1692450">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="PROCESSSOURCECOMMAND" id="FA8C3E9C-8395-C167-C9F2-CAEB51FEC87B">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="PROCESSSOURCECOMMAND" id="null">
-            <precision>0</precision>
-            <reference>false</reference>
-            <scale>0</scale>
-            <size>0</size>
-            <typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
-         </returnValue>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CTX" id="C028F9AF-B18D-A30A-3087-A97302B61A5F">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CMD" id="E478CFCE-4BB2-B713-F884-04EB1E4B5BD5">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="ARGUMENTS" id="EAC1639B-C70B-88E3-CD2E-45E14596C18D">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="RESULT" id="1EA5EB42-3381-79C1-837B-D112EA634D18">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="OPENSOURCE" id="28AF72DE-A8B1-6EBA-4B36-978DE8DDDCA0">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="OPENSOURCE" id="null">
-            <precision>0</precision>
-            <reference>false</reference>
-            <scale>0</scale>
-            <size>0</size>
-            <typeID>LOGDT011</typeID>
-         </returnValue>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="USERARG" id="E11A5018-D135-EA50-256F-9C53AC1BB759">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CTX" id="9D3710B8-5F83-BA8E-FDA0-DDDBCE178622">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="CLOSESOURCE" id="2FCD27D5-BA56-22DB-3390-CD6074B09434">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CLOSESOURCE" id="null">
-            <precision>0</precision>
-            <reference>false</reference>
-            <scale>0</scale>
-            <size>0</size>
-            <typeID>LOGDT011</typeID>
-         </returnValue>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CTX" id="4D5BA640-8F4E-8380-FEDB-E6343FB314E5">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="TRIMSOURCE" id="4028228C-DDF8-46C6-2774-F95D0F728E4E">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="TRIMSOURCE" id="null">
-            <precision>0</precision>
-            <reference>false</reference>
-            <scale>0</scale>
-            <size>0</size>
-            <typeID>LOGDT011</typeID>
-         </returnValue>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CTX" id="C9D74989-8DC0-21B5-C3C2-B2FAE157FC17">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="NEWLEN" id="BFBCC85E-0450-B1FC-C08F-270F77BB41BC">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT011</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="READFROMSOURCE" id="B3467914-74F1-9C2B-ECA4-4862B0E625EA">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CTX" id="08154829-DC7D-B1C7-1613-69282F9B68DD">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="STARTPOS" id="0E466DA7-2180-89AB-FB45-CB47B2152911">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT011</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="NUMBYTES" id="B8DA2219-6654-6A0C-81C1-B98B151D8739">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT011</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="BUFFER" id="6769DE9A-AA33-9D21-BBB2-D4B8BCE13975">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="WRITETOSOURCE" id="B07E13FB-68E8-52F3-4CAC-066DDDAE7C28">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CTX" id="91C3C142-0994-E3A3-3C9F-B974C18D4742">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="STARTPOS" id="AF158CF7-4996-7A25-7914-EB5D36E3D44C">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT011</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="NUMBYTES" id="D842B224-C6FB-C4EB-49CD-0EF658F08BB5">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT011</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="BUFFER" id="06771ABB-D543-4310-E066-7F143911B6E5">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="EXPORT" id="AB64170E-A106-C58F-27AD-018DAB0247F6">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CTX" id="1ADE6F1E-DA07-1E54-BAF9-630B5B50A0C5">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="LOCAL_DATA" id="AB6BF566-BF30-FA7E-BC17-6F91825973E9">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT029</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_TYPE" id="6F45A635-A199-2578-0D46-F5EB1F423BF2">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_LOCATION" id="54D186E8-DD5F-A5F2-DD46-BFB08FC3DF16">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_NAME" id="4D85FDDB-1103-2797-A971-1BEC42F6B587">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="IMPORTFROM" id="299BB7DD-A44B-A870-B81F-856795A35014">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CTX" id="2729AB94-34AA-FE54-7784-979FCB15B0A2">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="LOCAL_DATA" id="8F3AC706-D2EA-4DD6-3EF5-D3037627B95B">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT029</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_TYPE" id="9BCAA69E-884B-2183-F4FB-75ECE05F5D0B">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_LOCATION" id="26C6AD88-E2C0-0CCA-E125-B4C03B741208">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_NAME" id="BB36AAE8-6EF4-0DB1-6D2A-AECF660B70E1">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="IMPORTFROM" id="B708EDDF-E0BC-7F9E-25A7-B5EEFBE98D8D">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CTX" id="BA0F61C4-97F2-AE76-0594-501845B3858B">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="LOCAL_DATA" id="0C6F5323-11A7-3290-CA4A-E7F779E12FF5">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT029</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_TYPE" id="E4504CFD-8DA8-FBB8-7ADE-189021A4B549">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_LOCATION" id="D6252B48-D3BA-0D1F-21D4-504DEA49768C">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_NAME" id="00FB4006-F56B-D58F-5A46-E22637C412C8">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="FORMAT" id="491F19ED-E0C7-517F-8045-55066C0F4D29">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="MIME_TYPE" id="B356F098-BD74-0FC2-1843-3F8CE1DF9263">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GETPROPERTIES" id="A6E4D528-152C-506D-3231-DE6FD5BEFD03">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBLOB" id="E676323B-8B65-D717-6C0C-E3F5103B22F7">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT029</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="ATTRIBUTES" id="789BB157-7175-640F-9694-F2E8E90B75C5">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT028</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="MIMETYPE" id="7057266B-8ECD-0E9A-4783-9C22466EBC76">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="WIDTH" id="789A2213-7889-61DD-933C-B43560421ADC">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT011</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="HEIGHT" id="E80FCC5E-DF5D-92A7-8681-B3A56BA00BBB">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT011</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="FILEFORMAT" id="71A4B8DB-82FD-EC73-C14D-19B8F64C229C">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CONTENTFORMAT" id="9B9D5B93-7E5E-6242-6E67-BBED9A199EE2">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="COMPRESSIONFORMAT" id="87A4C0EF-D281-B57A-7676-8A2BF7D6D485">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CONTENTLENGTH" id="8FC259CE-6F84-FF93-5FF1-9ACDB4AFB8F0">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT011</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GETPROPERTIES" id="94F8D620-ED13-9405-77E6-E635899F13C2">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBLOB" id="56EB175E-8AB2-96E6-565B-4A016449E652">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT029</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="ATTRIBUTES" id="64226C7D-70D6-8EFF-A7CB-D99BAD2EFA5C">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT028</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GETPROPERTIES" id="ACA6B08E-ECCB-5992-9EF3-D0BF8C962826">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBFILE" id="4E56DD42-8D58-DB52-F9D3-85EC8BC7C532">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10034</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="ATTRIBUTES" id="706397B9-B5F8-E501-8C4B-AE1D04E12F1B">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT028</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="MIMETYPE" id="A3D0A3F5-A369-5BC7-116A-78E4070ECD62">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="WIDTH" id="014F0F3E-844C-086E-4BEC-85DED83C2BBE">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT011</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="HEIGHT" id="A317B9F1-6291-78D7-AD94-E33CD9A43793">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT011</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="FILEFORMAT" id="AD50E8A5-6A5C-0290-4413-BC16B886F6E8">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CONTENTFORMAT" id="14945CD4-5343-7D9B-8BD4-F208AEC95817">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="COMPRESSIONFORMAT" id="686AD8A7-889D-DFC7-5237-C67BDE3369ED">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CONTENTLENGTH" id="80BF8059-1988-4C5A-63F7-76427305323E">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT011</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GETPROPERTIES" id="586FB318-4EE5-E772-ACF0-FA380F87EDB6">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBFILE" id="20E9F333-8B7A-6609-A31D-9E2F6640C788">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10034</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="ATTRIBUTES" id="609ECDCB-DAE7-3C8C-BDCF-F135428424F6">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT028</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GETMETADATA" id="72C1C13B-C75E-3FA1-1327-C3C26A7D2D51">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBLOB" id="894CAA1F-20B7-66BC-4E90-57BC41CDB3E8">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT029</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="METADATATYPE" id="728FC39B-22E8-F9A4-DB95-9979FF95B429">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GETMETADATA" id="60ACF101-CD68-7974-691E-21B5837F9D1B">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBFILE" id="119F6E14-164D-1375-5863-7ADC7FBE718A">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10034</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="METADATATYPE" id="7070C8D6-FC62-C09D-53CA-0409921D2C91">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="PUTMETADATA" id="76F0239D-8A40-3BAA-A2C1-6B72942A22E9">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBLOB" id="EBC27B8F-AD85-5C06-4510-5B4899B0E0AA">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT029</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="DEST" id="7CEA508C-067A-F912-23C1-25E09E60572D">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT029</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="XMLDATA" id="F375D367-3EF3-C84B-FE84-1A07E8DA7D2D">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT050</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="METADATATYPE" id="BDEAB7A1-4B20-EC47-2BFB-55624BAB3A69">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="ENCODING" id="B153B253-0A83-10C4-792B-45D10AD90556">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="PUTMETADATA" id="7FFC2BF7-9FCD-795E-CBEA-41ABAFCF469B">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBFILE" id="C350DE49-CA75-FDED-FBBE-7AF46C7148A8">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10034</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="DEST" id="F224C169-ACCF-F2CC-DD32-7DAC6C4DBCAB">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT029</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="XMLDATA" id="6FA93FD7-4D76-8D0B-D743-B3FE2145D9DB">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT050</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="METADATATYPE" id="862368E2-74B1-A562-9FB2-648B50EE9941">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="ENCODING" id="0F8622DA-46D7-31E5-142B-D95ED6AC4988">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="PROCESS" id="C5F5FAA3-E848-8375-21D4-BEEB29706BE0">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBLOB" id="CCEF6D04-6726-7B35-029F-F0A124B00D7D">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT029</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="COMMAND" id="C2535871-756A-FF05-9C44-5F17A9F1271F">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="PROCESSCOPY" id="10C6435C-374E-5F8A-7D10-D0AA86F53A35">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBLOB" id="8FD6BA8B-FBF8-866B-E9A0-F8D2C4EA11CA">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT029</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="COMMAND" id="BB9ED1B2-8A1D-D653-F3F1-F628145E6490">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="DEST" id="139D0EB5-1BFF-8A29-8A21-C5A6EC48B995">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT029</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="PROCESSCOPY" id="C0896BF2-7A8B-3174-3BBD-80A38727727A">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBFILE" id="572DB30F-DFFA-FAB6-E8A6-81453D9973AB">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10034</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="COMMAND" id="1AF910B1-0AFC-3957-EE5D-8EE8265631DE">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="DEST" id="BC7AA02B-5499-1DE8-D6FD-7B9A63D83BB4">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT029</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="PROCESS" id="D68BB8F6-2AFA-FAE3-9D1A-E54EDD8C9701">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBLOB" id="66725F27-9296-55A4-F69D-46DC9C0A8F16">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT029</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="COMMAND" id="BD393F55-7886-4EFC-85CA-5FE3A7DFB66D">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="WIDTH" id="24E3C231-E285-AA31-84AF-BAF4A3063DE3">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT011</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="HEIGHT" id="DB52A4C7-294A-0032-8B12-B0B46F996287">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT011</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="FILEFORMAT" id="D74FE146-3B73-43FD-BE0E-4AB19F0D12A0">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CONTENTFORMAT" id="19B29297-0B13-D0D4-C659-B8EC98D95D59">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="COMPRESSIONFORMAT" id="48DD7AB7-1FC9-0F93-61C1-04E4A9453759">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="PROCESSCOPY" id="52E603B8-E509-47DC-C30A-C62433241A22">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBLOB" id="38096109-2670-E133-45EA-4BA99C81E7EE">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT029</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="COMMAND" id="13842837-4F62-D7B7-A429-20F886C07A11">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="DEST" id="65951378-6316-7580-30E4-ED521728BDC5">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT029</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="WIDTH" id="8F92789B-FFC6-730A-24B7-368DD98C1056">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT011</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="HEIGHT" id="93B415B5-AE3F-0507-B1FA-0BF2C9088BE2">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT011</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="FILEFORMAT" id="5A783E95-B2DA-AD00-1F61-F60E455C3B38">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CONTENTFORMAT" id="84ED07DA-5E82-B192-53C2-EC58969D1EE3">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="COMPRESSIONFORMAT" id="F218438C-B40D-E5E4-D0A2-798361B3DDB2">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="PROCESSCOPY" id="5F3FBBF7-EC8A-FD39-EEBB-DEE1ABB31A6F">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBFILE" id="6243A7DC-1173-F74E-6D1C-F67C688BDA91">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10034</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="COMMAND" id="8F5C3136-12E3-9373-BA88-3AE18C2FF3C5">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="DEST" id="FA00BE49-41C5-F448-C3A9-DEADF1A24897">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT029</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="WIDTH" id="26809864-84D8-7650-FBEA-829570FD1703">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT011</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="HEIGHT" id="F734E66C-CB16-BC00-2829-40CB017F1196">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT011</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="FILEFORMAT" id="E07AB296-C39D-6016-AA8D-66DD8AAD5F42">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CONTENTFORMAT" id="9BF6BD6B-172D-A62E-7EDB-05180BF31D7F">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="COMPRESSIONFORMAT" id="DF6EE3C0-DC40-4FDE-FFD5-D1979D7496A1">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GETDICOMMETADATA" id="E03DFB2D-9856-CC3D-156A-E93036EAD792">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBLOB" id="52ECD7EF-9D61-D1B4-467C-5A63DD58783F">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT029</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="OPTIONSTRING" id="50E78E07-5F28-BE54-74F2-D1C1D9729844">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-      <Method class="oracle.dbtools.crest.model.design.datatypes.Method" name="GETDICOMMETADATA" id="81C4486F-867A-9E3C-5F37-5D4DE5C1AB72">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:27 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:27 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <number>0</number>
-         <parameters>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBFILE" id="3B908EFB-DA81-E017-A2B2-AD243ED1E56F">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10034</typeID>
-            </Parameter>
-            <Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="OPTIONSTRING" id="D2E4F3AD-9217-B1FA-3803-018B014A80EF">
-               <precision>0</precision>
-               <reference>false</reference>
-               <scale>0</scale>
-               <size>0</size>
-               <typeID>LOGDT024</typeID>
-            </Parameter>
-         </parameters>
-      </Method>
-   </methods>
+<StructuredType class="oracle.dbtools.crest.model.design.datatypes.StructuredType" name="ORDIMAGE" directorySegmentName="seg_0" id="32B3F00D-D3ED-434A-1E58-BFD6AD512DB2">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:26 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<predefined>true</predefined>
+<final>false</final>
+<instantiable>true</instantiable>
+<attributes itemClass="oracle.dbtools.crest.model.design.datatypes.TypeElement">
+<Attribute name="SOURCE" id="EBAAEE57-5775-A81C-1FB6-95FB02E0AB72">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<referencerelation>BC21AFD0-9857-6B0D-64C0-7C5C405E9DDD</referencerelation>
+<scale>0</scale>
+<size>0</size>
+<type>D0888014-7254-0045-9DEF-915F6076A298</type>
+<referenceID>BC21AFD0-9857-6B0D-64C0-7C5C405E9DDD</referenceID>
+</Attribute>
+<Attribute name="HEIGHT" id="603C5820-DB75-1B06-859B-794F4EA9B904">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<type>LOGDT011</type>
+</Attribute>
+<Attribute name="WIDTH" id="B8EA8144-23FF-5ADE-2A6D-2C31ADFCA7B4">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<type>LOGDT011</type>
+</Attribute>
+<Attribute name="CONTENTLENGTH" id="35696FA1-26D0-10B0-2ED1-F6C3E96C7BDD">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<type>LOGDT011</type>
+</Attribute>
+<Attribute name="FILEFORMAT" id="0922C661-A25F-1306-0B0C-B94B2234EC8E">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>4000</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="CONTENTFORMAT" id="3489B7B2-6B97-D9D8-6652-D32E17C01667">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>4000</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="COMPRESSIONFORMAT" id="0400BF2E-35D7-C1D4-C6AA-2A4A722275CB">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>4000</size>
+<type>LOGDT024</type>
+</Attribute>
+<Attribute name="MIMETYPE" id="FC9B974F-B0B4-2E72-F244-9EB03F42AA3A">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<mandatory>false</mandatory>
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>4000</size>
+<type>LOGDT024</type>
+</Attribute>
+</attributes>
+<methods itemClass="oracle.dbtools.crest.model.design.datatypes.Method">
+<Method name="INIT" id="708B3475-6DA3-F97A-55E2-47A36F64E2D9">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="INIT" id="null">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LogDes-4972B6D2-6F93-8AE5-6E24-3599E65A7CFE@LOGDT10006</typeID>
+</returnValue>
+</Method>
+<Method name="INIT" id="76DB450E-1B45-E174-A719-C38AF52C4FA6">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SRCTYPE" id="7854833D-F573-4E1F-057F-836FD75BEF94">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SRCLOCATION" id="E9396617-411F-4B6B-32CF-8043CFED83BE">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SRCNAME" id="AC59ED43-81EE-523B-7C33-6D1E0F2FB2F0">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="COPY" id="BDFD692D-E863-C8C9-11A1-BFA93BD0EF11">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="DEST" id="F09949C2-F06E-E99B-3C1B-B1EE59042BDC">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LogDes-4972B6D2-6F93-8AE5-6E24-3599E65A7CFE@LOGDT10006</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="PROCESS" id="58014B5D-208F-8116-3A38-C827371B8D14">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="COMMAND" id="5F763824-CAAC-07F7-B893-B6714578AA63">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="PROCESSCOPY" id="DE85F3B2-52CA-F818-4307-6D8B1151D66E">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="COMMAND" id="161E02E7-3265-5B42-6E48-F0CD9A7BCCB7">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="DEST" id="9E0F2D3C-179D-1E86-7DD5-B618EADC0BE6">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LogDes-4972B6D2-6F93-8AE5-6E24-3599E65A7CFE@LOGDT10006</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="SETPROPERTIES" id="CAE84658-E776-C620-0A8E-0BBA9AD59EFC">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+</Method>
+<Method name="SETPROPERTIES" id="EBDD1606-500F-6CF3-368D-437CCDAD25A2">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="DESCRIPTION" id="2E201BB6-B5AC-BDD5-DC9D-0EF62691EF98">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="CHECKPROPERTIES" id="2A246FDD-EBD5-B840-D8B6-05493B557BFD">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CHECKPROPERTIES" id="null">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT017</typeID>
+</returnValue>
+</Method>
+<Method name="GETHEIGHT" id="5C91E908-8CCD-A59F-25FA-5909C070F9BF">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETHEIGHT" id="null">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT011</typeID>
+</returnValue>
+</Method>
+<Method name="GETWIDTH" id="FFA2011D-BC0F-B6B6-F2D8-366EBC7A2841">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETWIDTH" id="null">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT011</typeID>
+</returnValue>
+</Method>
+<Method name="GETFILEFORMAT" id="41C879E2-A8F0-AFC9-84B9-175BC3580915">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETFILEFORMAT" id="null">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</returnValue>
+</Method>
+<Method name="GETCONTENTFORMAT" id="D66778A6-2121-8BFB-8187-45A7859497BB">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETCONTENTFORMAT" id="null">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</returnValue>
+</Method>
+<Method name="GETCOMPRESSIONFORMAT" id="0CDE0B01-D4FB-D218-B2D8-95965A0C7DB0">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETCOMPRESSIONFORMAT" id="null">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</returnValue>
+</Method>
+<Method name="GETMETADATA" id="AB777811-9E38-ED68-2EFE-1B91F16D9835">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETMETADATA" id="null">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>AEDEF8B0-F2AA-9A3E-19FE-BE1CDA1A4E4B</typeID>
+</returnValue>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="METADATATYPE" id="4C96A492-7FB0-8D76-BEC0-96FB1CC27D63">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="PUTMETADATA" id="C5591300-1A56-9520-C20E-FA930C188B8C">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="XMLDATA" id="72D878E1-C9C3-8193-D89B-7A9AAD3243DF">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT050</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="METADATATYPE" id="D6755117-7474-4ECE-0E6D-D9BF06D97820">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="ENCODING" id="7069BE94-03B2-1373-95A6-B03B166BE1B0">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="SETLOCAL" id="ADF900F3-9FB4-2141-F465-78A5BB68E940">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+</Method>
+<Method name="CLEARLOCAL" id="B7DF88E4-A1C8-64F6-06FC-8028F9A17547">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+</Method>
+<Method name="ISLOCAL" id="56D9FFEB-B872-1D98-EE08-06858DC07DD0">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="ISLOCAL" id="null">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT017</typeID>
+</returnValue>
+</Method>
+<Method name="GETUPDATETIME" id="B6A73918-BA99-F4AC-A5C4-D8565F6DD06B">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETUPDATETIME" id="null">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT007</typeID>
+</returnValue>
+</Method>
+<Method name="SETUPDATETIME" id="0A73CF68-6F16-5664-BE74-4599EEDB7A31">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CURRENT_TIME" id="CC9EAD64-36E7-E6CF-077E-CCECE9DAAAB0">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT007</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="GETMIMETYPE" id="E5F4A2F7-252D-30D2-C1A4-A822C58F2F09">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETMIMETYPE" id="null">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</returnValue>
+</Method>
+<Method name="SETMIMETYPE" id="DD633F1E-5D37-24B5-0088-B83E986C0450">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="MIME" id="B4BB8120-634C-BBC2-E6FB-078150C23CBF">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="GETCONTENTLENGTH" id="4393AC0E-E829-44EF-FB6C-DAA157CC6288">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETCONTENTLENGTH" id="null">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT011</typeID>
+</returnValue>
+</Method>
+<Method name="GETCONTENT" id="F36732C9-13BB-FE34-BAA0-B487AAFC49BF">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETCONTENT" id="null">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT029</typeID>
+</returnValue>
+</Method>
+<Method name="GETBFILE" id="14502B5D-55D1-0B89-F9ED-12D0BABFC61F">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETBFILE" id="null">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10034</typeID>
+</returnValue>
+</Method>
+<Method name="DELETECONTENT" id="4EF7942E-6143-57E6-8A67-141068E483FF">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+</Method>
+<Method name="GETDICOMMETADATA" id="FE74425F-E0B5-4063-A45B-B3384AFA7846">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETDICOMMETADATA" id="null">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT050</typeID>
+</returnValue>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="OPTIONSTRING" id="6B3A9050-BDAA-7E7E-C637-B3F537EA7E29">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="SETSOURCE" id="2E993A48-CBBF-B7FB-34E3-9B88391FF78C">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_TYPE" id="02C02C3B-63E9-86F2-5568-E0D449815773">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_LOCATION" id="4F607BD1-F684-0E99-3504-0CDB58D4722F">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_NAME" id="39F74E85-C404-FD28-EC57-DDA741D33D97">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="GETSOURCE" id="17ADE05D-6FBD-E630-3DD4-91AF10EE0D97">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETSOURCE" id="null">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</returnValue>
+</Method>
+<Method name="GETSOURCETYPE" id="E43A7650-4C99-88C0-8B9B-D9C7F7855D81">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETSOURCETYPE" id="null">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</returnValue>
+</Method>
+<Method name="GETSOURCELOCATION" id="6A25DD06-9EF2-C669-157D-C4BF8786D38E">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETSOURCELOCATION" id="null">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</returnValue>
+</Method>
+<Method name="GETSOURCENAME" id="4D2CE6BC-E45E-E7AC-69B4-B2BD8A358804">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="GETSOURCENAME" id="null">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</returnValue>
+</Method>
+<Method name="IMPORT" id="3765F234-8719-BE12-CDA0-8414190B3B1E">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CTX" id="40C3F9EE-94CA-6A1B-3300-C79DADDC7204">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="IMPORTFROM" id="F987FE6E-4E16-93A3-7EF7-0013D8CE0D1F">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CTX" id="07791D3F-D3B4-30E2-19DE-7CEECECBA09C">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_TYPE" id="B6D08A7E-9CA5-0032-E09B-0F2D03C4C203">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_LOCATION" id="ABAA92A1-1F53-395F-32FF-F26E41F5BBAB">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_NAME" id="46745AB1-E769-FA23-F981-255502A7F1A3">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="EXPORT" id="670E2081-AB2A-1830-7E2A-70804397146C">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CTX" id="332814F8-0E1E-F7FC-19AA-AE3372069925">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_TYPE" id="3D6738B1-834A-D802-6FD7-61F3B4B25150">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_LOCATION" id="EC2176F4-BE42-74E2-55E0-4EBD87D7232F">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_NAME" id="1C07AEA7-EF37-D5CE-3301-BC5CB1692450">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="PROCESSSOURCECOMMAND" id="FA8C3E9C-8395-C167-C9F2-CAEB51FEC87B">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="PROCESSSOURCECOMMAND" id="null">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
+</returnValue>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CTX" id="C028F9AF-B18D-A30A-3087-A97302B61A5F">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CMD" id="E478CFCE-4BB2-B713-F884-04EB1E4B5BD5">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="ARGUMENTS" id="EAC1639B-C70B-88E3-CD2E-45E14596C18D">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="RESULT" id="1EA5EB42-3381-79C1-837B-D112EA634D18">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="OPENSOURCE" id="28AF72DE-A8B1-6EBA-4B36-978DE8DDDCA0">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="OPENSOURCE" id="null">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT011</typeID>
+</returnValue>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="USERARG" id="E11A5018-D135-EA50-256F-9C53AC1BB759">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CTX" id="9D3710B8-5F83-BA8E-FDA0-DDDBCE178622">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="CLOSESOURCE" id="2FCD27D5-BA56-22DB-3390-CD6074B09434">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CLOSESOURCE" id="null">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT011</typeID>
+</returnValue>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CTX" id="4D5BA640-8F4E-8380-FEDB-E6343FB314E5">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="TRIMSOURCE" id="4028228C-DDF8-46C6-2774-F95D0F728E4E">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<returnValue class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="TRIMSOURCE" id="null">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT011</typeID>
+</returnValue>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CTX" id="C9D74989-8DC0-21B5-C3C2-B2FAE157FC17">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="NEWLEN" id="BFBCC85E-0450-B1FC-C08F-270F77BB41BC">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT011</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="READFROMSOURCE" id="B3467914-74F1-9C2B-ECA4-4862B0E625EA">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CTX" id="08154829-DC7D-B1C7-1613-69282F9B68DD">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="STARTPOS" id="0E466DA7-2180-89AB-FB45-CB47B2152911">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT011</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="NUMBYTES" id="B8DA2219-6654-6A0C-81C1-B98B151D8739">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT011</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="BUFFER" id="6769DE9A-AA33-9D21-BBB2-D4B8BCE13975">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="WRITETOSOURCE" id="B07E13FB-68E8-52F3-4CAC-066DDDAE7C28">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CTX" id="91C3C142-0994-E3A3-3C9F-B974C18D4742">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="STARTPOS" id="AF158CF7-4996-7A25-7914-EB5D36E3D44C">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT011</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="NUMBYTES" id="D842B224-C6FB-C4EB-49CD-0EF658F08BB5">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT011</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="BUFFER" id="06771ABB-D543-4310-E066-7F143911B6E5">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="EXPORT" id="AB64170E-A106-C58F-27AD-018DAB0247F6">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CTX" id="1ADE6F1E-DA07-1E54-BAF9-630B5B50A0C5">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="LOCAL_DATA" id="AB6BF566-BF30-FA7E-BC17-6F91825973E9">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT029</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_TYPE" id="6F45A635-A199-2578-0D46-F5EB1F423BF2">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_LOCATION" id="54D186E8-DD5F-A5F2-DD46-BFB08FC3DF16">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_NAME" id="4D85FDDB-1103-2797-A971-1BEC42F6B587">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="IMPORTFROM" id="299BB7DD-A44B-A870-B81F-856795A35014">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CTX" id="2729AB94-34AA-FE54-7784-979FCB15B0A2">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="LOCAL_DATA" id="8F3AC706-D2EA-4DD6-3EF5-D3037627B95B">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT029</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_TYPE" id="9BCAA69E-884B-2183-F4FB-75ECE05F5D0B">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_LOCATION" id="26C6AD88-E2C0-0CCA-E125-B4C03B741208">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_NAME" id="BB36AAE8-6EF4-0DB1-6D2A-AECF660B70E1">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="IMPORTFROM" id="B708EDDF-E0BC-7F9E-25A7-B5EEFBE98D8D">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CTX" id="BA0F61C4-97F2-AE76-0594-501845B3858B">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="LOCAL_DATA" id="0C6F5323-11A7-3290-CA4A-E7F779E12FF5">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT029</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_TYPE" id="E4504CFD-8DA8-FBB8-7ADE-189021A4B549">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_LOCATION" id="D6252B48-D3BA-0D1F-21D4-504DEA49768C">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="SOURCE_NAME" id="00FB4006-F56B-D58F-5A46-E22637C412C8">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="FORMAT" id="491F19ED-E0C7-517F-8045-55066C0F4D29">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="MIME_TYPE" id="B356F098-BD74-0FC2-1843-3F8CE1DF9263">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="GETPROPERTIES" id="A6E4D528-152C-506D-3231-DE6FD5BEFD03">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBLOB" id="E676323B-8B65-D717-6C0C-E3F5103B22F7">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT029</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="ATTRIBUTES" id="789BB157-7175-640F-9694-F2E8E90B75C5">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT028</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="MIMETYPE" id="7057266B-8ECD-0E9A-4783-9C22466EBC76">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="WIDTH" id="789A2213-7889-61DD-933C-B43560421ADC">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT011</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="HEIGHT" id="E80FCC5E-DF5D-92A7-8681-B3A56BA00BBB">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT011</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="FILEFORMAT" id="71A4B8DB-82FD-EC73-C14D-19B8F64C229C">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CONTENTFORMAT" id="9B9D5B93-7E5E-6242-6E67-BBED9A199EE2">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="COMPRESSIONFORMAT" id="87A4C0EF-D281-B57A-7676-8A2BF7D6D485">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CONTENTLENGTH" id="8FC259CE-6F84-FF93-5FF1-9ACDB4AFB8F0">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT011</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="GETPROPERTIES" id="94F8D620-ED13-9405-77E6-E635899F13C2">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBLOB" id="56EB175E-8AB2-96E6-565B-4A016449E652">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT029</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="ATTRIBUTES" id="64226C7D-70D6-8EFF-A7CB-D99BAD2EFA5C">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT028</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="GETPROPERTIES" id="ACA6B08E-ECCB-5992-9EF3-D0BF8C962826">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBFILE" id="4E56DD42-8D58-DB52-F9D3-85EC8BC7C532">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10034</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="ATTRIBUTES" id="706397B9-B5F8-E501-8C4B-AE1D04E12F1B">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT028</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="MIMETYPE" id="A3D0A3F5-A369-5BC7-116A-78E4070ECD62">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="WIDTH" id="014F0F3E-844C-086E-4BEC-85DED83C2BBE">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT011</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="HEIGHT" id="A317B9F1-6291-78D7-AD94-E33CD9A43793">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT011</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="FILEFORMAT" id="AD50E8A5-6A5C-0290-4413-BC16B886F6E8">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CONTENTFORMAT" id="14945CD4-5343-7D9B-8BD4-F208AEC95817">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="COMPRESSIONFORMAT" id="686AD8A7-889D-DFC7-5237-C67BDE3369ED">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CONTENTLENGTH" id="80BF8059-1988-4C5A-63F7-76427305323E">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT011</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="GETPROPERTIES" id="586FB318-4EE5-E772-ACF0-FA380F87EDB6">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBFILE" id="20E9F333-8B7A-6609-A31D-9E2F6640C788">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10034</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="ATTRIBUTES" id="609ECDCB-DAE7-3C8C-BDCF-F135428424F6">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT028</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="GETMETADATA" id="72C1C13B-C75E-3FA1-1327-C3C26A7D2D51">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBLOB" id="894CAA1F-20B7-66BC-4E90-57BC41CDB3E8">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT029</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="METADATATYPE" id="728FC39B-22E8-F9A4-DB95-9979FF95B429">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="GETMETADATA" id="60ACF101-CD68-7974-691E-21B5837F9D1B">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBFILE" id="119F6E14-164D-1375-5863-7ADC7FBE718A">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10034</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="METADATATYPE" id="7070C8D6-FC62-C09D-53CA-0409921D2C91">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="PUTMETADATA" id="76F0239D-8A40-3BAA-A2C1-6B72942A22E9">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBLOB" id="EBC27B8F-AD85-5C06-4510-5B4899B0E0AA">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT029</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="DEST" id="7CEA508C-067A-F912-23C1-25E09E60572D">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT029</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="XMLDATA" id="F375D367-3EF3-C84B-FE84-1A07E8DA7D2D">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT050</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="METADATATYPE" id="BDEAB7A1-4B20-EC47-2BFB-55624BAB3A69">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="ENCODING" id="B153B253-0A83-10C4-792B-45D10AD90556">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="PUTMETADATA" id="7FFC2BF7-9FCD-795E-CBEA-41ABAFCF469B">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBFILE" id="C350DE49-CA75-FDED-FBBE-7AF46C7148A8">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10034</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="DEST" id="F224C169-ACCF-F2CC-DD32-7DAC6C4DBCAB">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT029</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="XMLDATA" id="6FA93FD7-4D76-8D0B-D743-B3FE2145D9DB">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT050</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="METADATATYPE" id="862368E2-74B1-A562-9FB2-648B50EE9941">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="ENCODING" id="0F8622DA-46D7-31E5-142B-D95ED6AC4988">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="PROCESS" id="C5F5FAA3-E848-8375-21D4-BEEB29706BE0">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBLOB" id="CCEF6D04-6726-7B35-029F-F0A124B00D7D">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT029</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="COMMAND" id="C2535871-756A-FF05-9C44-5F17A9F1271F">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="PROCESSCOPY" id="10C6435C-374E-5F8A-7D10-D0AA86F53A35">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBLOB" id="8FD6BA8B-FBF8-866B-E9A0-F8D2C4EA11CA">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT029</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="COMMAND" id="BB9ED1B2-8A1D-D653-F3F1-F628145E6490">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="DEST" id="139D0EB5-1BFF-8A29-8A21-C5A6EC48B995">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT029</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="PROCESSCOPY" id="C0896BF2-7A8B-3174-3BBD-80A38727727A">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBFILE" id="572DB30F-DFFA-FAB6-E8A6-81453D9973AB">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10034</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="COMMAND" id="1AF910B1-0AFC-3957-EE5D-8EE8265631DE">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="DEST" id="BC7AA02B-5499-1DE8-D6FD-7B9A63D83BB4">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT029</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="PROCESS" id="D68BB8F6-2AFA-FAE3-9D1A-E54EDD8C9701">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBLOB" id="66725F27-9296-55A4-F69D-46DC9C0A8F16">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT029</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="COMMAND" id="BD393F55-7886-4EFC-85CA-5FE3A7DFB66D">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="WIDTH" id="24E3C231-E285-AA31-84AF-BAF4A3063DE3">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT011</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="HEIGHT" id="DB52A4C7-294A-0032-8B12-B0B46F996287">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT011</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="FILEFORMAT" id="D74FE146-3B73-43FD-BE0E-4AB19F0D12A0">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CONTENTFORMAT" id="19B29297-0B13-D0D4-C659-B8EC98D95D59">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="COMPRESSIONFORMAT" id="48DD7AB7-1FC9-0F93-61C1-04E4A9453759">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="PROCESSCOPY" id="52E603B8-E509-47DC-C30A-C62433241A22">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBLOB" id="38096109-2670-E133-45EA-4BA99C81E7EE">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT029</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="COMMAND" id="13842837-4F62-D7B7-A429-20F886C07A11">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="DEST" id="65951378-6316-7580-30E4-ED521728BDC5">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT029</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="WIDTH" id="8F92789B-FFC6-730A-24B7-368DD98C1056">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT011</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="HEIGHT" id="93B415B5-AE3F-0507-B1FA-0BF2C9088BE2">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT011</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="FILEFORMAT" id="5A783E95-B2DA-AD00-1F61-F60E455C3B38">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CONTENTFORMAT" id="84ED07DA-5E82-B192-53C2-EC58969D1EE3">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="COMPRESSIONFORMAT" id="F218438C-B40D-E5E4-D0A2-798361B3DDB2">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="PROCESSCOPY" id="5F3FBBF7-EC8A-FD39-EEBB-DEE1ABB31A6F">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBFILE" id="6243A7DC-1173-F74E-6D1C-F67C688BDA91">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10034</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="COMMAND" id="8F5C3136-12E3-9373-BA88-3AE18C2FF3C5">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="DEST" id="FA00BE49-41C5-F448-C3A9-DEADF1A24897">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT029</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="WIDTH" id="26809864-84D8-7650-FBEA-829570FD1703">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT011</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="HEIGHT" id="F734E66C-CB16-BC00-2829-40CB017F1196">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT011</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="FILEFORMAT" id="E07AB296-C39D-6016-AA8D-66DD8AAD5F42">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="CONTENTFORMAT" id="9BF6BD6B-172D-A62E-7EDB-05180BF31D7F">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="COMPRESSIONFORMAT" id="DF6EE3C0-DC40-4FDE-FFD5-D1979D7496A1">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="GETDICOMMETADATA" id="E03DFB2D-9856-CC3D-156A-E93036EAD792">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBLOB" id="52ECD7EF-9D61-D1B4-467C-5A63DD58783F">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT029</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="OPTIONSTRING" id="50E78E07-5F28-BE54-74F2-D1C1D9729844">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+</parameters>
+</Method>
+<Method name="GETDICOMMETADATA" id="81C4486F-867A-9E3C-5F37-5D4DE5C1AB72">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:27 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<number>0</number>
+<parameters>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="IMAGEBFILE" id="3B908EFB-DA81-E017-A2B2-AD243ED1E56F">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10034</typeID>
+</Parameter>
+<Parameter class="oracle.dbtools.crest.model.design.datatypes.MethodParam" name="OPTIONSTRING" id="D2E4F3AD-9217-B1FA-3803-018B014A80EF">
+<precision>0</precision>
+<reference>false</reference>
+<scale>0</scale>
+<size>0</size>
+<typeID>LOGDT024</typeID>
+</Parameter>
+</parameters>
+</Method>
+</methods>
 </StructuredType>

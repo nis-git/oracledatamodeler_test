@@ -1,154 +1,174 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="377FA4EB-06A0-9A51-85C2-A066B9EAAE05" directorySegmentName="seg_0" name="ONLINE_MEDIA">
-   <createdBy>Administrator</createdBy>
-   <createdTime>2008-11-18 12:15:36 UTC</createdTime>
-   <changedBy>smharper</changedBy>
-   <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-   <generatorID>0A34277C-3996-29C2-1EB9-6FE23D932FB3</generatorID>
-   <ownerDesignName>all_schemas</ownerDesignName>
-   <pkName>ONLINEMEDIA__PK</pkName>
-   <adequatelyNormalized>NO</adequatelyNormalized>
-   <expectedVolumes>0</expectedVolumes>
-   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
-   <growthPercent>0</growthPercent>
-   <growthType>Year</growthType>
-   <maxVolumes>9999999</maxVolumes>
-   <minVolumes>0</minVolumes>
-   <normalForm>Third</normalForm>
-   <fonts>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Title</foType>
-         <fontStyle>1</fontStyle>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Attribute</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Datatype</foType>
-         <colorRGB>-16744448</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>PK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>FK Element</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>UK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Not Null</foType>
-         <colorRGB>-65536</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Key</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-   </fonts>
-   <attributes>
-      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="PRODUCT_ID" id="1AF21119-C2CB-CD9D-B1C8-C2BC4FE840D2">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-         <generatorID>B6BC57B6-DAEE-776D-5130-D22EEBF2DF83</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>6</dataTypePrecision>
-      </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="PRODUCT_PHOTO" id="17BE9B05-0DA8-AB00-7366-B81E1EFE2C64">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-         <generatorID>D9B29EC5-EC19-3E73-2E81-D8C822E42624</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LogDes-4972B6D2-6F93-8AE5-6E24-3599E65A7CFE@LOGDT10006</logicalDatatype>
-      </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="PRODUCT_PHOTO_SIGNATURE" id="C763CB64-7782-3E1C-8D9A-EE28B9EA1FB1">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-         <generatorID>1EFBFFDA-F1E1-62A8-8238-06C9C9545B60</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LogDes-4972B6D2-6F93-8AE5-6E24-3599E65A7CFE@LOGDT10007</logicalDatatype>
-      </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="PRODUCT_THUMBNAIL" id="8BEFCAE6-9346-55AC-D707-6CBD116D1BCC">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-         <generatorID>4691FDFF-CCD3-765C-A514-4B8609B9EC43</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LogDes-4972B6D2-6F93-8AE5-6E24-3599E65A7CFE@LOGDT10006</logicalDatatype>
-      </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="PRODUCT_VIDEO" id="E499D5B7-9715-E5BC-5BC5-8E6B89E55B64">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-         <generatorID>2E4E6E4E-1F54-280D-7293-3514D1F654EE</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LogDes-4972B6D2-6F93-8AE5-6E24-3599E65A7CFE@LOGDT10008</logicalDatatype>
-      </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="PRODUCT_AUDIO" id="2984C417-0621-AEC5-5E32-E63875B0BEEF">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-         <generatorID>5E02F7E3-2A0A-887E-8F0F-E0E202C0803B</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LogDes-4972B6D2-6F93-8AE5-6E24-3599E65A7CFE@LOGDT10005</logicalDatatype>
-      </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="PRODUCT_TEXT" id="01345359-0A27-7DCE-6E54-74FBBD597876">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-         <generatorID>98336D17-839A-5ED5-7064-5ADABB7A2A9A</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT028</logicalDatatype>
-      </Attribute>
-      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="PRODUCT_TESTIMONIALS" id="0D3E07A8-FCBD-EFB3-3B3E-408516FEDE05">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-         <generatorID>DD407676-BF26-9FE7-AB0B-6B20CC6551AF</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LogDes-4972B6D2-6F93-8AE5-6E24-3599E65A7CFE@LOGDT10009</logicalDatatype>
-      </Attribute>
-   </attributes>
-   <identifiers>
-      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="AD412DAA-7A33-2B88-2A02-D10A3C206862" name="ONLINEMEDIA__PK">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-18 12:15:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-         <generatorID>994D7FDA-3FF6-73C4-2A71-ED470619DE91</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <pk>true</pk>
-      </identifier>
-   </identifiers>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="377FA4EB-06A0-9A51-85C2-A066B9EAAE05" name="ONLINE_MEDIA">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:15:36 UTC</createdTime>
+<generatorID>0A34277C-3996-29C2-1EB9-6FE23D932FB3</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<engineerTo>
+<item key="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" value="true"/>
+<item key="037A5BCA-FECF-4DC5-9A0B-0219848544BA" value="true"/>
+<item key="44BA4DCC-3408-55FA-38FE-22F0223CD0E3" value="true"/>
+<item key="BF105018-3CC9-F992-06AB-3F0BD4F6521B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PRODUCT_ID" id="1AF21119-C2CB-CD9D-B1C8-C2BC4FE840D2">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:15:36 UTC</createdTime>
+<generatorID>B6BC57B6-DAEE-776D-5130-D22EEBF2DF83</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<engineerTo>
+<item key="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" value="true"/>
+<item key="037A5BCA-FECF-4DC5-9A0B-0219848544BA" value="true"/>
+<item key="44BA4DCC-3408-55FA-38FE-22F0223CD0E3" value="true"/>
+<item key="BF105018-3CC9-F992-06AB-3F0BD4F6521B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRODUCT_PHOTO" id="17BE9B05-0DA8-AB00-7366-B81E1EFE2C64">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:15:36 UTC</createdTime>
+<generatorID>D9B29EC5-EC19-3E73-2E81-D8C822E42624</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<engineerTo>
+<item key="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" value="true"/>
+<item key="037A5BCA-FECF-4DC5-9A0B-0219848544BA" value="true"/>
+<item key="44BA4DCC-3408-55FA-38FE-22F0223CD0E3" value="true"/>
+<item key="BF105018-3CC9-F992-06AB-3F0BD4F6521B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4972B6D2-6F93-8AE5-6E24-3599E65A7CFE@LOGDT10006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRODUCT_PHOTO_SIGNATURE" id="C763CB64-7782-3E1C-8D9A-EE28B9EA1FB1">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:15:36 UTC</createdTime>
+<generatorID>1EFBFFDA-F1E1-62A8-8238-06C9C9545B60</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<engineerTo>
+<item key="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" value="true"/>
+<item key="037A5BCA-FECF-4DC5-9A0B-0219848544BA" value="true"/>
+<item key="44BA4DCC-3408-55FA-38FE-22F0223CD0E3" value="true"/>
+<item key="BF105018-3CC9-F992-06AB-3F0BD4F6521B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4972B6D2-6F93-8AE5-6E24-3599E65A7CFE@LOGDT10007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRODUCT_THUMBNAIL" id="8BEFCAE6-9346-55AC-D707-6CBD116D1BCC">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:15:36 UTC</createdTime>
+<generatorID>4691FDFF-CCD3-765C-A514-4B8609B9EC43</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<engineerTo>
+<item key="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" value="true"/>
+<item key="037A5BCA-FECF-4DC5-9A0B-0219848544BA" value="true"/>
+<item key="44BA4DCC-3408-55FA-38FE-22F0223CD0E3" value="true"/>
+<item key="BF105018-3CC9-F992-06AB-3F0BD4F6521B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4972B6D2-6F93-8AE5-6E24-3599E65A7CFE@LOGDT10006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRODUCT_VIDEO" id="E499D5B7-9715-E5BC-5BC5-8E6B89E55B64">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:15:36 UTC</createdTime>
+<generatorID>2E4E6E4E-1F54-280D-7293-3514D1F654EE</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<engineerTo>
+<item key="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" value="true"/>
+<item key="037A5BCA-FECF-4DC5-9A0B-0219848544BA" value="true"/>
+<item key="44BA4DCC-3408-55FA-38FE-22F0223CD0E3" value="true"/>
+<item key="BF105018-3CC9-F992-06AB-3F0BD4F6521B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4972B6D2-6F93-8AE5-6E24-3599E65A7CFE@LOGDT10008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRODUCT_AUDIO" id="2984C417-0621-AEC5-5E32-E63875B0BEEF">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:15:36 UTC</createdTime>
+<generatorID>5E02F7E3-2A0A-887E-8F0F-E0E202C0803B</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<engineerTo>
+<item key="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" value="true"/>
+<item key="037A5BCA-FECF-4DC5-9A0B-0219848544BA" value="true"/>
+<item key="44BA4DCC-3408-55FA-38FE-22F0223CD0E3" value="true"/>
+<item key="BF105018-3CC9-F992-06AB-3F0BD4F6521B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4972B6D2-6F93-8AE5-6E24-3599E65A7CFE@LOGDT10005</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRODUCT_TEXT" id="01345359-0A27-7DCE-6E54-74FBBD597876">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:15:36 UTC</createdTime>
+<generatorID>98336D17-839A-5ED5-7064-5ADABB7A2A9A</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<engineerTo>
+<item key="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" value="true"/>
+<item key="037A5BCA-FECF-4DC5-9A0B-0219848544BA" value="true"/>
+<item key="44BA4DCC-3408-55FA-38FE-22F0223CD0E3" value="true"/>
+<item key="BF105018-3CC9-F992-06AB-3F0BD4F6521B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRODUCT_TESTIMONIALS" id="0D3E07A8-FCBD-EFB3-3B3E-408516FEDE05">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:15:36 UTC</createdTime>
+<generatorID>DD407676-BF26-9FE7-AB0B-6B20CC6551AF</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<engineerTo>
+<item key="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" value="true"/>
+<item key="037A5BCA-FECF-4DC5-9A0B-0219848544BA" value="true"/>
+<item key="44BA4DCC-3408-55FA-38FE-22F0223CD0E3" value="true"/>
+<item key="BF105018-3CC9-F992-06AB-3F0BD4F6521B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4972B6D2-6F93-8AE5-6E24-3599E65A7CFE@LOGDT10009</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AD412DAA-7A33-2B88-2A02-D10A3C206862" name="ONLINEMEDIA__PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:15:36 UTC</createdTime>
+<generatorID>994D7FDA-3FF6-73C4-2A71-ED470619DE91</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<engineerTo>
+<item key="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" value="true"/>
+<item key="037A5BCA-FECF-4DC5-9A0B-0219848544BA" value="true"/>
+<item key="44BA4DCC-3408-55FA-38FE-22F0223CD0E3" value="true"/>
+<item key="BF105018-3CC9-F992-06AB-3F0BD4F6521B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
 </Entity>

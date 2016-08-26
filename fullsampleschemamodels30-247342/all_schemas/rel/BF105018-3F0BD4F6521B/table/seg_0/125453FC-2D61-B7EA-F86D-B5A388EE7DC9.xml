@@ -1,111 +1,74 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" id="125453FC-2D61-B7EA-F86D-B5A388EE7DC9" directorySegmentName="seg_0" name="MLOG$_PRODUCTS">
-   <createdBy>Administrator</createdBy>
-   <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-   <changedBy>smharper</changedBy>
-   <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-   <ownerDesignName>all_schemas</ownerDesignName>
-   <shouldEngineer>false</shouldEngineer>
-   <schemaObject>92D7A384-7405-004C-11BA-2BF5FDFC8C3C</schemaObject>
-   <fonts>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Title</foType>
-         <fontStyle>1</fontStyle>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Column</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Datatype</foType>
-         <colorRGB>-16744448</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>PK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>FK Element</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>UK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Not Null</foType>
-         <colorRGB>-65536</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Key</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-   </fonts>
-   <columns>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="PROD_ID" id="5A03B7CE-2C63-39CC-1B91-A11060049F3E">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>6</dataTypePrecision>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="SEQUENCE$$" id="9D89C3A8-3F9B-E9E1-1B8F-E8967D0696FD">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="SNAPTIME$$" id="76DA05A9-D17F-C3AB-DF2E-323B06A556F1">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT007</logicalDatatype>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="DMLTYPE$$" id="3EC68248-A127-73DA-FF9E-78A3FF80F81E">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>1 BYTE</dataTypeSize>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="OLD_NEW$$" id="859A4F2D-F294-E306-C829-F6A5ED18611A">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>1 BYTE</dataTypeSize>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CHANGE_VECTOR$$" id="75A012CD-5569-D162-0E8F-4AF2058D8D78">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
-         <dataTypeSize>255</dataTypeSize>
-      </Column>
-   </columns>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="125453FC-2D61-B7EA-F86D-B5A388EE7DC9" schemaObject="92D7A384-7405-004C-11BA-2BF5FDFC8C3C" name="MLOG$_PRODUCTS">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROD_ID" id="5A03B7CE-2C63-39CC-1B91-A11060049F3E">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Column>
+<Column name="SEQUENCE$$" id="9D89C3A8-3F9B-E9E1-1B8F-E8967D0696FD">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Column>
+<Column name="SNAPTIME$$" id="76DA05A9-D17F-C3AB-DF2E-323B06A556F1">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Column>
+<Column name="DMLTYPE$$" id="3EC68248-A127-73DA-FF9E-78A3FF80F81E">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Column>
+<Column name="OLD_NEW$$" id="859A4F2D-F294-E306-C829-F6A5ED18611A">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Column>
+<Column name="CHANGE_VECTOR$$" id="75A012CD-5569-D162-0E8F-4AF2058D8D78">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Column>
+</columns>
 </Table>

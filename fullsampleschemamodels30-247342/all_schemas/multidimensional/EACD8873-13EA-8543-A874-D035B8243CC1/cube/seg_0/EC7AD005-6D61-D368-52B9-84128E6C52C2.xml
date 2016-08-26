@@ -1,115 +1,78 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Cube class="oracle.dbtools.crest.model.design.multidimensional.Cube" name="SALES" id="EC7AD005-6D61-D368-52B9-84128E6C52C2" directorySegmentName="seg_0">
-   <createdBy>pstoyano</createdBy>
-   <createdTime>2009-07-01 16:57:26 UTC</createdTime>
-   <changedBy>smharper</changedBy>
-   <changedTime>2009-07-01 16:57:26 UTC</changedTime>
-   <ownerDesignName>all_schemas</ownerDesignName>
-   <nameInOracleAW>SALES</nameInOracleAW>
-   <compressedcomposites>false</compressedcomposites>
-   <factEntity>3551C5F8-1419-2440-0FD3-57D6D00B90DE</factEntity>
-   <partitioned>true</partitioned>
-   <useGlobalComposites>false</useGlobalComposites>
-   <virtual>true</virtual>
-   <fonts>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Title</foType>
-         <fontStyle>1</fontStyle>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Fact Entities</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Measure Type</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Measure</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Function</foType>
-         <colorRGB>-16777056</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Formula</foType>
-         <colorRGB>-65536</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Child to Parent Attributes</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-   </fonts>
-   <dimensions>
-      <dimension>7697C54D-79B4-6F14-B226-E50EC7590AA6</dimension>
-      <dimension>40733FCB-618C-61DB-5093-91B110AD008B</dimension>
-      <dimension>780C6672-16A6-2124-3FE7-21F6C5014035</dimension>
-      <dimension>2468E911-FD81-6349-B6DE-5F038F25B8F4</dimension>
-      <dimension>65135D97-5344-791F-85AE-2D1F5C0EEA3B</dimension>
-   </dimensions>
-   <measures>
-      <measure class="oracle.dbtools.crest.model.design.multidimensional.Measure" name="QUANTITY_SOLD" id="07B4F255-C8A0-5C29-CC10-FAE338A71E45">
-         <createdBy>pstoyano</createdBy>
-         <createdTime>2009-07-01 16:57:26 UTC</createdTime>
-         <changedBy>pstoyano</changedBy>
-         <changedTime>2009-07-01 16:57:26 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nameInOracleAW>QUANTITY_SOLD</nameInOracleAW>
-         <actasFactDimension>false</actasFactDimension>
-         <additivity>Fully-Additive</additivity>
-         <aggregationFunctionID>1</aggregationFunctionID>
-         <cube>EC7AD005-6D61-D368-52B9-84128E6C52C2</cube>
-         <isformula>false</isformula>
-         <iscustomFormula>false</iscustomFormula>
-         <measureFact>0961C76A-FC2C-DBE0-427C-0A744288CD56</measureFact>
-         <olAPoffset>0</olAPoffset>
-         <olAPoperator>Lag</olAPoperator>
-         <olAPPeriodToDateoperation>AVERAGE</olAPPeriodToDateoperation>
-         <olAPStart>0</olAPStart>
-         <olAPStep>1</olAPStep>
-         <olAPStop>1</olAPStop>
-         <oracleAWFormulaType>NO</oracleAWFormulaType>
-         <rankDirectionCode>HL</rankDirectionCode>
-         <rankDirectionName>Highest To Lowest</rankDirectionName>
-         <aggregationFunctions>
-            <function class="oracle.dbtools.crest.model.design.multidimensional.Measure$AggregateFunction" name="SUM" id="1">
-               <measureAlias>QUANTITY_SOLD</measureAlias>
-            </function>
-         </aggregationFunctions>
-      </measure>
-      <measure class="oracle.dbtools.crest.model.design.multidimensional.Measure" name="AMOUNT_SOLD" id="36C359A2-FC23-5258-A14C-5A74557C1025">
-         <createdBy>pstoyano</createdBy>
-         <createdTime>2009-07-01 16:57:26 UTC</createdTime>
-         <changedBy>pstoyano</changedBy>
-         <changedTime>2009-07-01 16:57:26 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nameInOracleAW>AMOUNT_SOLD</nameInOracleAW>
-         <actasFactDimension>false</actasFactDimension>
-         <additivity>Fully-Additive</additivity>
-         <aggregationFunctionID>1</aggregationFunctionID>
-         <cube>EC7AD005-6D61-D368-52B9-84128E6C52C2</cube>
-         <isformula>false</isformula>
-         <iscustomFormula>false</iscustomFormula>
-         <measureFact>EAC5DC84-9185-92C7-A929-F510D33B0E12</measureFact>
-         <olAPoffset>0</olAPoffset>
-         <olAPoperator>Lag</olAPoperator>
-         <olAPPeriodToDateoperation>AVERAGE</olAPPeriodToDateoperation>
-         <olAPStart>0</olAPStart>
-         <olAPStep>1</olAPStep>
-         <olAPStop>1</olAPStop>
-         <oracleAWFormulaType>NO</oracleAWFormulaType>
-         <rankDirectionCode>HL</rankDirectionCode>
-         <rankDirectionName>Highest To Lowest</rankDirectionName>
-         <aggregationFunctions>
-            <function class="oracle.dbtools.crest.model.design.multidimensional.Measure$AggregateFunction" name="SUM" id="1">
-               <measureAlias>AMOUNT_SOLD</measureAlias>
-            </function>
-         </aggregationFunctions>
-      </measure>
-   </measures>
-   <factContainers>
-      <container>3551C5F8-1419-2440-0FD3-57D6D00B90DE</container>
-   </factContainers>
+<Cube class="oracle.dbtools.crest.model.design.multidimensional.Cube" name="SALES" directorySegmentName="seg_0" id="EC7AD005-6D61-D368-52B9-84128E6C52C2">
+<createdBy>pstoyano</createdBy>
+<createdTime>2009-07-01 16:57:26 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nameInOracleAW>SALES</nameInOracleAW>
+<compressedcomposites>false</compressedcomposites>
+<factEntity>3551C5F8-1419-2440-0FD3-57D6D00B90DE</factEntity>
+<partitioned>true</partitioned>
+<useGlobalComposites>false</useGlobalComposites>
+<virtual>true</virtual>
+<dimensions>
+<dimension>7697C54D-79B4-6F14-B226-E50EC7590AA6</dimension>
+<dimension>40733FCB-618C-61DB-5093-91B110AD008B</dimension>
+<dimension>780C6672-16A6-2124-3FE7-21F6C5014035</dimension>
+<dimension>2468E911-FD81-6349-B6DE-5F038F25B8F4</dimension>
+<dimension>65135D97-5344-791F-85AE-2D1F5C0EEA3B</dimension>
+</dimensions>
+<measures itemClass="oracle.dbtools.crest.model.design.multidimensional.Measure">
+<measure name="QUANTITY_SOLD" id="07B4F255-C8A0-5C29-CC10-FAE338A71E45">
+<createdBy>pstoyano</createdBy>
+<createdTime>2009-07-01 16:57:26 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nameInOracleAW>QUANTITY_SOLD</nameInOracleAW>
+<actasFactDimension>false</actasFactDimension>
+<additivity>Fully-Additive</additivity>
+<aggregationFunctionID>2</aggregationFunctionID>
+<cube>EC7AD005-6D61-D368-52B9-84128E6C52C2</cube>
+<isformula>false</isformula>
+<iscustomFormula>false</iscustomFormula>
+<measureFact>0961C76A-FC2C-DBE0-427C-0A744288CD56</measureFact>
+<olAPoffset>0</olAPoffset>
+<olAPoperator>Lag</olAPoperator>
+<olAPPeriodToDateoperation>AVERAGE</olAPPeriodToDateoperation>
+<olAPStart>0</olAPStart>
+<olAPStep>1</olAPStep>
+<olAPStop>1</olAPStop>
+<oracleAWFormulaType>NO</oracleAWFormulaType>
+<rankDirectionCode>HL</rankDirectionCode>
+<rankDirectionName>Highest To Lowest</rankDirectionName>
+<aggregationFunctions>
+<function class="oracle.dbtools.crest.model.design.multidimensional.Measure$AggregateFunction" name="SUM" id="1">
+<measureAlias>QUANTITY_SOLD</measureAlias>
+</function>
+</aggregationFunctions>
+</measure>
+<measure name="AMOUNT_SOLD" id="36C359A2-FC23-5258-A14C-5A74557C1025">
+<createdBy>pstoyano</createdBy>
+<createdTime>2009-07-01 16:57:26 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nameInOracleAW>AMOUNT_SOLD</nameInOracleAW>
+<actasFactDimension>false</actasFactDimension>
+<additivity>Fully-Additive</additivity>
+<aggregationFunctionID>2</aggregationFunctionID>
+<cube>EC7AD005-6D61-D368-52B9-84128E6C52C2</cube>
+<isformula>false</isformula>
+<iscustomFormula>false</iscustomFormula>
+<measureFact>EAC5DC84-9185-92C7-A929-F510D33B0E12</measureFact>
+<olAPoffset>0</olAPoffset>
+<olAPoperator>Lag</olAPoperator>
+<olAPPeriodToDateoperation>AVERAGE</olAPPeriodToDateoperation>
+<olAPStart>0</olAPStart>
+<olAPStep>1</olAPStep>
+<olAPStop>1</olAPStop>
+<oracleAWFormulaType>NO</oracleAWFormulaType>
+<rankDirectionCode>HL</rankDirectionCode>
+<rankDirectionName>Highest To Lowest</rankDirectionName>
+<aggregationFunctions>
+<function class="oracle.dbtools.crest.model.design.multidimensional.Measure$AggregateFunction" name="SUM" id="1">
+<measureAlias>AMOUNT_SOLD</measureAlias>
+</function>
+</aggregationFunctions>
+</measure>
+</measures>
+<factContainers>
+<container>3551C5F8-1419-2440-0FD3-57D6D00B90DE</container>
+</factContainers>
 </Cube>

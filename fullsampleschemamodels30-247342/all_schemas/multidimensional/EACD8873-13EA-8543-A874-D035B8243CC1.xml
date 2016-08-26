@@ -1,9 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<MultidimensionalDesign class="oracle.dbtools.crest.model.design.multidimensional.MultidimensionalDesign" name="SH_MD" id="EACD8873-13EA-8543-A874-D035B8243CC1" mainViewID="7ACA0B60-236C-2F0C-4698-3634433551E9">
-   <createdBy>smharper</createdBy>
-   <createdTime>2011-01-07 09:09:35 UTC</createdTime>
-   <changedBy>smharper</changedBy>
-   <changedTime>2011-01-07 09:09:35 UTC</changedTime>
-   <ownerDesignName>all_schemas</ownerDesignName>
-   <shouldBeOpen>true</shouldBeOpen>
+<MultidimensionalDesign class="oracle.dbtools.crest.model.design.multidimensional.MultidimensionalDesign" name="SH_MD" id="EACD8873-13EA-8543-A874-D035B8243CC1" mainViewID="7ACA0B60-236C-2F0C-4698-3634433551E9" boundModel="LogDes-8EAB2D33-619F-0BDE-DBA7-9A0CB0827F2F">
+<createdBy>smharper</createdBy>
+<createdTime>2011-01-07 09:09:35 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
 </MultidimensionalDesign>

@@ -1,15 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<CollectionType class="oracle.dbtools.crest.model.design.datatypes.CollectionType" name="XMLSEQUENCETYPE" id="AEDEF8B0-F2AA-9A3E-19FE-BE1CDA1A4E4B" directorySegmentName="seg_0">
-   <createdBy>Administrator</createdBy>
-   <createdTime>2008-11-17 12:25:26 UTC</createdTime>
-   <changedBy>smharper</changedBy>
-   <changedTime>2008-11-18 13:25:38 UTC</changedTime>
-   <ownerDesignName>all_schemas</ownerDesignName>
-   <predefined>false</predefined>
-   <dataTypeDescr class="oracle.dbtools.crest.model.design.datatypes.CollectionType$DataTypeWrapper">
-      <type>LOGDT050</type>
-      <isreference>false</isreference>
-   </dataTypeDescr>
-   <maxElement>2147483647</maxElement>
-   <type>ARRAY</type>
+<CollectionType class="oracle.dbtools.crest.model.design.datatypes.CollectionType" name="XMLSEQUENCETYPE" directorySegmentName="seg_0" id="AEDEF8B0-F2AA-9A3E-19FE-BE1CDA1A4E4B">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:26 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<predefined>false</predefined>
+<dataTypeDescr class="oracle.dbtools.crest.model.design.datatypes.CollectionType$DataTypeWrapper">
+<type>DOM3000004</type>
+<isreference>false</isreference>
+</dataTypeDescr>
+<maxElement>2147483647</maxElement>
+<type>ARRAY</type>
 </CollectionType>

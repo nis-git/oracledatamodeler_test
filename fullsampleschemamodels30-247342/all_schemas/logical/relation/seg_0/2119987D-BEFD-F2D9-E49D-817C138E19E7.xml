@@ -1,17 +1,22 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COSTS_PROMO_FK" id="2119987D-BEFD-F2D9-E49D-817C138E19E7" directorySegmentName="seg_0">
-   <createdBy>Administrator</createdBy>
-   <createdTime>2008-11-18 12:15:36 UTC</createdTime>
-   <changedBy>smharper</changedBy>
-   <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-   <generatorID>B308D463-7B8B-92CF-6208-50903F517C55</generatorID>
-   <ownerDesignName>all_schemas</ownerDesignName>
-   <identifying>false</identifying>
-   <optionalSource>true</optionalSource>
-   <optionalTarget>false</optionalTarget>
-   <sourceCardinality>1</sourceCardinality>
-   <sourceEntity>30C0AE06-ECE8-9E9F-BBA9-F2EBDBE6B18D</sourceEntity>
-   <targetCardinalityString>*</targetCardinalityString>
-   <targetEntity>20C8685B-C3BC-EF71-B9BC-6C994E6C4D21</targetEntity>
-   <transferable>true</transferable>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COSTS_PROMO_FK" directorySegmentName="seg_0" id="2119987D-BEFD-F2D9-E49D-817C138E19E7">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:15:36 UTC</createdTime>
+<generatorID>B308D463-7B8B-92CF-6208-50903F517C55</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<engineerTo>
+<item key="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" value="true"/>
+<item key="037A5BCA-FECF-4DC5-9A0B-0219848544BA" value="true"/>
+<item key="44BA4DCC-3408-55FA-38FE-22F0223CD0E3" value="true"/>
+<item key="BF105018-3CC9-F992-06AB-3F0BD4F6521B" value="true"/>
+</engineerTo>
+<sourcePk>A7AB43E3-11FE-8022-D210-B0186BAFC7BC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>30C0AE06-ECE8-9E9F-BBA9-F2EBDBE6B18D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>20C8685B-C3BC-EF71-B9BC-6C994E6C4D21</targetEntity>
+<transferable>true</transferable>
 </Relation>

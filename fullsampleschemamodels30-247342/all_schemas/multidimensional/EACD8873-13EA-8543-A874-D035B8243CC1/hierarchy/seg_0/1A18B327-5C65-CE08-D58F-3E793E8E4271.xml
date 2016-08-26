@@ -1,23 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Hierarchy class="oracle.dbtools.crest.model.design.multidimensional.Hierarchy" name="CUST_ROLLUP" id="1A18B327-5C65-CE08-D58F-3E793E8E4271" directorySegmentName="seg_0">
-   <createdBy>pstoyano</createdBy>
-   <createdTime>2009-07-01 16:57:26 UTC</createdTime>
-   <changedBy>smharper</changedBy>
-   <changedTime>2009-07-01 16:57:26 UTC</changedTime>
-   <ownerDesignName>all_schemas</ownerDesignName>
-   <nameInOracleAW>CUST_ROLLUP</nameInOracleAW>
-   <defaultHierarchy>true</defaultHierarchy>
-   <linkToDimension>6EBA50D5-9B46-6FF3-AC72-21D262828CDF</linkToDimension>
-   <usedLevels>
-      <usedLevel>89C2E9B9-A47B-A6DD-21F3-2DF3F436BC8E</usedLevel>
-      <usedLevel>0B09A13C-469E-FD88-2AD2-9A0136F02E71</usedLevel>
-      <usedLevel>6BEA9087-31E9-3091-28D5-A4D3D0A410E2</usedLevel>
-      <usedLevel>F3D46DC6-A313-8508-816D-9DF66977DF7D</usedLevel>
-   </usedLevels>
-   <usedLinks>
-      <usedLink>89C2E9B9-A47B-A6DD-21F3-2DF3F436BC8E</usedLink>
-      <usedLink>0B09A13C-469E-FD88-2AD2-9A0136F02E71</usedLink>
-      <usedLink>6BEA9087-31E9-3091-28D5-A4D3D0A410E2</usedLink>
-      <usedLink>F3D46DC6-A313-8508-816D-9DF66977DF7D</usedLink>
-   </usedLinks>
+<Hierarchy class="oracle.dbtools.crest.model.design.multidimensional.Hierarchy" name="CUST_ROLLUP" directorySegmentName="seg_0" id="1A18B327-5C65-CE08-D58F-3E793E8E4271">
+<createdBy>pstoyano</createdBy>
+<createdTime>2009-07-01 16:57:26 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nameInOracleAW>CUST_ROLLUP</nameInOracleAW>
+<defaultHierarchy>true</defaultHierarchy>
+<linkToDimension>6EBA50D5-9B46-6FF3-AC72-21D262828CDF</linkToDimension>
+<usedLevels>
+<usedLevel>89C2E9B9-A47B-A6DD-21F3-2DF3F436BC8E</usedLevel>
+<usedLevel>0B09A13C-469E-FD88-2AD2-9A0136F02E71</usedLevel>
+<usedLevel>6BEA9087-31E9-3091-28D5-A4D3D0A410E2</usedLevel>
+<usedLevel>F3D46DC6-A313-8508-816D-9DF66977DF7D</usedLevel>
+</usedLevels>
 </Hierarchy>

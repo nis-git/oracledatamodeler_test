@@ -1,180 +1,137 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" id="2D2A970C-E24F-D3DC-FDDD-77CC57F77AD7" directorySegmentName="seg_0" name="ORDERS">
-   <createdBy>Administrator</createdBy>
-   <createdTime>2008-11-17 12:39:36 UTC</createdTime>
-   <changedBy>smharper</changedBy>
-   <changedTime>2008-11-17 12:39:36 UTC</changedTime>
-   <generatorID>4F836719-5FB2-2FBB-B137-56F1E546946F</generatorID>
-   <ownerDesignName>all_schemas</ownerDesignName>
-   <pkName>ORDER_PK</pkName>
-   <fonts>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Title</foType>
-         <fontStyle>1</fontStyle>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Column</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Datatype</foType>
-         <colorRGB>-16744448</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>PK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>FK Element</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>UK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Not Null</foType>
-         <colorRGB>-65536</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Key</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-   </fonts>
-   <columns>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ORDER_ID" id="16BCFC9C-C35A-AE9F-6417-DD5717714E9B">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:39:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:39:36 UTC</changedTime>
-         <generatorID>DB7A2902-D3CC-0C01-5C92-E333ECCCC668</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>12</dataTypePrecision>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ORDER_DATE" id="C19A51DE-D226-A5EB-2AF4-619D5A29F3E7">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:39:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:39:36 UTC</changedTime>
-         <generatorID>71F77045-80ED-0C1C-2779-29689FAE4196</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LOGDT047</logicalDatatype>
-         <dataTypePrecision>6</dataTypePrecision>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ORDER_MODE" id="741E133E-162A-6304-61E8-CCD07FAA6748">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:39:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:39:36 UTC</changedTime>
-         <generatorID>2D178270-AF25-0A39-7B58-4ED78018C6A9</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <useDomainConstraints>false</useDomainConstraints>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>8 BYTE</dataTypeSize>
-         <checkConstraint>
-            <implementationDef dbType="Oracle Database 10g" definition="order_mode in ('direct','online')"/>
-         </checkConstraint>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CUSTOMER_ID" id="87BCE28F-6E3C-1DD9-B5BE-538616DD5A5D">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:39:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:39:36 UTC</changedTime>
-         <generatorID>886FF914-F9A4-523F-61C6-94277A0D9246</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>6</dataTypePrecision>
-         <delegate>0DB1DA81-DDC0-2A21-F9C9-D4A5DF014523</delegate>
-         <previousColumn>false</previousColumn>
-         <associations>
-            <colAssociation fkAssociation="06127E52-A5E6-923E-D4CE-D125FD46C8E2" referredColumn="0DB1DA81-DDC0-2A21-F9C9-D4A5DF014523"/>
-         </associations>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ORDER_STATUS" id="AB46216F-2203-4031-1230-793DA42AC3D3">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:39:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:39:36 UTC</changedTime>
-         <generatorID>60223F31-A07A-7034-3B9A-3EDF7D9CEB85</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>2</dataTypePrecision>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ORDER_TOTAL" id="05DABC68-96B8-1466-C831-F17E3B891510">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:39:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:39:36 UTC</changedTime>
-         <generatorID>27381EC3-7E24-839F-58A4-E696032A6346</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <useDomainConstraints>false</useDomainConstraints>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>8</dataTypePrecision>
-         <dataTypeScale>2</dataTypeScale>
-         <checkConstraint>
-            <implementationDef dbType="Oracle Database 10g" definition="order_total >= 0"/>
-         </checkConstraint>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="SALES_REP_ID" id="6AA2013D-5B0D-162F-BA0A-21D9EBC83ACB">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:39:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:39:36 UTC</changedTime>
-         <generatorID>BD639FA9-0E01-9C7B-35E6-A4B915666E88</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>6</dataTypePrecision>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="PROMOTION_ID" id="5B1E9188-F983-A8A4-2D76-4374196B310B">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:39:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:39:36 UTC</changedTime>
-         <generatorID>7D33C3EF-7F5F-7D54-398A-61B11659797B</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>6</dataTypePrecision>
-      </Column>
-   </columns>
-   <indexes>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="FC2CA62B-6C02-C682-EF28-1D881F7F7900" name="ORDER_PK">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:39:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:39:36 UTC</changedTime>
-         <generatorID>35981845-E8E1-650A-68C6-7C5757BEAC62</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <pk>true</pk>
-         <indexState>Primary Constraint</indexState>
-         <indexColumnUsage>
-            <colUsage columnID="16BCFC9C-C35A-AE9F-6417-DD5717714E9B"/>
-         </indexColumnUsage>
-      </ind_PK_UK>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="F77CB7FF-404A-C90A-500A-AB2F0F81E0A5" name="ORDERS_CUSTOMER_ID_FK">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:39:36 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:39:36 UTC</changedTime>
-         <generatorID>F8599A69-16E7-58F2-B0AF-C9334071B38D</generatorID>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <indexColumnUsage>
-            <colUsage columnID="87BCE28F-6E3C-1DD9-B5BE-538616DD5A5D"/>
-         </indexColumnUsage>
-      </ind_PK_UK>
-   </indexes>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D2A970C-E24F-D3DC-FDDD-77CC57F77AD7" name="ORDERS">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:39:36 UTC</createdTime>
+<generatorID>4F836719-5FB2-2FBB-B137-56F1E546946F</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDER_ID" id="16BCFC9C-C35A-AE9F-6417-DD5717714E9B">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:39:36 UTC</createdTime>
+<generatorID>DB7A2902-D3CC-0C01-5C92-E333ECCCC668</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Column>
+<Column name="ORDER_DATE" id="C19A51DE-D226-A5EB-2AF4-619D5A29F3E7">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:39:36 UTC</createdTime>
+<generatorID>71F77045-80ED-0C1C-2779-29689FAE4196</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Column>
+<Column name="ORDER_MODE" id="741E133E-162A-6304-61E8-CCD07FAA6748">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:39:36 UTC</createdTime>
+<generatorID>2D178270-AF25-0A39-7B58-4ED78018C6A9</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 10g" definition="order_mode in (&apos;direct&apos;,&apos;online&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+</Column>
+<Column name="CUSTOMER_ID" id="87BCE28F-6E3C-1DD9-B5BE-538616DD5A5D">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:39:36 UTC</createdTime>
+<generatorID>886FF914-F9A4-523F-61C6-94277A0D9246</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<associations>
+<colAssociation fkAssociation="06127E52-A5E6-923E-D4CE-D125FD46C8E2" referredColumn="0DB1DA81-DDC0-2A21-F9C9-D4A5DF014523"/>
+</associations>
+</Column>
+<Column name="ORDER_STATUS" id="AB46216F-2203-4031-1230-793DA42AC3D3">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:39:36 UTC</createdTime>
+<generatorID>60223F31-A07A-7034-3B9A-3EDF7D9CEB85</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Column>
+<Column name="ORDER_TOTAL" id="05DABC68-96B8-1466-C831-F17E3B891510">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:39:36 UTC</createdTime>
+<generatorID>27381EC3-7E24-839F-58A4-E696032A6346</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 10g" definition="order_total &gt;= 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Column>
+<Column name="SALES_REP_ID" id="6AA2013D-5B0D-162F-BA0A-21D9EBC83ACB">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:39:36 UTC</createdTime>
+<generatorID>BD639FA9-0E01-9C7B-35E6-A4B915666E88</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Column>
+<Column name="PROMOTION_ID" id="5B1E9188-F983-A8A4-2D76-4374196B310B">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:39:36 UTC</createdTime>
+<generatorID>7D33C3EF-7F5F-7D54-398A-61B11659797B</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FC2CA62B-6C02-C682-EF28-1D881F7F7900" name="ORDER_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:39:36 UTC</createdTime>
+<generatorID>35981845-E8E1-650A-68C6-7C5757BEAC62</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="16BCFC9C-C35A-AE9F-6417-DD5717714E9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F77CB7FF-404A-C90A-500A-AB2F0F81E0A5" name="ORDERS_CUSTOMER_ID_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:39:36 UTC</createdTime>
+<generatorID>F8599A69-16E7-58F2-B0AF-C9334071B38D</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="87BCE28F-6E3C-1DD9-B5BE-538616DD5A5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

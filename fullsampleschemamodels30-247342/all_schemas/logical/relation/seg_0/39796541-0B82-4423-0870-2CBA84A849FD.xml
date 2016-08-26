@@ -1,17 +1,22 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EMP_JOB_FK" id="39796541-0B82-4423-0870-2CBA84A849FD" directorySegmentName="seg_0">
-   <createdBy>Administrator</createdBy>
-   <createdTime>2008-11-18 12:15:36 UTC</createdTime>
-   <changedBy>smharper</changedBy>
-   <changedTime>2009-01-30 17:20:05 UTC</changedTime>
-   <generatorID>FDE005A4-2C82-3ABE-C985-BBE8C37C4626</generatorID>
-   <ownerDesignName>all_schemas</ownerDesignName>
-   <identifying>false</identifying>
-   <optionalSource>true</optionalSource>
-   <optionalTarget>false</optionalTarget>
-   <sourceCardinality>1</sourceCardinality>
-   <sourceEntity>8878031F-D9CA-D6E3-1941-7D4D718A8802</sourceEntity>
-   <targetCardinalityString>*</targetCardinalityString>
-   <targetEntity>EEE3ABF9-1CE1-846A-4FBA-81621407E503</targetEntity>
-   <transferable>true</transferable>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EMP_JOB_FK" directorySegmentName="seg_0" id="39796541-0B82-4423-0870-2CBA84A849FD">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-18 12:15:36 UTC</createdTime>
+<generatorID>FDE005A4-2C82-3ABE-C985-BBE8C37C4626</generatorID>
+<ownerDesignName>all_schemas</ownerDesignName>
+<engineerTo>
+<item key="D0D92D2B-4EA0-833C-FF58-91F3644E8E4A" value="true"/>
+<item key="037A5BCA-FECF-4DC5-9A0B-0219848544BA" value="true"/>
+<item key="44BA4DCC-3408-55FA-38FE-22F0223CD0E3" value="true"/>
+<item key="BF105018-3CC9-F992-06AB-3F0BD4F6521B" value="true"/>
+</engineerTo>
+<sourcePk>41EAF67C-5445-3827-A51F-E477E7358007</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8878031F-D9CA-D6E3-1941-7D4D718A8802</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EEE3ABF9-1CE1-846A-4FBA-81621407E503</targetEntity>
+<transferable>true</transferable>
 </Relation>

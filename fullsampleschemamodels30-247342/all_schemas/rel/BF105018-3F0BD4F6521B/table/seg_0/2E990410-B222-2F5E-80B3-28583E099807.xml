@@ -1,82 +1,42 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" id="2E990410-B222-2F5E-80B3-28583E099807" directorySegmentName="seg_0" name="DR$SUP_TEXT_IDX$N">
-   <createdBy>Administrator</createdBy>
-   <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-   <changedBy>smharper</changedBy>
-   <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-   <ownerDesignName>all_schemas</ownerDesignName>
-   <shouldEngineer>false</shouldEngineer>
-   <schemaObject>92D7A384-7405-004C-11BA-2BF5FDFC8C3C</schemaObject>
-   <pkName>SYS_IOT_TOP_70721</pkName>
-   <fonts>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Title</foType>
-         <fontStyle>1</fontStyle>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Column</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Datatype</foType>
-         <colorRGB>-16744448</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>PK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>FK Element</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>UK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Not Null</foType>
-         <colorRGB>-65536</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Key</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-   </fonts>
-   <columns>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="NLT_DOCID" id="E7CD7CEE-81C5-70F3-B72F-288415E786FE">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>38</dataTypePrecision>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="NLT_MARK" id="B63F0C6A-3C97-6BC5-AC61-D3DB197B874C">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LOGDT025</logicalDatatype>
-         <dataTypeSize>1 BYTE</dataTypeSize>
-      </Column>
-   </columns>
-   <indexes>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="FDFB4073-FAAC-766C-D6F5-1EB783FDB6FD" name="SYS_IOT_TOP_70721">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:34 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:38 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <pk>true</pk>
-         <indexState>Primary Constraint</indexState>
-         <indexColumnUsage>
-            <colUsage columnID="E7CD7CEE-81C5-70F3-B72F-288415E786FE"/>
-         </indexColumnUsage>
-      </ind_PK_UK>
-   </indexes>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E990410-B222-2F5E-80B3-28583E099807" schemaObject="92D7A384-7405-004C-11BA-2BF5FDFC8C3C" name="DR$SUP_TEXT_IDX$N">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NLT_DOCID" id="E7CD7CEE-81C5-70F3-B72F-288415E786FE">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<ownDataTypeParameters>,38,</ownDataTypeParameters>
+</Column>
+<Column name="NLT_MARK" id="B63F0C6A-3C97-6BC5-AC61-D3DB197B874C">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FDFB4073-FAAC-766C-D6F5-1EB783FDB6FD" name="SYS_IOT_TOP_70721">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:34 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="E7CD7CEE-81C5-70F3-B72F-288415E786FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

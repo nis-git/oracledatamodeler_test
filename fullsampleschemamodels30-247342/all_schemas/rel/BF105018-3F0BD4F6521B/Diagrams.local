@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
-   <object objectType="sub_view" objectID="5EE0ADAA-1E30-C814-5F9D-6BB23E1E925A" name="OE" visible="false"/>
    <object objectType="main_view" objectID="DEA404C2-D982-E8AA-90A6-A9340DECA6C9" name="Full_Sample_Dictionary_Import" visible="true"/>
-   <object objectType="sub_view" objectID="F162FC84-9C72-77F7-D81F-F6B980A14900" name="SH" visible="false"/>
    <object objectType="sub_view" objectID="F7E7D871-0E46-0E12-A052-CB45A760EE6D" name="HR" visible="false"/>
+   <object objectType="sub_view" objectID="5EE0ADAA-1E30-C814-5F9D-6BB23E1E925A" name="OE" visible="false"/>
+   <object objectType="sub_view" objectID="F162FC84-9C72-77F7-D81F-F6B980A14900" name="SH" visible="false"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>

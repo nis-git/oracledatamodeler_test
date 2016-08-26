@@ -1,140 +1,92 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" id="03BB80BE-8E66-2D88-B16F-09139273FD38" directorySegmentName="seg_0" name="INVENTORIES">
-   <createdBy>Administrator</createdBy>
-   <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-   <changedBy>smharper</changedBy>
-   <changedTime>2008-11-17 12:25:40 UTC</changedTime>
-   <ownerDesignName>all_schemas</ownerDesignName>
-   <schemaObject>64C43071-3C36-48BF-D630-895FB97CC32A</schemaObject>
-   <pkName>INVENTORY_PK</pkName>
-   <fonts>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Title</foType>
-         <fontStyle>1</fontStyle>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Column</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Datatype</foType>
-         <colorRGB>-16744448</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>PK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>FK Element</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>UK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Not Null</foType>
-         <colorRGB>-65536</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Key</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-   </fonts>
-   <columns>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="PRODUCT_ID" id="5B320318-F11B-F495-B382-5CE1DC60C72B">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>6</dataTypePrecision>
-         <delegate>5EEAC46F-600D-353C-4E00-19A6C060A083</delegate>
-         <associations>
-            <colAssociation fkAssociation="D7ADB99A-E6A1-9B1C-E22D-9552BBD1CCE0" referredColumn="5EEAC46F-600D-353C-4E00-19A6C060A083"/>
-         </associations>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="WAREHOUSE_ID" id="0C67D93F-7409-9F26-8577-C9E5D4D20E91">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>3</dataTypePrecision>
-         <delegate>02695593-86EE-A649-319C-E78AF364F515</delegate>
-         <associations>
-            <colAssociation fkAssociation="BF594868-FFB4-8ED7-01BF-70E073A484EB" referredColumn="02695593-86EE-A649-319C-E78AF364F515"/>
-         </associations>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="QUANTITY_ON_HAND" id="E3CC5942-CC25-88CA-90CA-815A279B82EF">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>8</dataTypePrecision>
-      </Column>
-   </columns>
-   <indexes>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="9DE7A1ED-1559-6FF0-1C62-7EF659842F7A" name="INVENTORY_PK">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:34 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:37 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <pk>true</pk>
-         <indexState>Primary Constraint</indexState>
-         <indexColumnUsage>
-            <colUsage columnID="5B320318-F11B-F495-B382-5CE1DC60C72B"/>
-            <colUsage columnID="0C67D93F-7409-9F26-8577-C9E5D4D20E91"/>
-         </indexColumnUsage>
-      </ind_PK_UK>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="3C6B7732-F73A-A975-9B5C-5FA53C015572" name="INV_PRODUCT_IX">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:34 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:34 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <indexColumnUsage>
-            <colUsage columnID="5B320318-F11B-F495-B382-5CE1DC60C72B"/>
-         </indexColumnUsage>
-      </ind_PK_UK>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="A537D537-AC6D-C79D-4ED1-BB25663701A7" name="INV_WAREHOUSE_IX">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:34 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:34 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <indexColumnUsage>
-            <colUsage columnID="0C67D93F-7409-9F26-8577-C9E5D4D20E91"/>
-         </indexColumnUsage>
-      </ind_PK_UK>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="F03A5D41-BB01-9835-9132-A523EECD717F" name="INVENTORIES_WAREHOUSES_FK">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:40 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:40 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <indexColumnUsage>
-            <colUsage columnID="0C67D93F-7409-9F26-8577-C9E5D4D20E91"/>
-         </indexColumnUsage>
-      </ind_PK_UK>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="D81BEDAF-1F6B-0DA4-8FF2-C1D3C1B63577" name="INVENTORIES_PRODUCT_ID_FK">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:40 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:40 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <indexColumnUsage>
-            <colUsage columnID="5B320318-F11B-F495-B382-5CE1DC60C72B"/>
-         </indexColumnUsage>
-      </ind_PK_UK>
-   </indexes>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="03BB80BE-8E66-2D88-B16F-09139273FD38" schemaObject="64C43071-3C36-48BF-D630-895FB97CC32A" name="INVENTORIES">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCT_ID" id="5B320318-F11B-F495-B382-5CE1DC60C72B">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<associations>
+<colAssociation fkAssociation="D7ADB99A-E6A1-9B1C-E22D-9552BBD1CCE0" referredColumn="5EEAC46F-600D-353C-4E00-19A6C060A083"/>
+</associations>
+</Column>
+<Column name="WAREHOUSE_ID" id="0C67D93F-7409-9F26-8577-C9E5D4D20E91">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<associations>
+<colAssociation fkAssociation="BF594868-FFB4-8ED7-01BF-70E073A484EB" referredColumn="02695593-86EE-A649-319C-E78AF364F515"/>
+</associations>
+</Column>
+<Column name="QUANTITY_ON_HAND" id="E3CC5942-CC25-88CA-90CA-815A279B82EF">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9DE7A1ED-1559-6FF0-1C62-7EF659842F7A" name="INVENTORY_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:34 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="5B320318-F11B-F495-B382-5CE1DC60C72B"/>
+<colUsage columnID="0C67D93F-7409-9F26-8577-C9E5D4D20E91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C6B7732-F73A-A975-9B5C-5FA53C015572" name="INV_PRODUCT_IX">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:34 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<indexColumnUsage>
+<colUsage columnID="5B320318-F11B-F495-B382-5CE1DC60C72B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A537D537-AC6D-C79D-4ED1-BB25663701A7" name="INV_WAREHOUSE_IX">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:34 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<indexColumnUsage>
+<colUsage columnID="0C67D93F-7409-9F26-8577-C9E5D4D20E91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F03A5D41-BB01-9835-9132-A523EECD717F" name="INVENTORIES_WAREHOUSES_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:40 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="0C67D93F-7409-9F26-8577-C9E5D4D20E91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D81BEDAF-1F6B-0DA4-8FF2-C1D3C1B63577" name="INVENTORIES_PRODUCT_ID_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:40 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="5B320318-F11B-F495-B382-5CE1DC60C72B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

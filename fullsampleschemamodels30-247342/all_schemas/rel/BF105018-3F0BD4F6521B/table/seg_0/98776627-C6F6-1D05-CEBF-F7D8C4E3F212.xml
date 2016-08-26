@@ -1,123 +1,83 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" id="98776627-C6F6-1D05-CEBF-F7D8C4E3F212" directorySegmentName="seg_0" name="AQ$_ORDERS_QUEUETABLE_G">
-   <createdBy>Administrator</createdBy>
-   <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-   <changedBy>smharper</changedBy>
-   <changedTime>2008-11-18 12:15:36 UTC</changedTime>
-   <ownerDesignName>all_schemas</ownerDesignName>
-   <shouldEngineer>false</shouldEngineer>
-   <schemaObject>A30D5C25-7C94-3B59-6BB5-14B696217C10</schemaObject>
-   <pkName>SYS_IOT_TOP_70403</pkName>
-   <fonts>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Title</foType>
-         <fontStyle>1</fontStyle>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Column</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Datatype</foType>
-         <colorRGB>-16744448</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>PK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>FK Element</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>UK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Not Null</foType>
-         <colorRGB>-65536</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Key</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-   </fonts>
-   <columns>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="MSGID" id="867BA760-8583-9C78-CA30-A8C582A028DE">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
-         <dataTypeSize>16</dataTypeSize>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="SUBSCRIBER#" id="C6347949-03C4-A6DF-B770-4F28B28D92C2">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="NAME" id="FFCFA0F4-3C9E-4BBD-08BB-7F11B0953D73">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>30 BYTE</dataTypeSize>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ADDRESS#" id="D5D0A842-7646-7F5F-DB5B-2A9B5B08D0E3">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="SIGN" id="C3E2727B-426C-B997-92C8-67C2163D2FFC">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <structuredType>A3CE5FF0-DAFF-2679-9BD2-38A481C18284</structuredType>
-         <use>3</use>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="DBS_SIGN" id="3CD8A666-9FDB-9915-B8F3-7DF0D08B54B9">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:32 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <structuredType>A3CE5FF0-DAFF-2679-9BD2-38A481C18284</structuredType>
-         <use>3</use>
-      </Column>
-   </columns>
-   <indexes>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="17CE64B1-AAEE-9B40-0B8A-CD4C79053261" name="SYS_IOT_TOP_70403">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:34 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:36 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <pk>true</pk>
-         <indexState>Primary Constraint</indexState>
-         <indexColumnUsage>
-            <colUsage columnID="867BA760-8583-9C78-CA30-A8C582A028DE"/>
-            <colUsage columnID="C6347949-03C4-A6DF-B770-4F28B28D92C2"/>
-            <colUsage columnID="FFCFA0F4-3C9E-4BBD-08BB-7F11B0953D73"/>
-            <colUsage columnID="D5D0A842-7646-7F5F-DB5B-2A9B5B08D0E3"/>
-         </indexColumnUsage>
-      </ind_PK_UK>
-   </indexes>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="98776627-C6F6-1D05-CEBF-F7D8C4E3F212" schemaObject="A30D5C25-7C94-3B59-6BB5-14B696217C10" name="AQ$_ORDERS_QUEUETABLE_G">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MSGID" id="867BA760-8583-9C78-CA30-A8C582A028DE">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Column>
+<Column name="SUBSCRIBER#" id="C6347949-03C4-A6DF-B770-4F28B28D92C2">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Column>
+<Column name="NAME" id="FFCFA0F4-3C9E-4BBD-08BB-7F11B0953D73">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Column>
+<Column name="ADDRESS#" id="D5D0A842-7646-7F5F-DB5B-2A9B5B08D0E3">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Column>
+<Column name="SIGN" id="C3E2727B-426C-B997-92C8-67C2163D2FFC">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>A3CE5FF0-DAFF-2679-9BD2-38A481C18284</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Column>
+<Column name="DBS_SIGN" id="3CD8A666-9FDB-9915-B8F3-7DF0D08B54B9">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>A3CE5FF0-DAFF-2679-9BD2-38A481C18284</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="17CE64B1-AAEE-9B40-0B8A-CD4C79053261" name="SYS_IOT_TOP_70403">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:34 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="867BA760-8583-9C78-CA30-A8C582A028DE"/>
+<colUsage columnID="C6347949-03C4-A6DF-B770-4F28B28D92C2"/>
+<colUsage columnID="FFCFA0F4-3C9E-4BBD-08BB-7F11B0953D73"/>
+<colUsage columnID="D5D0A842-7646-7F5F-DB5B-2A9B5B08D0E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

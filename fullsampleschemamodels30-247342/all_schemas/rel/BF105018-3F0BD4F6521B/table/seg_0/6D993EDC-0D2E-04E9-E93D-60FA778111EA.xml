@@ -1,219 +1,177 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" id="6D993EDC-0D2E-04E9-E93D-60FA778111EA" directorySegmentName="seg_0" name="SUPPLEMENTARY_DEMOGRAPHICS">
-   <createdBy>Administrator</createdBy>
-   <createdTime>2008-11-17 12:25:32 UTC</createdTime>
-   <changedBy>smharper</changedBy>
-   <changedTime>2008-11-17 12:25:39 UTC</changedTime>
-   <ownerDesignName>all_schemas</ownerDesignName>
-   <schemaObject>92D7A384-7405-004C-11BA-2BF5FDFC8C3C</schemaObject>
-   <pkName>SUPP_DEMO_PK</pkName>
-   <fonts>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Title</foType>
-         <fontStyle>1</fontStyle>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Column</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Datatype</foType>
-         <colorRGB>-16744448</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>PK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>FK Element</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>UK Element</foType>
-         <colorRGB>-16776961</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Not Null</foType>
-         <colorRGB>-65536</colorRGB>
-      </FontObject>
-      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
-         <foType>Key</foType>
-         <colorRGB>-16777216</colorRGB>
-      </FontObject>
-   </fonts>
-   <columns>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CUST_ID" id="31DF8694-78DF-57A0-AC38-FB425265C943">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="EDUCATION" id="D6419BD9-A25A-53AA-5B02-55B6D2313DDD">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>21 BYTE</dataTypeSize>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="OCCUPATION" id="B76EBBD9-177B-9439-7717-467297DA9473">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>21 BYTE</dataTypeSize>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="HOUSEHOLD_SIZE" id="8725A443-86D1-D496-124B-9B36CB0776DD">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>21 BYTE</dataTypeSize>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="YRS_RESIDENCE" id="8E4C5B2B-E2D8-F4AF-293B-58FC001636A4">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="AFFINITY_CARD" id="BB12013B-26D3-1C23-CDEB-539046451B31">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>10</dataTypePrecision>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="BULK_PACK_DISKETTES" id="1D81421C-19F8-4EB2-4DAE-32F16F884B74">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>10</dataTypePrecision>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="FLAT_PANEL_MONITOR" id="C5CBE727-843F-94ED-C395-14FA87BDA03C">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>10</dataTypePrecision>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="HOME_THEATER_PACKAGE" id="9A967CD3-6DCE-00D1-B259-78CE4237B260">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>10</dataTypePrecision>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="BOOKKEEPING_APPLICATION" id="E840C534-4234-8953-21D4-1EA01627885B">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>10</dataTypePrecision>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="PRINTER_SUPPLIES" id="98A777D4-9CC1-81B0-2A6F-BC769E62F647">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>10</dataTypePrecision>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Y_BOX_GAMES" id="0B4C1C17-2ACE-3778-7A81-C3B5D99FAF88">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>10</dataTypePrecision>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="OS_DOC_SET_KANJI" id="E20EE2C6-8EFA-B665-D342-0DBDD1FA1A52">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT019</logicalDatatype>
-         <dataTypePrecision>10</dataTypePrecision>
-      </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="COMMENTS" id="3BAD89CA-245B-ADE4-A791-90566F809FE8">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:33 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:33 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <nullsAllowed>true</nullsAllowed>
-         <use>1</use>
-         <logicalDatatype>LOGDT024</logicalDatatype>
-         <dataTypeSize>4000 BYTE</dataTypeSize>
-      </Column>
-   </columns>
-   <indexes>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="79F3D1C4-F89B-C0E7-8968-15E04948726F" name="SUPP_DEMO_PK">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:39 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:39 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <pk>true</pk>
-         <indexState>Primary Constraint</indexState>
-      </ind_PK_UK>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="C873EEC5-1292-6169-6447-49E0916F1AAC" name="SUP_TEXT_IDX">
-         <createdBy>Administrator</createdBy>
-         <createdTime>2008-11-17 12:25:35 UTC</createdTime>
-         <changedBy>Administrator</changedBy>
-         <changedTime>2008-11-17 12:25:35 UTC</changedTime>
-         <ownerDesignName>all_schemas</ownerDesignName>
-         <indexColumnUsage>
-            <colUsage columnID="3BAD89CA-245B-ADE4-A791-90566F809FE8"/>
-         </indexColumnUsage>
-      </ind_PK_UK>
-   </indexes>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6D993EDC-0D2E-04E9-E93D-60FA778111EA" schemaObject="92D7A384-7405-004C-11BA-2BF5FDFC8C3C" name="SUPPLEMENTARY_DEMOGRAPHICS">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:32 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUST_ID" id="31DF8694-78DF-57A0-AC38-FB425265C943">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:33 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Column>
+<Column name="EDUCATION" id="D6419BD9-A25A-53AA-5B02-55B6D2313DDD">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:33 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>21 BYTE</dataTypeSize>
+<ownDataTypeParameters>21 BYTE,,</ownDataTypeParameters>
+</Column>
+<Column name="OCCUPATION" id="B76EBBD9-177B-9439-7717-467297DA9473">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:33 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>21 BYTE</dataTypeSize>
+<ownDataTypeParameters>21 BYTE,,</ownDataTypeParameters>
+</Column>
+<Column name="HOUSEHOLD_SIZE" id="8725A443-86D1-D496-124B-9B36CB0776DD">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:33 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>21 BYTE</dataTypeSize>
+<ownDataTypeParameters>21 BYTE,,</ownDataTypeParameters>
+</Column>
+<Column name="YRS_RESIDENCE" id="8E4C5B2B-E2D8-F4AF-293B-58FC001636A4">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:33 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Column>
+<Column name="AFFINITY_CARD" id="BB12013B-26D3-1C23-CDEB-539046451B31">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:33 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Column>
+<Column name="BULK_PACK_DISKETTES" id="1D81421C-19F8-4EB2-4DAE-32F16F884B74">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:33 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Column>
+<Column name="FLAT_PANEL_MONITOR" id="C5CBE727-843F-94ED-C395-14FA87BDA03C">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:33 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Column>
+<Column name="HOME_THEATER_PACKAGE" id="9A967CD3-6DCE-00D1-B259-78CE4237B260">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:33 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Column>
+<Column name="BOOKKEEPING_APPLICATION" id="E840C534-4234-8953-21D4-1EA01627885B">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:33 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Column>
+<Column name="PRINTER_SUPPLIES" id="98A777D4-9CC1-81B0-2A6F-BC769E62F647">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:33 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Column>
+<Column name="Y_BOX_GAMES" id="0B4C1C17-2ACE-3778-7A81-C3B5D99FAF88">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:33 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Column>
+<Column name="OS_DOC_SET_KANJI" id="E20EE2C6-8EFA-B665-D342-0DBDD1FA1A52">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:33 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Column>
+<Column name="COMMENTS" id="3BAD89CA-245B-ADE4-A791-90566F809FE8">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:33 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79F3D1C4-F89B-C0E7-8968-15E04948726F" name="SUPP_DEMO_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:39 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+</ind_PK_UK>
+<ind_PK_UK id="C873EEC5-1292-6169-6447-49E0916F1AAC" name="SUP_TEXT_IDX">
+<createdBy>Administrator</createdBy>
+<createdTime>2008-11-17 12:25:35 UTC</createdTime>
+<ownerDesignName>all_schemas</ownerDesignName>
+<indexColumnUsage>
+<colUsage columnID="3BAD89CA-245B-ADE4-A791-90566F809FE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>
