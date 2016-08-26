@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<udp_library>
+	<udp_groups>
+		<group name="Hive" id="4F92CA04-79DF-EC94-3BE7-4AB32E80A265" />
+	</udp_groups>
+	<properties>
+		<property name="hiveName" dispalay_name="Hive Name" type="Text" group_id="4F92CA04-79DF-EC94-3BE7-4AB32E80A265" default_value="null">
+			<objects>
+				<object class="oracle.dbtools.crest.model.design.relational.Table" visible="false"/>
+				<object class="oracle.dbtools.crest.model.design.relational.Column" visible="false"/>
+			</objects>
+		</property>
+		<property name="hiveSchema" dispalay_name="Hive Schema" type="Text" group_id="4F92CA04-79DF-EC94-3BE7-4AB32E80A265" default_value="null">
+			<objects>
+				<object class="oracle.dbtools.crest.model.design.relational.Table" visible="false"/>
+			</objects>
+		</property>
+		<property name="hiveDataType" dispalay_name="HiveDataType" type="Text" group_id="4F92CA04-79DF-EC94-3BE7-4AB32E80A265" default_value="null">
+			<objects>
+				<object class="oracle.dbtools.crest.model.design.relational.Column" visible="false"/>
+			</objects>
+		</property>
+	</properties>
+</udp_library>
